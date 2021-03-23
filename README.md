@@ -7,7 +7,7 @@
 
 ---
 
- ## 👨🏽‍🎓 Equipe Phatom
+ ## 👨🏽‍🎓 Equipe Phantom
 * Alberto Junior Scholz Castro
 * Douglas Elias da Silva Correa
 * Denis Roger Peneluppi Rosa
