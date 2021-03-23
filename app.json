@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "Helena Assistente Virtual",
     "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/helenaicon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mulher.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5A189A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/helenaicon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
