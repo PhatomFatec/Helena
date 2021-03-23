@@ -12,7 +12,7 @@
 * Douglas Elias da Silva Correa
 * Denis Roger Peneluppi Rosa
 * Erik Moreira Pereira
-* Felipe Faria Verderamis
+* Felipe Faria Verderamis [GitHub](https://github.com/FelipeFariaVerde)
 * Gabriel Jose Souza dos Santos
 * Jademil Jacob Rodrigues de Lima
 * Lucas Guiraldelli da Silva
