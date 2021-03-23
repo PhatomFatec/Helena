@@ -13,11 +13,11 @@
 * Denis Roger Peneluppi Rosa
 * Erik Moreira Pereira
 * Felipe Faria Verderamis [GitHub](https://github.com/FelipeFariaVerde)
-* Gabriel Jose Souza dos Santos
+* Gabriel Jose Souza dos Santos [GitHub](https://github.com/FelipeFariaVerde)
 * Jademil Jacob Rodrigues de Lima
 * Lucas Guiraldelli da Silva
 * Nicolas Ariel Vieira de Oliveira
-* Rafael de Castro Costa Silva [GitHub](https://github.com/rafaelcastrow)
+* Rafael de Castro Costa Silva [GitHub](https://github.com/gabrieljssantos)
 
 
 ---
