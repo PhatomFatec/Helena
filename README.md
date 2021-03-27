@@ -3,21 +3,24 @@
 <img src="https://i.imgur.com/iIjaJXx.png" width="450px" >
 </p>
 
-"Uma breve descricao sobre oque a Helena"
+"Desenvolvida para ser uma assistente virtual de viagens. A Helena responde a comandos de voz e possui como principal objetivo garantir ao usuário uma experiência otimizada e agradável quando estiver viajando. <br>
+O app foi construído de forma única, dividido entre duas categorias: <br> <br>
+  → A <b>primeira</b> delas é sua forma padrão, uma assistente virtual pessoal para todos os amantes de viagem!
+ A categoria proporciona aos usuários funcionalidades que podem ser de grande ajuda em certos momentos. <br>
+  → A <b>segunda</b> categoria, busca trazer conforto aos hóspedes de hotéis parceiros, que possuem a Helena em seus sistemas, proporcionando a eles um acesso mais fácil das informações do hotel. Através de um QR Code, os usuários conseguem desbloquear novas funcionalidades no app.
 
 ---
 
  ## 👨🏽‍🎓 Equipe Phantom
-* Alberto Junior Scholz Castro
-* Douglas Elias da Silva Correa
+* Alberto Junior Scholz Castro. [GitHub](https://github.com/AlbertoScholz)
+* Douglas Elias da Silva Correa. 
 * Denis Roger Peneluppi Rosa
-* Erik Moreira Pereira
-* Felipe Faria Verderamis [GitHub](https://github.com/FelipeFariaVerde)
-* Gabriel Jose Souza dos Santos [GitHub](https://github.com/FelipeFariaVerde)
-* Jademil Jacob Rodrigues de Lima
-* Lucas Guiraldelli da Silva
-* Nicolas Ariel Vieira de Oliveira
-* Rafael de Castro Costa Silva [GitHub](https://github.com/gabrieljssantos)
+* Erik Moreira Pereira. [GitHub](https://github.com/Erik-Moreira)
+* Felipe Faria Verderamis. [GitHub](https://github.com/FelipeFariaVerde)
+* Gabriel Jose Souza dos Santos. [GitHub](https://github.com/FelipeFariaVerde)
+* Lucas Guiraldelli da Silva. [GitHub](https://github.com/LucasGuiraldelli)
+* Nicolas Ariel Vieira de Oliveira. 
+* Rafael de Castro Costa Silva. [GitHub](https://github.com/gabrieljssantos)
 
 
 ---
@@ -31,14 +34,30 @@
 ---
 
 ### 📱 Funcionalidades
-- **Agenda:** 
-- **Previsão do tempo:** 
-- **Buscar rota:**
-- **Mapa da cidade:**
-- **Pontos turísticos:**
-- **Atividades do hotel:**
-- **Sobre o hotel:**
-- **Conversor de moedas:**
+- **Calendário:** <br>
+Agendamento consulta de atividades. <br>
+- **Previsão do tempo:** <br>
+Consultar a previsão do tempo em uma determinada localização. <br>
+- **Buscar rota:** <br>
+Visualizar um trajeto de uma determinada localização (Google Maps). <br>
+- **Mapa da cidade:** <br>
+Mostrar o mapa da localização em que o usuário está. <br>
+- **Pontos turísticos:** <br>
+Mostrar principais pontos visitados da cidade. <br>
+- **Atividades do hotel:** <br>
+Serviços disponíveis pelo Hotel. <br>
+- **Sobre o hotel:** <br>
+Informa ao usuário uma breve descrição sobre o hotel. <br>
+- **Conversor de moedas:** <br>
+Ferramenta de conversão de valores monetários. <br>
+- **Alarme:** <br>
+Definir um despertador. <br>
+- **Tradutor:** <br>
+Traduzir para língua desejada. <br>
+- **Recepção:** <br>
+Informa o número da recepção do hotel. <br>
+- **Tour virtual:** <br>
+Mostra fotos/vídeos do hotel. <br>
 
 
 ---
@@ -53,6 +72,33 @@
 ✔️ [React Native](https://reactnative.dev/)
 
 ✔️ [Trello](https://trello.com/)
+
+✔️ [JavaScript](https://www.javascript.com/)
+  
+✔️ [NodeJs](https://nodejs.org/en/)
+
+✔️ [Chocolatey](https://chocolatey.org/)
+
+✔️ [Java](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+
+✔️ [Android Studio](https://developer.android.com/studio)
+
+✔️ [Expo](https://expo.io/)
+
+✔️ [Visual Studio Code](https://code.visualstudio.com/)
+
+✔️ [Discord](https://discord.com/)
+
+✔️ [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/free)
+
+✔️ [After Effects](https://www.adobe.com/br/products/aftereffects.html)
+
+✔️ [Adobe Illustrator](https://www.adobe.com/br/products/illustrator.html)
+
+✔️ [Google Drive](https://www.google.com/intl/pt-br/drive/about.html)
+
+✔️ [Pacote Office](https://www.office.com/)
+
 
 ---
 
