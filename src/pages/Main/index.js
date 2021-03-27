@@ -1,7 +1,8 @@
 
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import ButtonComponent from '../../components/Button';
+import Imagemiconhotel from '../../../assets/iconhotelwhite.png'
 
 export default function Main({ navigation }) {
     const handleClickGuest = () => {
@@ -17,6 +18,9 @@ export default function Main({ navigation }) {
                 <Text style={styles.hospedeText}>Já sou hospede parceiro!</Text>
                 <ButtonComponent text="Leitor QR Code" />
             </View>
+            <View style={styles.imagemhotelContainer}>
+                    <Image source={Imagemiconhotel} resizeMode={'contain'} style={styles.imagemiconhotel} />
+                </View>
         </View>
     );
 }
@@ -35,7 +39,7 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 30,
         color: "#FFF",
-        marginTop: 16        
+        marginTop: 64,       
     },
     naoHospedadoText: {
         textAlign: "center",
@@ -46,5 +50,12 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 24,
         color: "#FFF"
-    }
+    },
+    imagemiconhotel: {
+        height: 100
+        
+    },
+    imagemhotelContainer: {
+        alignItems: "center"
+    },
   });

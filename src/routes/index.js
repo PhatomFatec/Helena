@@ -11,9 +11,22 @@ const Stack = createStackNavigator();
 export default function Routes() {
     return (
         <NavigationContainer>
-            <Stack.Navigator screenOptions={{ cardStyle: { backgroundColor: "#4c1482" } }}>
+            <Stack.Navigator
+                screenOptions={{
+                    cardStyle: {
+                        backgroundColor: "#4c1482"
+                    }
+                }}>
                 <Stack.Screen name="Home" component={Main} options={{ headerShown: false }} />
-                <Stack.Screen name="BoasVindas" component={BoasVindas} />
+                <Stack.Screen
+                    name="BoasVindas"
+                    options={{
+                        headerTransparent: true,
+                        headerTitle: '',
+                        headerTintColor: '#FFFFFF'
+                    }}
+                    component={BoasVindas}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     );
