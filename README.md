@@ -122,13 +122,11 @@ Traduzir para língua desejada. <br>
 
 ---
 
-### Sprint 01 -
-
-Em construção 🚧
-
-### Sprint 02 -
-Em construção 🚧
-### Sprint 03 -
-Em construção 🚧
-### Sprint 04 -
-Em construção 🚧
+### Sprint 01 
+✅ Entregue - 28/03/2021 <br>
+### Sprint 02 
+Em construção 🚧  <br>
+### Sprint 03 
+Em construção 🚧  <br>
+### Sprint 04 
+Em construção 🚧  <br>
