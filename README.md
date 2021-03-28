@@ -14,7 +14,6 @@ O app foi construído de forma única, dividido entre duas categorias: <br> <br>
  ## 👨🏽‍🎓 Equipe Phantom
 * Alberto Junior Scholz Castro. [GitHub](https://github.com/AlbertoScholz)
 * Douglas Elias da Silva Correa. [GitHub](https://github.com/douglasgithub)
-* Denis Roger Peneluppi Rosa
 * Erik Moreira Pereira. [GitHub](https://github.com/Erik-Moreira)
 * Felipe Faria Verderamis. [GitHub](https://github.com/FelipeFariaVerde)
 * Gabriel Jose Souza dos Santos. [GitHub](https://github.com/FelipeFariaVerde)
