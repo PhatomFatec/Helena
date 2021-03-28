@@ -63,7 +63,7 @@ Mostra fotos/vídeos do hotel. <br>
 ---
 
 
-### 🚀 Tecnologias Utilizadas
+### 🚀 Tecnologias e Ferramentas Utilizadas
 
 ✔️ [GitHub](https://github.com)
 
@@ -102,9 +102,14 @@ Mostra fotos/vídeos do hotel. <br>
 
 ---
 
- ### ✅ Backlogs 
- 
-![image](https://user-images.githubusercontent.com/48994698/112762867-6a0ee100-8fd8-11eb-91c7-018219bb14e1.png)
+ ### ✅ Backlogs <br>
+
+* ##### BackLog Do Produto <br>
+![image](https://user-images.githubusercontent.com/48994698/112762867-6a0ee100-8fd8-11eb-91c7-018219bb14e1.png) <br>
+
+* #### BackLog Da Sprint <br>
+![image](https://user-images.githubusercontent.com/48994698/112762974-db4e9400-8fd8-11eb-8162-434332177637.png) <br>
+
 
 
 ---
