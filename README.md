@@ -44,20 +44,12 @@ Visualizar um trajeto de uma determinada localização (Google Maps). <br>
 Mostrar o mapa da localização em que o usuário está. <br>
 - **Pontos turísticos:** <br>
 Mostrar principais pontos visitados da cidade. <br>
-- **Atividades do hotel:** <br>
-Serviços disponíveis pelo Hotel. <br>
-- **Sobre o hotel:** <br>
-Informa ao usuário uma breve descrição sobre o hotel. <br>
 - **Conversor de moedas:** <br>
 Ferramenta de conversão de valores monetários. <br>
 - **Alarme:** <br>
 Definir um despertador. <br>
 - **Tradutor:** <br>
 Traduzir para língua desejada. <br>
-- **Recepção:** <br>
-Informa o número da recepção do hotel. <br>
-- **Tour virtual:** <br>
-Mostra fotos/vídeos do hotel. <br>
 
 
 ---
