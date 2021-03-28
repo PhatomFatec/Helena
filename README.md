@@ -123,6 +123,9 @@ Traduzir para língua desejada. <br>
 
 ### Sprint 01 
 ✅ Entregue - 28/03/2021 <br>
+
+[![API FATEC - Sprint 1 Helena](https://img.youtube.com/vi/wAnPilgHysk/0.jpg)](https://www.youtube.com/watch?v=wAnPilgHysk "API FATEC - Sprint 1 Helena")
+
 ### Sprint 02 
 Em construção 🚧  <br>
 ### Sprint 03 
