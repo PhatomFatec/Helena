@@ -13,13 +13,13 @@ O app foi construído de forma única, dividido entre duas categorias: <br> <br>
 
  ## 👨🏽‍🎓 Equipe Phantom
 * Alberto Junior Scholz Castro. [GitHub](https://github.com/AlbertoScholz)
-* Douglas Elias da Silva Correa. 
+* Douglas Elias da Silva Correa. [GitHub](https://github.com/douglasgithub)
 * Denis Roger Peneluppi Rosa
 * Erik Moreira Pereira. [GitHub](https://github.com/Erik-Moreira)
 * Felipe Faria Verderamis. [GitHub](https://github.com/FelipeFariaVerde)
 * Gabriel Jose Souza dos Santos. [GitHub](https://github.com/FelipeFariaVerde)
 * Lucas Guiraldelli da Silva. [GitHub](https://github.com/LucasGuiraldelli)
-* Nicolas Ariel Vieira de Oliveira. 
+* Nicolas Ariel Vieira de Oliveira. [GitHub](https://github.com/whoisariel)
 * Rafael de Castro Costa Silva. [GitHub](https://github.com/gabrieljssantos)
 
 
@@ -98,6 +98,13 @@ Mostra fotos/vídeos do hotel. <br>
 ✔️ [Google Drive](https://www.google.com/intl/pt-br/drive/about.html)
 
 ✔️ [Pacote Office](https://www.office.com/)
+
+
+---
+
+ ### ✅ Backlogs 
+ 
+![image](https://user-images.githubusercontent.com/48994698/112762867-6a0ee100-8fd8-11eb-91c7-018219bb14e1.png)
 
 
 ---
