@@ -62,6 +62,12 @@ Mostra fotos/vídeos do hotel. <br>
 
 ---
 
+###  🖼  Interface Gráfica
+
+#### https://www.figma.com/file/OCOgqqrF9ldfSBYyKeVfbt/Grupo-04---Assistente-Virtual-Helena---Design-Sprint?node-id=0%3A1
+
+---
+
 
 ### 🚀 Tecnologias e Ferramentas Utilizadas
 
