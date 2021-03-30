@@ -1,4 +1,4 @@
-# Assistente Virutal - Helena 
+# Assistente Virtual - Helena 
 <p align="center">
 <img src="https://i.imgur.com/iIjaJXx.png" width="450px" >
 </p>
