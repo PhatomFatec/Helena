@@ -27,7 +27,7 @@
     "@babel/core": "~7.9.0"
   },
   "private": true,
-  "name": "mobile",
+  "name": "helena",
   "version": "1.0.0",
   "keywords": [],
   "author": "",
