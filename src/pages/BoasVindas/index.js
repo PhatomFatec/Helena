@@ -30,7 +30,7 @@ export default function BoasVindas(navigation) {
                     showsButtons={false}
                 >
                     <View style={styles.slide1}>
-                        <Text style={styles.text3}>Muito prazer! me chamo helena</Text>
+                        <Text style={styles.text3}>Muito prazer! me chamo Helena</Text>
                         <Text style={styles.text3}>Sou sua assistente virtual!</Text>
                     </View>
                     <View style={styles.slide2}>
