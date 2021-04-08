@@ -11,7 +11,7 @@ export default function Main({ navigation }) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.sejaBemVindoText}>Seja bem-vindo(a)</Text>
+            <Text style={styles.sejaBemVindoText}>Seja bem-vindo!</Text>
             <View style={styles.content}>
                 <Text style={styles.naoHospedadoText}>Ainda não está hospedado?</Text>
                 <ButtonComponent text="Visitante" onPress={handleClickGuest} />
