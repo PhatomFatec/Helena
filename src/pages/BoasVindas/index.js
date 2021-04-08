@@ -5,16 +5,14 @@ import Swiper from 'react-native-swiper'
 import { useHeaderHeight } from '@react-navigation/stack';
 
 import ImagemMulher from '../../../assets/mulher.png';
-import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png'
-import ButtonComponent from '../../components/Button'
 import ImagemMicrophone from '../../../assets/microfone.png'
 
-export default function BoasVindas(navigation) {
+export default function BoasVindas({ navigation }) {
     const headerHeight = useHeaderHeight();
-
-    const handleClickGuest = () => {
-        navigation.navigate('BoasVindas');
+    const botao = () => {
+        navigation.navigate('Pergunta');
     }
+
 
     return (
         <View style={{...styles.container, marginTop: headerHeight}}>
@@ -40,13 +38,13 @@ export default function BoasVindas(navigation) {
                     </View>
                     <View style={styles.slide3}>
                         <Text style={styles.text2}>"Qual o horário do almoço?</Text>
-                        <Text style={styles.timetext}>"Será ao 12:00!</Text>
+                        <Text style={styles.timetext}>"Será ao 12:00!"</Text>
 
                     </View>
                     <View style={styles.slide4}>
                         <Text style={styles.text1}>Basta chamar meu nome e falar!</Text>
                         <Image source={ImagemMicrophone} resizeMode={'contain'} style={styles.imageMicrophone} />
-                        <ButtonComponent text="Iniciar" onPress={handleClickGuest} />
+                        <Button title="Iniciar" onPress ={botao}/>
                     </View>
                 </Swiper>
             </View>

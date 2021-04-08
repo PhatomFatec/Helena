@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 30,
         color: "#FFF",
-        marginTop: 64,       
+        marginTop: 128,       
     },
     naoHospedadoText: {
         textAlign: "center",

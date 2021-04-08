@@ -5,8 +5,8 @@ import { View, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-const Pergunta = () => {
-  return <View><Text>Já sou hospede parceiro!</Text></View>;
+const Teste = () => {
+  return <View><Text>!!!!!!!!!!!!!!!!!</Text></View>;
 }
 
-export default Pergunta;
+export default Teste;
