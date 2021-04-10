@@ -7,6 +7,7 @@ import Pergunta from '../pages/Pergunta';
 import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
 import Teste from '../pages/Teste';
+import ListaFuncoes from '../pages/ListaFuncoes';
 
 
 const Stack = createStackNavigator();
@@ -23,6 +24,7 @@ export default function Routes() {
                 <Stack.Screen name="Home" component={Main} options={{ headerShown: false }} />
                 <Stack.Screen name="Pergunta" component={Pergunta} options={{ headerShown: false}} />
                 <Stack.Screen name="Teste" component={Teste} options={{ headerShown: false, cardStyle: {backgroundColor:"#E9967A" }}} />
+                <Stack.Screen name="ListaFuncoes" component={ListaFuncoes} option={{ headerShown: false}} />
                 <Stack.Screen
                     name="BoasVindas"
                     options={{
