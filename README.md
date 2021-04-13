@@ -14,7 +14,6 @@ O app foi construído de forma única, dividido entre duas categorias: <br> <br>
  ## 👨🏽‍🎓 Equipe Phantom
 * Alberto Junior Scholz Castro. [GitHub](https://github.com/AlbertoScholz)
 * Douglas Elias da Silva Correa. [GitHub](https://github.com/douglasgithub)
-* Erik Moreira Pereira. [GitHub](https://github.com/Erik-Moreira)
 * Felipe Faria Verderamis. [GitHub](https://github.com/FelipeFariaVerde)
 * Gabriel Jose Souza dos Santos. [GitHub](https://github.com/FelipeFariaVerde)
 * Lucas Guiraldelli da Silva. [GitHub](https://github.com/LucasGuiraldelli)
@@ -62,13 +61,9 @@ Traduzir para língua desejada. <br>
 
 ### 🚀 Tecnologias e Ferramentas Utilizadas
 
-✔️ [GitHub](https://github.com)
-
-✔️ [Figma](https://figma.com)
-
 ✔️ [React Native](https://reactnative.dev/)
 
-✔️ [Trello](https://trello.com/)
+✔️ [Expo](https://expo.io/)
 
 ✔️ [JavaScript](https://www.javascript.com/)
   
@@ -80,22 +75,9 @@ Traduzir para língua desejada. <br>
 
 ✔️ [Android Studio](https://developer.android.com/studio)
 
-✔️ [Expo](https://expo.io/)
-
 ✔️ [Visual Studio Code](https://code.visualstudio.com/)
 
-✔️ [Discord](https://discord.com/)
-
-✔️ [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/free)
-
-✔️ [After Effects](https://www.adobe.com/br/products/aftereffects.html)
-
-✔️ [Adobe Illustrator](https://www.adobe.com/br/products/illustrator.html)
-
-✔️ [Google Drive](https://www.google.com/intl/pt-br/drive/about.html)
-
-✔️ [Pacote Office](https://www.office.com/)
-
+✔️ [Figma](https://figma.com)
 
 ---
 
@@ -106,7 +88,6 @@ Traduzir para língua desejada. <br>
 
 * #### BackLog Da Sprint <br>
 ![image](https://user-images.githubusercontent.com/48994698/112762974-db4e9400-8fd8-11eb-8162-434332177637.png) <br>
-
 
 
 ---
