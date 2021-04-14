@@ -49,15 +49,13 @@ Definir um despertador. <br>
 - **Tradutor:** <br>
 Traduzir para língua desejada. <br>
 
-
 ---
 
-###  🖼  Interface Gráfica
-
+###  🎨  Interface Gráfica
+Gostaria de conhecer o protótipo da interface gráfica do app? É só clicar no link abaixo! <br>
 #### https://www.figma.com/file/OCOgqqrF9ldfSBYyKeVfbt/Grupo-04---Assistente-Virtual-Helena---Design-Sprint?node-id=0%3A1
 
 ---
-
 
 ### 🚀 Tecnologias e Ferramentas Utilizadas
 
@@ -81,14 +79,21 @@ Traduzir para língua desejada. <br>
 
 ---
 
- ### ✅ Backlogs <br>
+### Sprints
+Veja cada uma de nossas sprints para mais informações sobre o conteúdo do projeto ao longo das entregas do semestre.
 
-* ##### BackLog Do Produto <br>
+*🧩[Sprint 01]() <br>
+✅ Entregue <br>
+*🧩[Sprint 02]() <br>
+Em construção 🚧 <br>
+*🧩[Sprint 03]() <br>
+Em construção 🚧 <br>
+*🧩[Sprint 04]() <br>
+Em construção 🚧
+
+ ### ✅ Backlog do Produto
+
 ![image](https://user-images.githubusercontent.com/48994698/112762867-6a0ee100-8fd8-11eb-91c7-018219bb14e1.png) <br>
-
-* #### BackLog Da Sprint <br>
-![image](https://user-images.githubusercontent.com/48994698/112762974-db4e9400-8fd8-11eb-8162-434332177637.png) <br>
-
 
 ---
 
@@ -99,17 +104,3 @@ Traduzir para língua desejada. <br>
 - Sprint 3 - Início: 26/04/2021 Entrega: 16/05/2021
 - Sprint 4 - Início: 17/05/2021 Entrega:05/06/2021  
 - Apresentação final - Início: 07/06/2021 Entrega: 11/06/2021
-
----
-
-### Sprint 01 
-✅ Entregue - 28/03/2021 <br>
-
-[![API FATEC - Sprint 1 Helena](https://img.youtube.com/vi/wAnPilgHysk/0.jpg)](https://www.youtube.com/watch?v=wAnPilgHysk "API FATEC - Sprint 1 Helena")
-
-### Sprint 02 
-Em construção 🚧  <br>
-### Sprint 03 
-Em construção 🚧  <br>
-### Sprint 04 
-Em construção 🚧  <br>
