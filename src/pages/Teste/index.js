@@ -6,7 +6,7 @@ import { View, Text } from 'react-native';
 // import { Container } from './styles';
 
 const Teste = () => {
-  return <View><Text>!!!!!!!!!!!!</Text></View>;
+  return <View><Text>!!!!!!!!!!!!!!!!!</Text></View>;
 }
 
 export default Teste;
