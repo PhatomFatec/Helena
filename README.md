@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/iIjaJXx.png" width="450px" >
 </p>
 
-"Desenvolvida para ser uma assistente virtual de viagens. A Helena responde a comandos de voz e possui como principal objetivo garantir ao usuário uma experiência otimizada e agradável quando estiver viajando. <br>
+Desenvolvida para ser uma assistente virtual de viagens. A Helena responde a comandos de voz e possui como principal objetivo garantir ao usuário uma experiência otimizada e agradável quando estiver viajando. <br>
 O app foi construído de forma única, dividido entre duas categorias: <br> <br>
   → A <b>primeira</b> delas é sua forma padrão, uma assistente virtual pessoal para todos os amantes de viagem!
  A categoria proporciona aos usuários funcionalidades que podem ser de grande ajuda em certos momentos. <br>
@@ -82,16 +82,18 @@ Gostaria de conhecer o protótipo da interface gráfica do app? É só clicar no
 ### Sprints
 Veja cada uma de nossas sprints para mais informações sobre o conteúdo do projeto ao longo das entregas do semestre.
 
-*🧩[Sprint 01]() <br>
-✅ Entregue <br>
-*🧩[Sprint 02]() <br>
-Em construção 🚧 <br>
-*🧩[Sprint 03]() <br>
-Em construção 🚧 <br>
-*🧩[Sprint 04]() <br>
+* 🧩[Sprint 01](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2001) <br>
+✅ Entregue <br><br>
+* 🧩[Sprint 02](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2002) <br>
+Em construção 🚧 <br><br>
+* 🧩[Sprint 03](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2003) <br>
+Em construção 🚧 <br><br>
+* 🧩[Sprint 04](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2004) <br>
 Em construção 🚧
 
- ### ✅ Backlog do Produto
+---
+
+ ### 📋 Backlog do Produto
 
 ![image](https://user-images.githubusercontent.com/48994698/112762867-6a0ee100-8fd8-11eb-91c7-018219bb14e1.png) <br>
 
