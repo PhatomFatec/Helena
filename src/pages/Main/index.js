@@ -9,6 +9,10 @@ export default function Main({ navigation }) {
         navigation.navigate('BoasVindas');
     }
 
+    const BotaoListaFuncoes = () => {
+        navigation.navigate('ListaFuncoes');
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.sejaBemVindoText}>Seja bem-vindo!</Text>
@@ -16,7 +20,7 @@ export default function Main({ navigation }) {
                 <Text style={styles.naoHospedadoText}>Ainda não está hospedado?</Text>
                 <ButtonComponent text="Visitante" onPress={handleClickGuest} />
                 <Text style={styles.hospedeText}>Já sou hospede parceiro!</Text>
-                <ButtonComponent text="Leitor QR Code" />
+                <ButtonComponent text="Leitor QR Code" onPress={BotaoListaFuncoes}/>
             </View>
             <View style={styles.imagemhotelContainer}>
                     <Image source={Imagemiconhotel} resizeMode={'contain'} style={styles.imagemiconhotel} />
