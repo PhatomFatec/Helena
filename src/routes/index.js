@@ -3,12 +3,11 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Pergunta from '../pages/Pergunta';
 import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
 import Teste from '../pages/Teste';
 import ListaFuncoes from '../pages/ListaFuncoes';
-
+import Pergunta from '../pages/Pergunta';
 
 const Stack = createStackNavigator();
 
