@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/helenaicon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "br.com.fatec.helena"
     },
     "web": {
       "favicon": "./assets/favicon.png"
