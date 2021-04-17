@@ -2,7 +2,7 @@ import React from 'react';
 import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
 
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ExemploTempo from '../../../assets/ImagemExemploTempo.png';
+import ImagemExemploTempo from '../../../assets/ExemploTempo.png';
 
 const Previsao = () => {
   return (
@@ -16,7 +16,7 @@ const Previsao = () => {
               <Text style={styles.title}>Previsão do Tempo</Text>
               <Text style={styles.text}>"Helena, qual a previsão do tempo pra hoje?"</Text>
               <Image 
-                source={ExemploTempo}
+                source={ImagemExemploTempo}
                 style={styles.ImagemExemploTempo}
               />
             </SafeAreaView>
