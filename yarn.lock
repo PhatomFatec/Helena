@@ -2090,6 +2090,13 @@
   resolved "https://registry.npmjs.org/@react-native-community/masked-view/-/masked-view-0.1.10.tgz"
   integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
 
+"@react-native-voice/voice@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@react-native-voice/voice/-/voice-3.1.1.tgz#a96e2c12b60a9f36c6f7953583364fa0bbd49a21"
+  integrity sha512-HWJ4kHDlIqDTo/0Fz8Yf3Tu5zDXm8WRN7zIijhb6wArqnV0tjMVhanUaMSXpesc1cp/HTnkdDNqFeUNNK6I1IA==
+  dependencies:
+    invariant "^2.2.4"
+
 "@react-navigation/core@^5.15.2":
   version "5.15.2"
   resolved "https://registry.npmjs.org/@react-navigation/core/-/core-5.15.2.tgz"
