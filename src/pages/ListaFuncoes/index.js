@@ -1,31 +1,74 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Image, ScrollView } from 'react-native';
 import ButtonComponent from '../../components/Button';
 
 export default function Main({ navigation }) {
-    const handleClickGuest = () => {
-        navigation.navigate('Teste');
+
+    const irParaAgenda = () => {
+        navigation.navigate('Agenda');
     }
+    const irParaAlarme = () => {
+        navigation.navigate('Alarme');
+    }
+    const irParaAtividadesHotel = () => {
+        navigation.navigate('AtividadesHotel');
+    }
+    const irParaBuscarRotas = () => {
+        navigation.navigate('BuscarRotas');
+    }
+    const irParaConversaoMoedas = () => {
+        navigation.navigate('ConversaoMoedas');
+    }
+    const irParaFotoMapa = () => {
+        navigation.navigate('FotoMapa');
+    }
+    const irParaGradeHorarios = () => {
+        navigation.navigate('GradeHorarios');
+    }
+    const irParaMapaCidade = () => {
+        navigation.navigate('MapaCidade');
+    }
+    const irParaNumeroRecepcao = () => {
+        navigation.navigate('NumeroRecepcao');
+    }
+    const irParaPrevisao = () => {
+        navigation.navigate('Previsao');
+    }
+    const irParaSobreHotel = () => {
+        navigation.navigate('SobreHotel');
+    }
+    const irParaTourHotel = () => {
+        navigation.navigate('TourHotel');
+    }
+    const irParaTourQuarto = () => {
+        navigation.navigate('TourQuarto');
+    }
+    const irParaTraduzir = () => {
+        navigation.navigate('Traduzir');
+    }
+
 
     return (
         <View style={styles.container}>
             <Text style={styles.conhecaFuncoes}>Conheça Nossas Funções!</Text>
 
             <View style={styles.content}>
-            <ButtonComponent text="Previsão do Tempo" onPress={handleClickGuest} />
-                        <ButtonComponent text="Agenda" onPress={handleClickGuest} />
-                        <ButtonComponent text="Alarme" onPress={handleClickGuest} />
-                        <ButtonComponent text="Mapa da Cidade" onPress={handleClickGuest} />
-                        <ButtonComponent text="Foto Mapa Turístico" onPress={handleClickGuest} />
-                        <ButtonComponent text="Buscar Rota" onPress={handleClickGuest} />
-                        <ButtonComponent text="Traduzir" onPress={handleClickGuest} />
-                        <ButtonComponent text="Conversão de Moedas" onPress={handleClickGuest} />
-                        <ButtonComponent text="Número Recepção" onPress={handleClickGuest} />
-                        <ButtonComponent text="Sobre o Hotel" onPress={handleClickGuest} />
-                        <ButtonComponent text="Atividades do Hotel" onPress={handleClickGuest} />
-                        <ButtonComponent text="Grade de Horários" onPress={handleClickGuest} />
-                        <ButtonComponent text="Tour do Hotel" onPress={handleClickGuest} />
-                        <ButtonComponent text="Tour do Quarto" onPress={handleClickGuest} />
+                <ScrollView>
+                    <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
+                    <ButtonComponent text="Agenda" onPress={irParaAgenda} />
+                    <ButtonComponent text="Alarme" onPress={irParaAlarme} />
+                    <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />
+                    <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
+                    <ButtonComponent text="Buscar Rota" onPress={irParaBuscarRotas} />
+                    <ButtonComponent text="Traduzir" onPress={irParaTraduzir} />
+                    <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas} />
+                    <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />
+                    <ButtonComponent text="Sobre o Hotel" onPress={irParaSobreHotel} />
+                    <ButtonComponent text="Atividades do Hotel" onPress={irParaAtividadesHotel} />
+                    <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
+                    <ButtonComponent text="Tour do Hotel" onPress={irParaTourHotel} />
+                    <ButtonComponent text="Tour do Quarto" onPress={irParaTourQuarto} />
+                </ScrollView>
             </View>
             
         </View>
