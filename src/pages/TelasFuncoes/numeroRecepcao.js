@@ -11,7 +11,12 @@ const NumeroRecepcao = () => {
                 source={ImagemMulherSorrindo}              
                 style={styles.ImagemMulherSorrindo}
               />
-              <Text style={styles.title}>Informações Funções </Text>
+              <Text style={styles.title}>Número da Recepção</Text>
+              <Text style={styles.text}> "Helena, qual o número da recepção?"</Text>
+              <Text style={styles.title}> O telefone é: {"\n"}
+                                          (11)3965-8230</Text>
+              <Text style={styles.text}>"Helena, ligue para a recepção."</Text>
+              <Text style={styles.title}>É pra já!</Text>
             </SafeAreaView>
           </SafeAreaView>
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
+
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
+import ExemploTempo from '../../../assets/ImagemExemploTempo.png';
 
 const Previsao = () => {
   return (
@@ -10,8 +12,13 @@ const Previsao = () => {
               <Image
                 source={ImagemMulherSorrindo}              
                 style={styles.ImagemMulherSorrindo}
+              />  
+              <Text style={styles.title}>Previsão do Tempo</Text>
+              <Text style={styles.text}>"Helena, qual a previsão do tempo pra hoje?"</Text>
+              <Image 
+                source={ExemploTempo}
+                style={styles.ImagemExemploTempo}
               />
-              <Text style={styles.title}>Informações Funções </Text>
             </SafeAreaView>
           </SafeAreaView>
 
@@ -56,6 +63,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  ImagemExemploTempo: {
+    height: 180,
+    width: 310,
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
 });
 
 
