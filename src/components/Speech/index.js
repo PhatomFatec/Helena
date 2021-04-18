@@ -48,7 +48,7 @@ export default function Speech() {
 
     timer = setTimeout(() => {
       actionFinded.handler();
-    }, 3 * 1000);
+    }, 1 * 1000);
   }
 
   function onSpeechEnd(e) {

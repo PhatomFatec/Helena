@@ -20,7 +20,7 @@ export default function BoasVindas({navigation}) {
   const headerHeight = useHeaderHeight();
 
   const botao = () => {
-    navigation.navigate('Mapa');
+    navigation.navigate('Pergunta');
   };
 
   return (

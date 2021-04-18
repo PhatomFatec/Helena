@@ -23,6 +23,7 @@ import SobreHotel from '../pages/TelasFuncoes/sobreHotel';
 import TourHotel from '../pages/TelasFuncoes/tourHotel';
 import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
 import Traduzir from '../pages/TelasFuncoes/traduzir';
+import Mapa from '../pages/Mapa';
 import {navigationRef} from '../RootNavigation';
 
 const Stack = createStackNavigator();
@@ -166,6 +167,14 @@ export default function Routes() {
         <Stack.Screen
           name="Traduzir"
           component={Traduzir}
+          options={{
+            headerShown: false,
+            cardStyle: {backgroundColor: '#A020F0'},
+          }}
+        />
+        <Stack.Screen
+          name="Mapa"
+          component={Mapa}
           options={{
             headerShown: false,
             cardStyle: {backgroundColor: '#A020F0'},
