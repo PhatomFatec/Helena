@@ -1,5 +1,4 @@
 import * as React from 'react';
-import MapView from 'react-native-maps';
 import {StyleSheet, View, Dimensions} from 'react-native';
 
 const Mapa = () => {

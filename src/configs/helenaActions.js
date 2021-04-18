@@ -4,11 +4,10 @@ export const HelenaActions = [
   {
     name: 'open-maps',
     words: [
-      'abrir mapa',
-      'abrir o mapa',
-      'mapa',
-      'acessar mapa',
-      'mapa da cidade',
+      'Helena abrir função mapa',
+      'Helena abrir a função mapa',
+      'Helena função mapa',
+      'Helena acessar função mapa',
     ],
     handler: () => {
       navigate('Mapa');
@@ -16,17 +15,23 @@ export const HelenaActions = [
   },
   {
     name: 'show-hotel-address',
-    words: ['qual o endereço do hotel', 'endereço hotel', 'endereço'],
+    words: [
+      'Helena qual o endereço do hotel',
+      'Helena endereço do hotel',
+      'Helena endereço hotel',
+    ],
     handler: () => {
-      navigate('sobreHotel');
+      navigate('construcao');
     },
   },
   {
     name: 'show-functions',
     words: [
-      'abrir lista de funções',
-      'lista funções',
-      'mostrar lista de funções',
+      'Helena abrir lista de funções',
+      'Helena lista de funções',
+      'Helena lista funções',
+      'Helena mostrar lista de funções',
+      'Helena abrir funções',
     ],
     handler: () => {
       navigate('ListaFuncoes');
@@ -34,30 +39,48 @@ export const HelenaActions = [
   },
   {
     name: 'show-agenda',
-    words: ['abrir lista de agenda', 'abrir agenda', 'mostar agenda'],
+    words: [
+      'Helena Abrir função lista de agenda',
+      'Helena abrir função lista de agenda',
+      'Helena abrir função agenda',
+      'Helena mostar função agenda',
+    ],
     handler: () => {
-      navigate('Agenda');
+      navigate('construcao');
     },
   },
   {
     name: 'show-schedule',
-    words: ['abrir grade de horários', 'abrir horários', 'grade de horários'],
+    words: ['Helena abrir função que horas são', 'Helena função que horas são'],
     handler: () => {
       navigate('GradeHorarios');
     },
   },
   {
     name: 'show-number',
-    words: ['mostrar número da recepção', 'número da recepção'],
+    words: [
+      'Helena mostrar função número da recepção',
+      'Helena função número da recepção',
+    ],
     handler: () => {
       navigate('NumeroRecepcao');
     },
   },
   {
     name: 'show-alarm',
-    words: ['abrir alarme', 'abrir o alarme'],
+    words: ['Helena abrir função alarme', 'Helena função alarme'],
     handler: () => {
-      navigate('Alarme');
+      navigate('construcao');
+    },
+  },
+  {
+    name: 'show-alarm',
+    words: [
+      'Helena abrir função previsão do tempo',
+      'Helena função previsão do tempo',
+    ],
+    handler: () => {
+      navigate('Previsao');
     },
   },
 ];

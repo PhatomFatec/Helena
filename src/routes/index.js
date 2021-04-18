@@ -24,6 +24,7 @@ import TourHotel from '../pages/TelasFuncoes/tourHotel';
 import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
 import Traduzir from '../pages/TelasFuncoes/traduzir';
 import Mapa from '../pages/Mapa';
+import construcao from '../pages/TelasFuncoes/construcao';
 import {navigationRef} from '../RootNavigation';
 
 const Stack = createStackNavigator();
@@ -65,7 +66,6 @@ export default function Routes() {
           component={Agenda}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -73,7 +73,6 @@ export default function Routes() {
           component={Alarme}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -81,7 +80,13 @@ export default function Routes() {
           component={AtividadesHotel}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
+          }}
+        />
+        <Stack.Screen
+          name="construcao"
+          component={construcao}
+          options={{
+            headerShown: false,
           }}
         />
         <Stack.Screen
@@ -89,7 +94,6 @@ export default function Routes() {
           component={BuscarRotas}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -97,7 +101,6 @@ export default function Routes() {
           component={ConversaoMoedas}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -105,7 +108,6 @@ export default function Routes() {
           component={FotoMapa}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -113,7 +115,6 @@ export default function Routes() {
           component={GradeHorarios}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -121,7 +122,6 @@ export default function Routes() {
           component={MapaCidade}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -129,7 +129,6 @@ export default function Routes() {
           component={NumeroRecepcao}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -137,7 +136,6 @@ export default function Routes() {
           component={Previsao}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -145,7 +143,6 @@ export default function Routes() {
           component={SobreHotel}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -153,7 +150,6 @@ export default function Routes() {
           component={TourHotel}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -161,7 +157,6 @@ export default function Routes() {
           component={TourQuarto}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -169,7 +164,6 @@ export default function Routes() {
           component={Traduzir}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
         <Stack.Screen
@@ -177,7 +171,6 @@ export default function Routes() {
           component={Mapa}
           options={{
             headerShown: false,
-            cardStyle: {backgroundColor: '#A020F0'},
           }}
         />
 
