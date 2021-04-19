@@ -1,22 +1,28 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
+import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
+import ImagemExemploTempo from '../../../assets/ExemploTempo.png';
 
-const FotoMapa = () => {
+const NumeroRecepcao = () => {
   return (
-
-          <SafeAreaView style={styles.container}>
-            <SafeAreaView style={styles.slide}>
-              <Image
-                source={ImagemMulherSorrindo}              
-                style={styles.ImagemMulherSorrindo}
-              />
-              <Text style={styles.title}>Informações Funções </Text>
-            </SafeAreaView>
-          </SafeAreaView>
-
+    <SafeAreaView style={styles.container}>
+      <SafeAreaView style={styles.slide}>
+        <Image
+          source={ImagemMulherSorrindo}
+          style={styles.ImagemMulherSorrindo}
+        />
+        <Text style={styles.title}>Foto mapa Turístico</Text>
+        <Text style={styles.text}> "Helena, me mostre o mapa turístico"</Text>
+        <ScrollView style={styles.scrollView}>
+          <Image
+            source={ImagemExemploTempo}
+            style={styles.ImagemExemploTempo}
+          />
+        </ScrollView>
+      </SafeAreaView>
+    </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -28,7 +34,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
-    marginTop: 220,
+    marginTop: 90,
     width: 360,
     height: 550,
     backgroundColor: '#FFFFFF',
@@ -36,15 +42,15 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: 'center',
-    fontSize: 28,
+    fontSize: 25,
     color: '#000000',
-    marginTop: 32,
-    marginBottom:50,
+    marginTop: 16,
+    marginBottom: 5,
   },
   title: {
     textAlign: 'center',
-    fontSize: 35,
-    fontWeight:'bold',
+    fontSize: 20,
+    fontWeight: 'bold',
     color: '#A020F0',
     marginTop: 32,
     marginLeft: 16,
@@ -56,8 +62,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  ImagemExemploTempo: {
+    height: 280,
+    width: 280,
+    marginLeft: 32,
+    marginBottom: 65,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
-
-
-export default FotoMapa;
+export default NumeroRecepcao;

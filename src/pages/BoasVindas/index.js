@@ -141,6 +141,7 @@ const styles = StyleSheet.create({
   },
   imageMicrophone: {
     height: 130,
+    marginBottom: 40,
   },
   wrapper: {},
   slide1: {

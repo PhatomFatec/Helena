@@ -52,6 +52,9 @@ export default function Main({navigation}) {
   const irParaTraduzir = () => {
     navigation.navigate('Traduzir');
   };
+  const irParaTeste = () => {
+    navigation.navigate('Teste');
+  };
 
   return (
     <View style={styles.container}>
@@ -60,31 +63,22 @@ export default function Main({navigation}) {
       <View style={styles.content}>
         <ScrollView>
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
+          <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
+          <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />
+          <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
           <ButtonComponent text="Agenda" onPress={irParaAgenda} />
           <ButtonComponent text="Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />
-          <ButtonComponent
-            text="Foto Mapa Turístico"
-            onPress={irParaFotoMapa}
-          />
           <ButtonComponent text="Buscar Rota" onPress={irParaBuscarRotas} />
           <ButtonComponent text="Traduzir" onPress={irParaTraduzir} />
           <ButtonComponent
             text="Conversão de Moedas"
             onPress={irParaConversaoMoedas}
           />
-          <ButtonComponent
-            text="Número Recepção"
-            onPress={irParaNumeroRecepcao}
-          />
           <ButtonComponent text="Sobre o Hotel" onPress={irParaSobreHotel} />
           <ButtonComponent
             text="Atividades do Hotel"
             onPress={irParaAtividadesHotel}
-          />
-          <ButtonComponent
-            text="Grade de Horários"
-            onPress={irParaGradeHorarios}
           />
           <ButtonComponent text="Tour do Hotel" onPress={irParaTourHotel} />
           <ButtonComponent text="Tour do Quarto" onPress={irParaTourQuarto} />

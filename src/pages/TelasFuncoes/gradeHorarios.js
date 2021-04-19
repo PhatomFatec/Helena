@@ -1,24 +1,22 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
+import {StyleSheet, Text, Image, SafeAreaView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
 
 const GradeHorarios = () => {
   return (
-
-          <SafeAreaView style={styles.container}>
-            <SafeAreaView style={styles.slide}>
-              <Image
-                source={ImagemMulherSorrindo}              
-                style={styles.ImagemMulherSorrindo}
-              />
-              <Text style={styles.title}>Que horas são? </Text>
-              <Text style={styles.text}>"Helena, que horas são?"</Text>
-              <Text style={styles.title}>"São 19:00"</Text>
-            </SafeAreaView>
-          </SafeAreaView>
-
+    <SafeAreaView style={styles.container}>
+      <SafeAreaView style={styles.slide}>
+        <Image
+          source={ImagemMulherSorrindo}
+          style={styles.ImagemMulherSorrindo}
+        />
+        <Text style={styles.title}>Que horas são? </Text>
+        <Text style={styles.text}>"Helena, que horas são?"</Text>
+        <Text style={styles.title}>"São 19:00"</Text>
+      </SafeAreaView>
+    </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -30,7 +28,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
-    marginTop: 220,
+    marginTop: 70,
     width: 360,
     height: 550,
     backgroundColor: '#FFFFFF',
@@ -41,12 +39,12 @@ const styles = StyleSheet.create({
     fontSize: 28,
     color: '#000000',
     marginTop: 32,
-    marginBottom:50,
+    marginBottom: 50,
   },
   title: {
     textAlign: 'center',
     fontSize: 35,
-    fontWeight:'bold',
+    fontWeight: 'bold',
     color: '#A020F0',
     marginTop: 32,
     marginLeft: 16,
@@ -59,7 +57,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
-
 
 export default GradeHorarios;

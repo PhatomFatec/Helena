@@ -1,27 +1,38 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  View,
+  Image,
+  Button,
+  SafeAreaView,
+} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
 
 const NumeroRecepcao = () => {
   return (
-
-          <SafeAreaView style={styles.container}>
-            <SafeAreaView style={styles.slide}>
-              <Image
-                source={ImagemMulherSorrindo}              
-                style={styles.ImagemMulherSorrindo}
-              />
-              <Text style={styles.title}>Número da Recepção</Text>
-              <Text style={styles.text}> "Helena, qual o número da recepção?"</Text>
-              <Text style={styles.title}> O telefone é: {"\n"}
-                                          (11)3965-8230</Text>
-              <Text style={styles.text}>"Helena, ligue para a recepção."</Text>
-              <Text style={styles.title}>É pra já!</Text>
-            </SafeAreaView>
-          </SafeAreaView>
-
+    <SafeAreaView style={styles.container}>
+      <SafeAreaView style={styles.slide}>
+        <Image
+          source={ImagemMulherSorrindo}
+          style={styles.ImagemMulherSorrindo}
+        />
+        <Text style={styles.title}>Número da Recepção</Text>
+        <Text style={styles.text}> "Helena, qual o número da recepção?"</Text>
+        <Text style={styles.title}>
+          {' '}
+          O telefone é: {'\n'}
+          (11)3965-8230
+        </Text>
+        <Text style={styles.text}>"Helena, ligue para a recepção."</Text>
+        <Text style={styles.title}>É pra já!</Text>
+      </SafeAreaView>
+    </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -33,7 +44,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
-    marginTop: 220,
+    marginTop: 90,
     width: 360,
     height: 550,
     backgroundColor: '#FFFFFF',
@@ -41,15 +52,15 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: 'center',
-    fontSize: 28,
+    fontSize: 25,
     color: '#000000',
-    marginTop: 32,
-    marginBottom:50,
+    marginTop: 16,
+    marginBottom: 5,
   },
   title: {
     textAlign: 'center',
-    fontSize: 35,
-    fontWeight:'bold',
+    fontSize: 20,
+    fontWeight: 'bold',
     color: '#A020F0',
     marginTop: 32,
     marginLeft: 16,
@@ -62,7 +73,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
-
 
 export default NumeroRecepcao;
