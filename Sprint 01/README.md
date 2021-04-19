@@ -1,6 +1,6 @@
-# Assistente Virtual - Helena 
+## Assistente Virtual - Helena 
 
-## 🧩 Sprint 01
+# 🧩 Sprint 01
 *Situação: ✅ Entregue - 28/03/2021 <br>
 
 ---
