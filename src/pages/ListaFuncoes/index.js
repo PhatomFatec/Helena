@@ -23,7 +23,7 @@ export default function Main({navigation}) {
     navigation.navigate('BuscarRotas');
   };
   const irParaConversaoMoedas = () => {
-    navigation.navigate('ConversaoMoedas');
+    navigation.navigate('Conversor');
   };
   const irParaFotoMapa = () => {
     navigation.navigate('FotoMapa');
@@ -66,20 +66,14 @@ export default function Main({navigation}) {
           <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
           <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />
           <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
+          <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas}/>
           <ButtonComponent text="Agenda" onPress={irParaAgenda} />
           <ButtonComponent text="Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />
           <ButtonComponent text="Buscar Rota" onPress={irParaBuscarRotas} />
           <ButtonComponent text="Traduzir" onPress={irParaTraduzir} />
-          <ButtonComponent
-            text="Conversão de Moedas"
-            onPress={irParaConversaoMoedas}
-          />
           <ButtonComponent text="Sobre o Hotel" onPress={irParaSobreHotel} />
-          <ButtonComponent
-            text="Atividades do Hotel"
-            onPress={irParaAtividadesHotel}
-          />
+          <ButtonComponent text="Atividades do Hotel" onPress={irParaAtividadesHotel}/>
           <ButtonComponent text="Tour do Hotel" onPress={irParaTourHotel} />
           <ButtonComponent text="Tour do Quarto" onPress={irParaTourQuarto} />
         </ScrollView>
