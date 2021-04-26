@@ -1,13 +1,19 @@
 import React from 'react';
-import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
+import {StyleSheet, Text, Image, SafeAreaView, ScrollView, Button, Linking, View} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ImagemExemploTempo from '../../../assets/ExemploTempo.png';
+import MapaTuristico from '../../../assets/ExemploMapaTuristico.png';
+
+import ButtonComponent from '../../components/Button';
+
+const botao = () => {
+  navigation.navigate('Pergunta');
+};
 
 const NumeroRecepcao = () => {
   return (
     <SafeAreaView style={styles.container}>
       <SafeAreaView style={styles.slide}>
-        <Image
+      <Image
           source={ImagemMulherSorrindo}
           style={styles.ImagemMulherSorrindo}
         />
@@ -15,10 +21,13 @@ const NumeroRecepcao = () => {
         <Text style={styles.text}> "Helena, me mostre o mapa turístico"</Text>
         <ScrollView style={styles.scrollView}>
           <Image
-            source={ImagemExemploTempo}
-            style={styles.ImagemExemploTempo}
+            source={MapaTuristico}
+            style={styles.MapaTuristico}
           />
         </ScrollView>
+        <View style={styles.botaoMapa}>
+        <ButtonComponent text='Abrir mapa' onPress={ ()=>{ Linking.openURL('https://www.sjc.sp.gov.br/media/129535/mapa_sjc_2020_atualizado_2_page-0001.jpg')}}/>
+        </View>
       </SafeAreaView>
     </SafeAreaView>
   );
@@ -62,14 +71,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  ImagemExemploTempo: {
-    height: 280,
+  MapaTuristico: {
+    height: 170,
     width: 280,
-    marginLeft: 32,
-    marginBottom: 65,
+    marginLeft: 45,
+    marginBottom: 64,
     justifyContent: 'center',
     alignItems: 'center',
   },
+  botaoMapa: {
+    width: 200,
+    height: 80,
+    marginLeft: 80,
+  },
+
 });
 
 export default NumeroRecepcao;

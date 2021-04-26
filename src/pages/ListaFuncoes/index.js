@@ -64,9 +64,9 @@ export default function Main({navigation}) {
         <ScrollView>
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
           <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
-          <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />
           <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
           <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas}/>
+          <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />
           <ButtonComponent text="Agenda" onPress={irParaAgenda} />
           <ButtonComponent text="Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />

@@ -10,7 +10,7 @@ export const HelenaActions = [
       'Helena acessar função mapa',
     ],
     handler: () => {
-      navigate('Mapa');
+      navigate('construcao');
     },
   },
   {

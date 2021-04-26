@@ -10,11 +10,13 @@ import {
   Image,
   Button,
 } from 'react-native';
+import ButtonComponent from '../../components/Button';
 import Swiper from 'react-native-swiper';
 import {useHeaderHeight} from '@react-navigation/stack';
 
 import ImagemMulher from '../../../assets/mulher.png';
-import ImagemMicrophone from '../../../assets/microfone.png';
+import ImagemMicrophone from '../../../assets/microfone2.png';
+import ImagemExemploTempo from '../../../assets/ExemploTempo.png';
 
 export default function BoasVindas({navigation}) {
   const headerHeight = useHeaderHeight();
@@ -48,11 +50,14 @@ export default function BoasVindas({navigation}) {
               Estou aqui para te ajudar em diversas atividades!
             </Text>
             <Text style={styles.PorExemploText}>Por exemplo:</Text>
-            <Text style={styles.lunchexample}>"Qual o horário do almoço?"</Text>
+            <Text style={styles.lunchexample}>"Helena, qual a previsão do tempo?"</Text>
           </View>
           <View style={styles.slide3}>
-            <Text style={styles.text2}>"Qual o horário do almoço?</Text>
-            <Text style={styles.timetext}>"Será ao 12:00!"</Text>
+            <Text style={styles.text2}>"Helena, qual a previsão do tempo?</Text>
+            <Image
+            source={ImagemExemploTempo}
+            style={styles.ImagemExemploTempo}>
+            </Image>
           </View>
           <View style={styles.slide4}>
             <Text style={styles.text1}>Basta chamar meu nome e falar!</Text>
@@ -61,7 +66,9 @@ export default function BoasVindas({navigation}) {
               resizeMode={'contain'}
               style={styles.imageMicrophone}
             />
-            <Button title="Iniciar" onPress={botao} />
+            <View style={styles.botaoIniciar}>
+            <ButtonComponent text='Iniciar' onPress={botao} />
+            </View>
           </View>
         </Swiper>
       </View>
@@ -141,7 +148,6 @@ const styles = StyleSheet.create({
   },
   imageMicrophone: {
     height: 130,
-    marginBottom: 40,
   },
   wrapper: {},
   slide1: {
@@ -185,4 +191,16 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
   },
+  ImagemExemploTempo: {
+    height: 280,
+    width: 280,
+    marginLeft: 32,
+    marginBottom: 65,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  botaoIniciar:{
+    marginBottom: 15,
+    width: 150,
+  }
 });

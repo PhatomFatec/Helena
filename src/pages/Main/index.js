@@ -2,6 +2,8 @@ import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View, Image} from 'react-native';
 import ButtonComponent from '../../components/Button';
 import Imagemiconhotel from '../../../assets/iconhotelwhite.png';
+import ImagemIconLogo from '../../../assets/PhantomLogo2.png';
+import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
 
 export default function Main({navigation}) {
   const handleClickGuest = () => {
@@ -14,18 +16,22 @@ export default function Main({navigation}) {
 
   return (
     <View style={styles.container}>
+      <Image
+          source={ImagemMulherSorrindo}
+          style={styles.ImagemMulherSorrindo}
+        />
       <Text style={styles.sejaBemVindoText}>Seja bem-vindo!</Text>
       <View style={styles.content}>
-        <Text style={styles.naoHospedadoText}>Ainda não está hospedado?</Text>
-        <ButtonComponent text="Visitante" onPress={handleClickGuest} />
-        <Text style={styles.hospedeText}>Já sou hospede parceiro!</Text>
-        <ButtonComponent text="Leitor QR Code" onPress={BotaoListaFuncoes} />
+        <Text style={styles.naoHospedadoText}>Pronto para conhecer a Helena?</Text>
+        <ButtonComponent text="Começar agora" onPress={handleClickGuest} />
+        <Text style={styles.hospedeText}>Conheça as funcionalidades</Text>
+        <ButtonComponent text="Lista de funcionalidades" onPress={BotaoListaFuncoes} />
       </View>
       <View style={styles.imagemhotelContainer}>
         <Image
-          source={Imagemiconhotel}
+          source={ImagemIconLogo}
           resizeMode={'contain'}
-          style={styles.imagemiconhotel}
+          style={styles.ImagemIconLogo}
         />
       </View>
     </View>
@@ -46,7 +52,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     color: '#FFF',
-    marginTop: 128,
+    marginBottom: 10
   },
   naoHospedadoText: {
     textAlign: 'center',
@@ -58,10 +64,18 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: '#FFF',
   },
-  imagemiconhotel: {
-    height: 100,
+  ImagemIconLogo: {
+    height: 50,
+    marginBottom: 13
   },
   imagemhotelContainer: {
+    alignItems: 'center',
+  },
+  ImagemMulherSorrindo: {
+    height: 250,
+    width: 262,
+    marginLeft: 38,
+    justifyContent: 'center',
     alignItems: 'center',
   },
 });
