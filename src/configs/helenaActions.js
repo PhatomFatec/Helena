@@ -1,4 +1,7 @@
+import React, {usaState} from 'react';
 import {navigate} from '../RootNavigation';
+import * as Speech from 'expo-speech';
+
 
 export const HelenaActions = [
   {
@@ -10,7 +13,9 @@ export const HelenaActions = [
       'Helena acessar função mapa',
     ],
     handler: () => {
-      navigate('construcao');
+      //navigate('construcao');
+      const [text, setText] = usaState('Bem vindo amigo');
+      Speech.speak(text, {language: 'pt-BR'});
     },
   },
   {
