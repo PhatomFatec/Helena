@@ -66,123 +66,122 @@ export default function Routes() {
           name="Agenda"
           component={Agenda}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="Alarme"
           component={Alarme}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="AtividadesHotel"
           component={AtividadesHotel}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="construcao"
           component={construcao}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="BuscarRotas"
           component={BuscarRotas}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="ConversaoMoedas"
           component={ConversaoMoedas}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="FotoMapa"
           component={FotoMapa}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="GradeHorarios"
           component={GradeHorarios}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="MapaCidade"
           component={MapaCidade}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="NumeroRecepcao"
           component={NumeroRecepcao}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="Previsao"
           component={Previsao}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="SobreHotel"
           component={SobreHotel}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="TourHotel"
           component={TourHotel}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="TourQuarto"
           component={TourQuarto}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="Traduzir"
           component={Traduzir}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="Mapa"
           component={Mapa}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
         <Stack.Screen
           name="Conversor"
           component={Conversor}
           options={{
-            headerShown: false,
+            headerShown: true,
           }}
         />
-
-        <Stack.Screen name="BoasVindas" component={BoasVindas} />
+      <Stack.Screen name="BoasVindas" component={BoasVindas} />
       </Stack.Navigator>
     </NavigationContainer>
   );

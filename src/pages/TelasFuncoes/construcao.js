@@ -1,12 +1,19 @@
 import React from 'react';
-import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
-import {useHeaderHeight} from '@react-navigation/stack';
+import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
+import helenaSad from '../../../assets/helenaSad.png';
 
-const construcao = () => {
+const Previsao = () => {
   return (
     <SafeAreaView style={styles.container}>
       <SafeAreaView style={styles.slide}>
-        <Text style={styles.title}>TELA EM CONSTRUÇÃO!</Text>
+        <Image
+          source={helenaSad}
+          style={styles.ImagemMulherSorrindo}
+        />
+        <Text style={styles.title}>Oh não!</Text>
+        <Text style={styles.text}>
+          Tela ainda em construção!🚧 👷
+        </Text>
       </SafeAreaView>
     </SafeAreaView>
   );
@@ -22,7 +29,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
-    marginTop: 220,
+    marginTop: 70,
     width: 360,
     height: 550,
     backgroundColor: '#FFFFFF',
@@ -45,11 +52,21 @@ const styles = StyleSheet.create({
     marginRight: 16,
   },
   ImagemMulherSorrindo: {
-    height: 180,
-    width: 310,
+    height: 280,
+    width: 210,
+    marginLeft: 75
+  },
+  ImagemExemploTempo: {
+    height: 280,
+    width: 280,
+    marginLeft: 32,
+    marginBottom: 65,
     justifyContent: 'center',
     alignItems: 'center',
   },
+  scrollView: {
+    marginHorizontal: 10,
+  },
 });
 
-export default construcao;
+export default Previsao;

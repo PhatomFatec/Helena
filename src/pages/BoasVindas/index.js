@@ -42,7 +42,7 @@ export default function BoasVindas({navigation}) {
           style={styles.wrapper}
           showsButtons={false}>
           <View style={styles.slide1}>
-            <Text style={styles.text3}>Muito prazer! me chamo Helena</Text>
+            <Text style={styles.text3}>Muito prazer, me chamo Helena!</Text>
             <Text style={styles.text3}>Sou sua assistente virtual!</Text>
           </View>
           <View style={styles.slide2}>
@@ -102,6 +102,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     color: '#000000',
+    marginLeft: 8,
+    marginRight: 8,
     marginTop: 16,
   },
   text2: {
@@ -115,7 +117,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     color: '#000000',
-    marginTop: 32,
+    marginTop: 64,
     marginLeft: 16,
     marginRight: 16,
   },
@@ -194,7 +196,7 @@ const styles = StyleSheet.create({
   ImagemExemploTempo: {
     height: 280,
     width: 280,
-    marginLeft: 32,
+    marginLeft: 16,
     marginBottom: 65,
     justifyContent: 'center',
     alignItems: 'center',

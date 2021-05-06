@@ -10,47 +10,47 @@ import {
 import ButtonComponent from '../../components/Button';
 
 export default function Main({navigation}) {
-  const irParaAgenda = () => {
-    navigation.navigate('Agenda');
-  };
-  const irParaAlarme = () => {
-    navigation.navigate('Alarme');
-  };
-  const irParaAtividadesHotel = () => {
-    navigation.navigate('AtividadesHotel');
-  };
-  const irParaBuscarRotas = () => {
-    navigation.navigate('BuscarRotas');
-  };
-  const irParaConversaoMoedas = () => {
-    navigation.navigate('Conversor');
+  const irParaPrevisao = () => {
+    navigation.navigate('Previsao');
   };
   const irParaFotoMapa = () => {
     navigation.navigate('FotoMapa');
   };
-  const irParaGradeHorarios = () => {
-    navigation.navigate('GradeHorarios');
-  };
-  const irParaMapaCidade = () => {
-    navigation.navigate('MapaCidade');
-  };
   const irParaNumeroRecepcao = () => {
     navigation.navigate('NumeroRecepcao');
   };
-  const irParaPrevisao = () => {
-    navigation.navigate('Previsao');
+  const irParaGradeHorarios = () => {
+    navigation.navigate('GradeHorarios');
   };
-  const irParaSobreHotel = () => {
-    navigation.navigate('SobreHotel');
+  const irParaConversaoMoedas = () => {
+    navigation.navigate('construcao');
   };
-  const irParaTourHotel = () => {
-    navigation.navigate('TourHotel');
+  const irParaAgenda = () => {
+    navigation.navigate('construcao');
   };
-  const irParaTourQuarto = () => {
-    navigation.navigate('TourQuarto');
+  const irParaAlarme = () => {
+    navigation.navigate('construcao');
+  };
+  const irParaMapaCidade = () => {
+    navigation.navigate('construcao');
+  };
+  const irParaBuscarRotas = () => {
+    navigation.navigate('construcao');
   };
   const irParaTraduzir = () => {
-    navigation.navigate('Traduzir');
+    navigation.navigate('construcao');
+  };
+  const irParaSobreHotel = () => {
+    navigation.navigate('construcao');
+  };
+  const irParaAtividadesHotel = () => {
+    navigation.navigate('construcao');
+  };
+  const irParaTourHotel = () => {
+    navigation.navigate('construcao');
+  };
+  const irParaTourQuarto = () => {
+    navigation.navigate('construcao');
   };
   const irParaTeste = () => {
     navigation.navigate('Teste');
@@ -63,10 +63,10 @@ export default function Main({navigation}) {
       <View style={styles.content}>
         <ScrollView>
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
-          <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
           <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
-          <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas}/>
-          <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />
+          <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
+          <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />  
+          <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas}/> 
           <ButtonComponent text="Agenda" onPress={irParaAgenda} />
           <ButtonComponent text="Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />
