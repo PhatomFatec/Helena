@@ -27,6 +27,7 @@ import Mapa from '../pages/Mapa';
 import construcao from '../pages/TelasFuncoes/construcao';
 import {navigationRef} from '../RootNavigation';
 import Conversor from '../pages/Conversor';
+import Alarme  from '../pages/TelasFuncoes/alarme';
 
 const Stack = createStackNavigator();
 
@@ -177,6 +178,13 @@ export default function Routes() {
         <Stack.Screen
           name="Conversor"
           component={Conversor}
+          options={{
+            headerShown: true,
+          }}
+        />
+          <Stack.Screen
+          name="Alarme"
+          component={Alarme}
           options={{
             headerShown: true,
           }}
