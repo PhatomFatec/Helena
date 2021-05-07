@@ -27,7 +27,7 @@ import Mapa from '../pages/Mapa';
 import construcao from '../pages/TelasFuncoes/construcao';
 import {navigationRef} from '../RootNavigation';
 import Conversor from '../pages/Conversor';
-import Alarme  from '../pages/TelasFuncoes/alarme';
+import FuncaoAlarme  from '../pages/FuncaoAlarme/index';
 
 const Stack = createStackNavigator();
 
@@ -71,7 +71,7 @@ export default function Routes() {
           }}
         />
         <Stack.Screen
-          name="Alarme"
+          name="ExemploAlarme"
           component={Alarme}
           options={{
             headerShown: true,
@@ -183,8 +183,8 @@ export default function Routes() {
           }}
         />
           <Stack.Screen
-          name="Alarme"
-          component={Alarme}
+          name="FuncaoAlarme"
+          component={FuncaoAlarme}
           options={{
             headerShown: true,
           }}

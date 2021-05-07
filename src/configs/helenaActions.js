@@ -5,8 +5,6 @@ import * as Speech from 'expo-speech';
 
 export const HelenaActions = [
   {
-<<<<<<< HEAD
-=======
     name: 'open-maps',
     words: [
       'Helena abrir função mapa',
@@ -32,7 +30,6 @@ export const HelenaActions = [
     },
   },
   {
->>>>>>> 55bcadd9824d86168643c99dc36e1b7bba770d02
     name: 'show-functions',
     words: [
       'Helena abrir lista de funções',
@@ -49,7 +46,7 @@ export const HelenaActions = [
     },
   },
   {
-    name: 'show-alarm',
+    name: 'show-weather',
     words: [
       'Helena abrir função previsão do tempo',
       'Helena função previsão do tempo',
