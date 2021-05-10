@@ -43,7 +43,7 @@ export const HelenaActions = [
     },
   },
   {
-    name: 'show-alarm',
+    name: 'show-weather',
     words: [
       'Helena abrir função previsão do tempo',
       'Helena função previsão do tempo',
