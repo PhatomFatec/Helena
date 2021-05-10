@@ -1,12 +1,9 @@
 import React, {usaState} from 'react';
 import {navigate} from '../RootNavigation';
-import * as Speech from 'expo-speech';
 
 
 export const HelenaActions = [
   {
-<<<<<<< HEAD
-=======
     name: 'open-maps',
     words: [
       'Helena abrir função mapa',
@@ -15,9 +12,7 @@ export const HelenaActions = [
       'Helena acessar função mapa',
     ],
     handler: () => {
-      //navigate('construcao');
-      const [text, setText] = usaState('Bem vindo amigo');
-      Speech.speak(text, {language: 'pt-BR'});
+      navigate('construcao');
     },
   },
   {
@@ -32,7 +27,6 @@ export const HelenaActions = [
     },
   },
   {
->>>>>>> 55bcadd9824d86168643c99dc36e1b7bba770d02
     name: 'show-functions',
     words: [
       'Helena abrir lista de funções',
@@ -132,6 +126,16 @@ export const HelenaActions = [
     ],
     handler: () => {
       navigate('construcao');
+    },
+  },
+  {
+    name: 'function-calculator',
+    words: [
+      'Helena abrir calculadora',
+      'Helena calculadora',
+    ],
+    handler: () => {
+      navigate('Calculadora');
     },
   },
 ];

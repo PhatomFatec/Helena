@@ -27,6 +27,7 @@ import Mapa from '../pages/Mapa';
 import construcao from '../pages/TelasFuncoes/construcao';
 import {navigationRef} from '../RootNavigation';
 import Conversor from '../pages/Conversor';
+import Calculadora from '../pages/Calculadora';
 
 const Stack = createStackNavigator();
 
@@ -181,7 +182,15 @@ export default function Routes() {
             headerShown: true,
           }}
         />
-      <Stack.Screen name="BoasVindas" component={BoasVindas} />
+        <Stack.Screen
+          name="Calculadora"
+          component={Calculadora}
+          options={{headerShown: false}}
+        />
+      <Stack.Screen
+       name="BoasVindas" 
+       component={BoasVindas} 
+       />
       </Stack.Navigator>
     </NavigationContainer>
   );

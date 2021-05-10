@@ -52,8 +52,8 @@ export default function Main({navigation}) {
   const irParaTourQuarto = () => {
     navigation.navigate('construcao');
   };
-  const irParaTeste = () => {
-    navigation.navigate('Teste');
+  const irParaCalculadora = () => {
+    navigation.navigate('Calculadora');
   };
 
   return (
@@ -62,6 +62,7 @@ export default function Main({navigation}) {
 
       <View style={styles.content}>
         <ScrollView>
+          <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
           <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
           <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
