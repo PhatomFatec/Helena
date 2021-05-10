@@ -85,7 +85,8 @@ Veja cada uma de nossas sprints para mais informações sobre o conteúdo do pro
 * 🧩[Sprint 01](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2001) <br>
 ✅ Entregue <br><br>
 * 🧩[Sprint 02](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2002) <br>
-✅ Entregue <br><br>
+![Gif Sprint 2](https://media.giphy.com/media/GxkD2VSpHjzAj7UyAO/giphy.gif)
+<br>✅ Entregue <br>
 * 🧩[Sprint 03](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2003) <br>
 Em construção 🚧 <br><br>
 * 🧩[Sprint 04](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2004) <br>
