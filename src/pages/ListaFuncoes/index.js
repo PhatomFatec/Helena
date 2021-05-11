@@ -23,7 +23,7 @@ export default function Main({navigation}) {
     navigation.navigate('GradeHorarios');
   };
   const irParaConversaoMoedas = () => {
-    navigation.navigate('construcao');
+    navigation.navigate('Conversor');
   };
   const irParaAgenda = () => {
     navigation.navigate('construcao');
