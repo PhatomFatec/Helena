@@ -8,6 +8,7 @@ import {
   ScrollView,
 } from 'react-native';
 import ButtonComponent from '../../components/Button';
+import ListaTarefas from '../ListaTarefas';
 
 export default function Main({navigation}) {
   const irParaPrevisao = () => {
@@ -55,6 +56,9 @@ export default function Main({navigation}) {
   const irParaCalculadora = () => {
     navigation.navigate('Calculadora');
   };
+  const ListaTarefas = () => {
+    navigation.navigate('ListaTarefas');
+  };
 
   return (
     <View style={styles.container}>
@@ -68,7 +72,7 @@ export default function Main({navigation}) {
           <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
           <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />  
           <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas}/> 
-          <ButtonComponent text="Agenda" onPress={irParaAgenda} />
+          <ButtonComponent text="Agenda" onPress={ListaTarefas} />
           <ButtonComponent text="Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />
           <ButtonComponent text="Buscar Rota" onPress={irParaBuscarRotas} />

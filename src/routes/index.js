@@ -28,6 +28,7 @@ import construcao from '../pages/TelasFuncoes/construcao';
 import {navigationRef} from '../RootNavigation';
 import Conversor from '../pages/Conversor';
 import Calculadora from '../pages/Calculadora';
+import ListaTarefas from '../pages/ListaTarefas/index';
 
 const Stack = createStackNavigator();
 
@@ -190,6 +191,10 @@ export default function Routes() {
       <Stack.Screen
        name="BoasVindas" 
        component={BoasVindas} 
+       />
+      <Stack.Screen
+       name="ListaTarefas" 
+       component={ListaTarefas} 
        />
       </Stack.Navigator>
     </NavigationContainer>
