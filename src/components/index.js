@@ -6,9 +6,9 @@ import GeoLocation from '@react-native-community/geolocation';
 navigator.geolocation = require('@react-native-community/geolocation');
 export default class App extends React.Component {
   state = {
-    isLoading: false,
-    temperature: 25,
-    weatherCondition: 'Clear',
+    isLoading: true,
+    temperature: 12,
+    weatherCondition: 'Mist',
     error: null
   }
 
@@ -18,15 +18,16 @@ export default class App extends React.Component {
         this.getWeather(position.coords.latitude, position.coords.longitude);
       },
       error => {
-        this.setState({ error: 'Error While Getting Weather Update' });
-      }
+        console.log(error);
+        this.setState({ error: 'Error While Getting Weather Update' });  
+      },{enableHighAccuracy: true, timeout: 50000}
     );
   }
 
   getWeather(lat = 25, lon = 25) {
     console.log(lat, lon, 'lat,lon')
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${API_KEY}&units=metric`
+      `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
     ).then(resp => resp.json())
       .then(json => {
        console.log(json,'weather');
