@@ -14,6 +14,9 @@ export default function Main({navigation}) {
   const irParaPrevisao = () => {
     navigation.navigate('Previsao');
   };
+  const irParaClima = () => {
+    navigation.navigate('Weather');
+  };
   const irParaFotoMapa = () => {
     navigation.navigate('FotoMapa');
   };
@@ -68,6 +71,7 @@ export default function Main({navigation}) {
         <ScrollView>
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
+          <ButtonComponent text="Clima" onPress={irParaClima} />
           <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
           <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
           <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />  
