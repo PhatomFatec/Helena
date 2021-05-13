@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { StyleSheet, View, Text, } from 'react-native';
-import Weather from '../../components/Weather';
-import { API_KEY } from '../../components/Util/WeatherAPIKey';
+import Weather from '../../pages/ClimaAtual/Weather';
+import { API_KEY } from '../components/Util/WeatherAPIKey';
 import GeoLocation from '@react-native-community/geolocation';
 navigator.geolocation = require('@react-native-community/geolocation');
 export default class App extends React.Component {

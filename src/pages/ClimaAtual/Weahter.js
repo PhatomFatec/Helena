@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native'
-import Proptypes from 'prop-types'
-import { weatherConditions } from '../Util/WeatherCondition'
+import { View, Text, StyleSheet } from 'react-native';
+import Proptypes from 'prop-types';
+import { weatherConditions } from '../../components/Util/WeatherCondition';
 
 
 const Weahter = ({ weather, temperature }) => {

@@ -29,7 +29,7 @@ import {navigationRef} from '../RootNavigation';
 import Conversor from '../pages/Conversor';
 import Calculadora from '../pages/Calculadora';
 import ListaTarefas from '../pages/ListaTarefas/index';
-import Weather from '../pages/ListaTarefas/index';
+import Weahter from '../pages/ClimaAtual/Weahter';
 
 const Stack = createStackNavigator();
 
@@ -74,13 +74,13 @@ export default function Routes() {
         />
 
         <Stack.Screen
-          name="Clima"
-          component={Weather}
+          name="Weather"
+          component={Weahter}
           options={{
             headerShown: true,
           }}
         />
-        
+
         <Stack.Screen
           name="ExemploAlarme"
           component={Alarme}

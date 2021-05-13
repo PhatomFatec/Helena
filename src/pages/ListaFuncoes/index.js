@@ -71,7 +71,7 @@ export default function Main({navigation}) {
         <ScrollView>
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
-          <ButtonComponent text="Previsão do Tempo" onPress={irParaClima} />
+          <ButtonComponent text="Clima" onPress={irParaClima} />
           <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
           <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
           <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />  
