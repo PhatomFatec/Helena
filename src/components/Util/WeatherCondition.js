@@ -10,12 +10,12 @@ export const weatherConditions = {
       subtitle: 'It is hurting my eyes',
     },
     Thunderstorm: {
-      color: '#616161',
+      color: '#1F1C2C',
       title: 'A Storm is coming',
       subtitle: 'Because Gods are angry',
     },
     Clouds: {
-      color: '#1F1C2C',
+      color: '#616161',
       title: 'Clouds',
       subtitle: 'Everywhere',
     },
