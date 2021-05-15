@@ -1,7 +1,11 @@
-## Assistente Virtual - Helena 
-
 # 🧩 Sprint 02
 *Situação: ✅ Entregue - 18/04/2021 <br>
+
+---
+
+## 📷 GIFs
+
+![Gif Sprint 2](https://media.giphy.com/media/GxkD2VSpHjzAj7UyAO/giphy.gif)
 
 ---
 

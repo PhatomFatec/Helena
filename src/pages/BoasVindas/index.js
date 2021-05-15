@@ -24,6 +24,9 @@ export default function BoasVindas({navigation}) {
   const botao = () => {
     navigation.navigate('Pergunta');
   };
+  const pular = () => {
+    navigation.navigate('Pergunta');
+  };
 
   return (
     <View style={{...styles.container, marginTop: headerHeight}}>
@@ -35,6 +38,7 @@ export default function BoasVindas({navigation}) {
             style={styles.imagemMulher}
           />
         </View>
+        <Text style={styles.text4} onPress={botao}>Pular Tutorial </Text>
         <Swiper
           index={0}
           autoplay={false}
@@ -42,8 +46,9 @@ export default function BoasVindas({navigation}) {
           style={styles.wrapper}
           showsButtons={false}>
           <View style={styles.slide1}>
-            <Text style={styles.text3}>Muito prazer, me chamo Helena!</Text>
-            <Text style={styles.text3}>Sou sua assistente virtual!</Text>
+            <Text style={styles.text3}>Muito prazer, eu me chamo</Text>
+            <Text style={styles.text5}>Helena!</Text>
+            <Text style={styles.text3}>Sou sua assistente virtual de viagens!</Text>
           </View>
           <View style={styles.slide2}>
             <Text style={styles.helenaName}>
@@ -53,14 +58,14 @@ export default function BoasVindas({navigation}) {
             <Text style={styles.lunchexample}>"Helena, qual a previsão do tempo?"</Text>
           </View>
           <View style={styles.slide3}>
-            <Text style={styles.text2}>"Helena, qual a previsão do tempo?</Text>
+            <Text style={styles.text2}>"Helena, qual a é previsão do tempo?"</Text>
             <Image
             source={ImagemExemploTempo}
             style={styles.ImagemExemploTempo}>
             </Image>
           </View>
           <View style={styles.slide4}>
-            <Text style={styles.text1}>Basta chamar meu nome e falar!</Text>
+            <Text style={styles.text1}>Basta apertar o botão e dizer meu nome! </Text>
             <Image
               source={ImagemMicrophone}
               resizeMode={'contain'}
@@ -76,6 +81,8 @@ export default function BoasVindas({navigation}) {
   );
 }
 
+//Basta chamar meu nome e falar!
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -86,6 +93,8 @@ const styles = StyleSheet.create({
   },
   imagemMulherContainer: {
     alignItems: 'center',
+    marginTop: -52,
+    marginBottom: 22,
   },
   imageMulherSorrindoContainer: {
     flex: 1,
@@ -95,7 +104,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     color: '#000000',
-    marginTop: 32,
+    marginTop: 55,
   },
   text1: {
     flex: 0.7,
@@ -104,7 +113,7 @@ const styles = StyleSheet.create({
     color: '#000000',
     marginLeft: 8,
     marginRight: 8,
-    marginTop: 16,
+    marginTop: 48,
   },
   text2: {
     flex: 0.5,
@@ -120,6 +129,24 @@ const styles = StyleSheet.create({
     marginTop: 64,
     marginLeft: 16,
     marginRight: 16,
+  },
+  text4: {
+    textAlign: 'right',
+    fontSize: 25,
+    color: '#c19de3',
+    marginTop: -50,
+    marginLeft: 16,
+    marginRight: 16,
+  },
+  text5: {
+    textAlign: 'center',
+    fontSize: 35,
+    color: '#511789',
+    marginTop: 30,
+    marginBottom: -43,
+    marginLeft: 16,
+    marginRight: 16,
+    fontWeight: "bold",
   },
   lunchexample: {
     textAlign: 'center',
@@ -137,9 +164,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     color: '#511789',
-    marginTop: 16,
+    marginTop: 55,
     marginRight: 155,
     marginBottom: 16,
+    fontWeight: "bold",
   },
   imagemMulher: {
     height: 200,
@@ -194,10 +222,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   ImagemExemploTempo: {
-    height: 280,
-    width: 280,
+    height: 225,
+    width: 237,
     marginLeft: 16,
-    marginBottom: 65,
+    marginTop: 0,
+    marginBottom: -30,
     justifyContent: 'center',
     alignItems: 'center',
   },

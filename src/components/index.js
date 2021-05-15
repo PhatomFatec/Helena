@@ -19,7 +19,7 @@ export default class App extends React.Component {
       },
       error => {
         console.log(error);
-        this.setState({ error: 'Error While Getting Weather Update' });  
+        this.setState({ error: 'Erro ao obter a atualização do clima' });  
       },{enableHighAccuracy: true, timeout: 50000}
     );
   }
