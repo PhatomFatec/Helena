@@ -30,6 +30,7 @@ import Conversor from '../pages/Conversor';
 import Calculadora from '../pages/Calculadora';
 import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
+import Localizacao from '../pages/Localizacao/index';
 
 const Stack = createStackNavigator();
 
@@ -62,6 +63,11 @@ export default function Routes() {
         <Stack.Screen
           name="ListaFuncoes"
           component={ListaFuncoes}
+          option={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Localizacao"
+          component={Localizacao}
           option={{headerShown: false}}
         />
 

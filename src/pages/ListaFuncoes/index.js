@@ -62,6 +62,12 @@ export default function Main({navigation}) {
   const ListaTarefas = () => {
     navigation.navigate('ListaTarefas');
   };
+  const irParaMapa = () => {
+    navigation.navigate('Mapa');
+  };
+  const irParaLocalizacao = () => {
+    navigation.navigate('Localizacao');
+  };
 
   return (
     <View style={styles.container}>
@@ -72,17 +78,34 @@ export default function Main({navigation}) {
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
           <ButtonComponent text="Previsão do Tempo" onPress={irParaPrevisao} />
           <ButtonComponent text="Clima" onPress={irParaClima} />
-          <ButtonComponent text="Foto Mapa Turístico" onPress={irParaFotoMapa} />
-          <ButtonComponent text="Grade de Horários" onPress={irParaGradeHorarios} />
-          <ButtonComponent text="Número Recepção" onPress={irParaNumeroRecepcao} />  
-          <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas}/> 
+          <ButtonComponent text="Mapa" onPress={irParaMapa} />
+          <ButtonComponent text="Localização" onPress={irParaLocalizacao} />
+          <ButtonComponent
+            text="Foto Mapa Turístico"
+            onPress={irParaFotoMapa}
+          />
+          <ButtonComponent
+            text="Grade de Horários"
+            onPress={irParaGradeHorarios}
+          />
+          <ButtonComponent
+            text="Número Recepção"
+            onPress={irParaNumeroRecepcao}
+          />
+          <ButtonComponent
+            text="Conversão de Moedas"
+            onPress={irParaConversaoMoedas}
+          />
           <ButtonComponent text="Agenda" onPress={ListaTarefas} />
           <ButtonComponent text="Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="Mapa da Cidade" onPress={irParaMapaCidade} />
           <ButtonComponent text="Buscar Rota" onPress={irParaBuscarRotas} />
           <ButtonComponent text="Traduzir" onPress={irParaTraduzir} />
           <ButtonComponent text="Sobre o Hotel" onPress={irParaSobreHotel} />
-          <ButtonComponent text="Atividades do Hotel" onPress={irParaAtividadesHotel}/>
+          <ButtonComponent
+            text="Atividades do Hotel"
+            onPress={irParaAtividadesHotel}
+          />
           <ButtonComponent text="Tour do Hotel" onPress={irParaTourHotel} />
           <ButtonComponent text="Tour do Quarto" onPress={irParaTourQuarto} />
         </ScrollView>
