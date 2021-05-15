@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TextInput, TouchableOpacity, Keyboard } from 'r
 
 import api from '../../services/api';
 
-// > convert?q=USD_BRL&compact=ultra&apiKey=7c5ef455b88d735bc6ad
+
 class Conversor extends Component{
 
   constructor(props){
@@ -20,7 +20,7 @@ class Conversor extends Component{
 
   async converter(){
     let de_para = this.state.moedaA + '_' + this.state.moedaB;
-    const response = await api.get(`convert?q=${de_para}&compact=ultra&apiKey=7c5ef455b88d735bc6ad`);
+    const response = await api.get(`convert?q=${de_para}&compact=ultra&apiKey=CHAVEAQUI`);
     let cotacao = response.data[de_para];
     
     let resultado = (cotacao * parseFloat(this.state.moedaB_valor));
