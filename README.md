@@ -1,12 +1,12 @@
 # Assistente Virtual - Helena 
 <p align="center">
-<img src="https://i.imgur.com/iIjaJXx.png" width="450px" >
+<img src="https://user-images.githubusercontent.com/80851038/118410251-e2069880-b664-11eb-9eb6-b9bdfc8526eb.png" width="920px" height="320px">
 </p>
+<br>
 
-Desenvolvida para ser uma assistente virtual de viagens. Helena responde a comandos de voz e possui como principal objetivo garantir ao usuário uma experiência otimizada e agradável quando estiver viajando. E proporciona, de forma única, diversas funcionalidades que podem ser de grande ajuda em certos momentos.
+Desenvolvida para ser uma assistente virtual de viagens. **Helena** responde a comandos de voz e possui como principal objetivo garantir ao usuário uma experiência otimizada e agradável quando estiver viajando. E proporciona, de forma única, diversas funcionalidades que podem ser de grande ajuda em certos momentos.
 <br>
 **De cidades históricas aos grandes centros urbanos o app foi criado por nós, para você amante de viagens.**
-
 
 ---
 
