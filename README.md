@@ -1,6 +1,6 @@
 # Assistente Virtual - Helena 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/80851038/118410251-e2069880-b664-11eb-9eb6-b9bdfc8526eb.png" width="920px" height="320px">
+<img src="https://user-images.githubusercontent.com/80851038/118410251-e2069880-b664-11eb-9eb6-b9bdfc8526eb.png" width="920px" height="330px">
 </p>
 <br>
 
