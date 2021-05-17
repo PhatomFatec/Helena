@@ -39,7 +39,35 @@ export const HelenaActions = [
       'Helena pontos turísticos',
     ],
     handler: () => {
-      navigate('Mapa');
+      navigate('Pontos Turisticos');
+    },
+  },
+
+  {
+    name: 'show-Map-SJC',
+    words: [
+      'Helena abrir pontos turísticos São José dos Campos',
+      'Helena pontos turísticos São José dos Campos',
+      'Helena pontos turísticos de São José dos Campos',
+      'Helena mostrar pontos turísticos de São José dos Campos',
+      'Helena mostrar os pontos turísticos São José dos Campos',
+    ],
+    handler: () => {
+      navigate('MapaSJC');
+    },
+  },
+
+  {
+    name: 'show-Map-Jacareí',
+    words: [
+      'Helena abrir pontos turísticos Jacareí',
+      'Helena pontos turísticos Jacareí',
+      'Helena pontos turísticos de Jacareí',
+      'Helena mostrar pontos turísticos de Jacareí',
+      'Helena mostrar os pontos turísticos Jacareí',
+    ],
+    handler: () => {
+      navigate('MapaJacarei');
     },
   },
 

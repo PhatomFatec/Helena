@@ -23,7 +23,8 @@ import SobreHotel from '../pages/TelasFuncoes/sobreHotel';
 import TourHotel from '../pages/TelasFuncoes/tourHotel';
 import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
 import Traduzir from '../pages/TelasFuncoes/traduzir';
-import Mapa from '../pages/Mapa';
+import MapaSJC from '../pages/Mapa/sjc';
+import MapaJacarei from '../pages/Mapa/jacarei';
 import construcao from '../pages/TelasFuncoes/construcao';
 import {navigationRef} from '../RootNavigation';
 import Conversor from '../pages/Conversor';
@@ -31,6 +32,7 @@ import Calculadora from '../pages/Calculadora';
 import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
+import PontosTuristicos from '../pages/PontosTuristicos';
 
 const Stack = createStackNavigator();
 
@@ -50,6 +52,11 @@ export default function Routes() {
           name="Home"
           component={Main}
           options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Pontos Turisticos"
+          component={PontosTuristicos}
+          options={{headerShown: true}}
         />
         <Stack.Screen name="Pergunta" component={Pergunta} />
         <Stack.Screen
@@ -186,8 +193,15 @@ export default function Routes() {
           }}
         />
         <Stack.Screen
-          name="Mapa"
-          component={Mapa}
+          name="MapaSJC"
+          component={MapaSJC}
+          options={{
+            headerShown: true,
+          }}
+        />
+        <Stack.Screen
+          name="MapaJacarei"
+          component={MapaJacarei}
           options={{
             headerShown: true,
           }}
@@ -202,7 +216,7 @@ export default function Routes() {
         <Stack.Screen
           name="Calculadora"
           component={Calculadora}
-          options={{headerShown: false}}
+          options={{headerShown: true}}
         />
       <Stack.Screen
        name="BoasVindas" 

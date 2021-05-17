@@ -41,11 +41,10 @@ export default class App extends Component {
       <View style={styles.container}>
 
         <MapView
-          minZoomLevel={16}
+          minZoomLevel={10}
           style={styles.mapa}
           region={region}
           showsUserLocation
-          loadingEnabled
         />
 
       </View>

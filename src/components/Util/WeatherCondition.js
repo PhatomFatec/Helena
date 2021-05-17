@@ -1,22 +1,22 @@
 export const weatherConditions = {
     Rain: {
       color: '#005BEA',
-      title: 'Chovendo',
+      title: 'Chovendo 🌧️',
       subtitle: 'Um frescor revigorante!',
     },
     Clear: {
       color: '#1E90FF',
-      title: 'Céu Limpo',
+      title: 'Céu Limpo ☀️',
       subtitle: 'Que tal viajar? É uma ótima ideia',
     },
     Thunderstorm: {
       color: '#616161',
-      title: 'Tempestade',
+      title: 'Tempestade ⛈️',
       subtitle: 'Não se esqueça de fechar as janelas',
     },
     Clouds: {
       color: '#1F1C2C',
-      title: 'Nuvens',
+      title: 'Nuvens ☁️',
       subtitle: 'O clima está ótimo para um chá',
     },
   
@@ -27,7 +27,7 @@ export const weatherConditions = {
     },
     Drizzle: {
       color: '#076585',
-      title: 'Chuviscando',
+      title: 'Chuviscando 🌦️',
       subtitle: 'Um café cairia bem!',
     },
     Haze: {

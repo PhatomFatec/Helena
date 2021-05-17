@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 20,
     marginTop: 20,
-    backgroundColor: "#FFF"
+    backgroundColor: "#4c1482"
   },
   Body: {
     flex: 1
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     paddingTop: 13,
     borderTopWidth: 1,
-    borderColor: "#eee"
+    borderColor: "#eee",
   },
   Input: {
     flex: 1,
@@ -154,7 +154,8 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
     paddingHorizontal: 10,
     borderWidth: 1,
-    borderColor: "#eee"
+    borderColor: "#eee",
+    backgroundColor: "#FFFFFF"
   },
   Button: {
     height: 40,
@@ -181,7 +182,7 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 4,
     backgroundColor: "#eee",
-
+    backgroundColor: "#FFFFFF",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",

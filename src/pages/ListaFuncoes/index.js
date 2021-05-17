@@ -65,6 +65,9 @@ export default function Main({navigation}) {
   };
   const irParaPrevisao = () => {
     navigation.navigate('Previsao');
+  };  
+  const irParaPontosTuristicos = () => {
+    navigation.navigate('Pontos Turisticos');
   };          
 
   return (
@@ -73,9 +76,8 @@ export default function Main({navigation}) {
 
       <View style={styles.content}>
         <ScrollView>
-        
+          <ButtonComponent text="Pontos Turísticos" onPress={irParaPontosTuristicos} />
           <ButtonComponent text="Clima Atual" onPress={irParaClima} />
-          <ButtonComponent text="Pontos Turísticos" onPress={irParaMapa} />
           <ButtonComponent text="Onde Estou?" onPress={irParaLocalizacao} />
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
           <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas} />
