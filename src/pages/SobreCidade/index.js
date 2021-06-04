@@ -3,6 +3,7 @@ import {StyleSheet, Text, SafeAreaView, ScrollView, Image, View} from 'react-nat
 import ButtonComponent from '../../components/Button';
 import FotoSJC from '../../../assets/SJoséCampos.jpg';
 import IconCidade from '../../../assets/iconhotelwhite.png';
+import FotoJacarei from '../../../assets/Patio_Trilhos1.jpg';
 
 export default function SobreCidade({navigation}){
 
@@ -12,28 +13,41 @@ export default function SobreCidade({navigation}){
 
   return (
     <SafeAreaView style={styles.container}>
-        <Image
-            source={IconCidade}
-            style={styles.IconCidade}
-          />
+        
         <View style={styles.titulo}>
-            <Text style={styles.title}>Conheça a História das Cidades Disponíveis!</Text>
-        </View>
-        <SafeAreaView style={styles.slide2}>
-        <SafeAreaView style={styles.slide}>
-        <View style={styles.botao}>
-            <Image
-            source={FotoSJC}
-            style={styles.FotoSJC}
-          />
-        </View>
-        <View style={styles.botao}>
-            <ButtonComponent text="São José dos Campos" style={styles.botao1} onPress={histSJCampos}/>
+            <Text style={styles.title}>Saiba Mais sobre as Cidades Disponíveis!</Text>
         </View>
 
+        <ScrollView>
+
+        <SafeAreaView style={styles.slide2}>
+        
+            <SafeAreaView style={styles.slide}>
+                <View style={styles.botao}>
+                <Image
+                    source={FotoSJC}
+                    style={styles.FotoSJC}
+                />
+                </View>
+                <View style={styles.botao}>
+                    <ButtonComponent text="São José dos Campos" style={styles.botao1} onPress={histSJCampos}/>
+                </View>
+
+            </SafeAreaView>
+        <SafeAreaView style={styles.slide}>
+            <View style={styles.botao}>
+                <Image
+                    source={FotoJacarei}
+                    style={styles.FotoJacarei}
+                />
+            </View>
+            <View style={styles.botao}>
+                <ButtonComponent text="Jacareí" style={styles.botao1} onPress={histSJCampos}/>
+            </View>
         </SafeAreaView>
         </SafeAreaView>
-      </SafeAreaView>
+        </ScrollView>
+    </SafeAreaView>
  );
 }
 
@@ -57,7 +71,7 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     marginBottom: -100,
-    marginTop: 50,
+    marginTop: 10,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -65,30 +79,39 @@ const styles = StyleSheet.create({
     height: 233,
     width: 380,
     marginBottom: 15,
-    marginTop: -110,
+    marginTop: -100,
     justifyContent: 'center',
     alignItems: 'center',
+    borderRadius: 10,
+  },
+  FotoJacarei: {
+    height: 233,
+    width: 380,
+    marginBottom: 15,
+    marginTop: -100,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
   },
   slide: {
     flexDirection: 'column',
     justifyContent: 'center',
-    marginLeft: 30,
+    marginLeft: 15,
     alignItems: 'flex-end',
-    marginTop: -85,
+    marginTop: 100,
+    marginBottom: 5,
     width: 380,
-    height: 210,
+    height: 220,
     backgroundColor: '#9867C5',
     borderRadius: 20,
   },
   slide2: {
     flexDirection: 'column',
-    justifyContent: 'center',
-    /* alignItems: 'flex-end', */
-    marginTop: 30,
-    width: 440,
-    height: 550,
+    flex: 1,
+    marginTop: 5,
+    width: 410,
+    height: 750,
     backgroundColor: '#FFFF',
-    borderRadius: 20,
   },
   text: {
     textAlign: 'center',
@@ -102,7 +125,8 @@ const styles = StyleSheet.create({
     fontSize: 27,
     fontWeight: 'bold',
     color: 'white',
-    marginTop: 110,
+    marginTop: 55,
+    marginBottom: 25,
     marginLeft: 16,
     marginRight: 16,
   },

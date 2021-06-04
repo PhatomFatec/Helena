@@ -24,9 +24,6 @@ export default function BoasVindas({navigation}) {
   const botao = () => {
     navigation.navigate('Pergunta');
   };
-  const pular = () => {
-    navigation.navigate('Pergunta');
-  };
 
   return (
     <View style={{...styles.container, marginTop: headerHeight}}>
