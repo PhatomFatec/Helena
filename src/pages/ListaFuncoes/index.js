@@ -16,7 +16,7 @@ export default function Main({navigation}) {
     navigation.navigate('Weather');
   };
   const irParaFotoMapa = () => {
-    navigation.navigate('FotoMapa');
+    navigation.navigate('SobreCidade');
   };
   const irParaNumeroRecepcao = () => {
     navigation.navigate('NumeroRecepcao');

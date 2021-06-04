@@ -34,6 +34,9 @@ import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
 
+import SobreCidade from '../pages/SobreCidade';
+import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
+
 const Stack = createStackNavigator();
 
 export default function Routes() {
@@ -218,14 +221,25 @@ export default function Routes() {
           component={Calculadora}
           options={{headerShown: true}}
         />
-      <Stack.Screen
-       name="BoasVindas" 
-       component={BoasVindas} 
-       />
-      <Stack.Screen
-       name="ListaTarefas" 
-       component={ListaTarefas} 
-       />
+        <Stack.Screen
+          name="BoasVindas" 
+          component={BoasVindas} 
+        />
+        <Stack.Screen
+          name="ListaTarefas" 
+          component={ListaTarefas} 
+        />
+        <Stack.Screen
+          name="SobreCidade" 
+          component={SobreCidade}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="sobreSJCampos" 
+          component={SobreSJCampos} 
+          options={{headerShown: true}}
+        />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
