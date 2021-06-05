@@ -8,7 +8,6 @@ import BoasVindas from '../pages/BoasVindas';
 import Teste from '../pages/Teste';
 import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
-
 import Agenda from '../pages/TelasFuncoes/agenda';
 import Alarme from '../pages/TelasFuncoes/alarme';
 import AtividadesHotel from '../pages/TelasFuncoes/atividadesHotel';
@@ -33,6 +32,7 @@ import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
+import ConversorMedidas from '../pages/ConversorMedidas';
 
 const Stack = createStackNavigator();
 
@@ -226,6 +226,13 @@ export default function Routes() {
        name="ListaTarefas" 
        component={ListaTarefas} 
        />
+       <Stack.Screen
+          name="ConversorMedidas"
+          component={ConversorMedidas}
+          options={{
+            headerShown: true,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
