@@ -8,7 +8,6 @@ import BoasVindas from '../pages/BoasVindas';
 import Teste from '../pages/Teste';
 import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
-
 import Agenda from '../pages/TelasFuncoes/agenda';
 import Alarme from '../pages/TelasFuncoes/alarme';
 import AtividadesHotel from '../pages/TelasFuncoes/atividadesHotel';
@@ -33,6 +32,7 @@ import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
+import ConversorMedidas from '../pages/ConversorMedidas';
 
 import SobreCidade from '../pages/SobreCidade';
 import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
@@ -221,6 +221,7 @@ export default function Routes() {
           component={Calculadora}
           options={{headerShown: true}}
         />
+<<<<<<< HEAD
         <Stack.Screen
           name="BoasVindas" 
           component={BoasVindas} 
@@ -240,6 +241,23 @@ export default function Routes() {
           options={{headerShown: true}}
         />
 
+=======
+      <Stack.Screen
+       name="BoasVindas" 
+       component={BoasVindas} 
+       />
+      <Stack.Screen
+       name="ListaTarefas" 
+       component={ListaTarefas} 
+       />
+       <Stack.Screen
+          name="ConversorMedidas"
+          component={ConversorMedidas}
+          options={{
+            headerShown: true,
+          }}
+        />
+>>>>>>> 0505c7393fb0521579d023d39fb39626b41fce8f
       </Stack.Navigator>
     </NavigationContainer>
   );
