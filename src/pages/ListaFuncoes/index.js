@@ -68,7 +68,10 @@ export default function Main({navigation}) {
   };  
   const irParaPontosTuristicos = () => {
     navigation.navigate('Pontos Turisticos');
-  };          
+  };  
+  const irParaTeste = () => {
+    navigation.navigate('Teste');
+  };           
 
   return (
     <View style={styles.container}>
@@ -76,6 +79,7 @@ export default function Main({navigation}) {
 
       <View style={styles.content}>
         <ScrollView>
+        <ButtonComponent text="Teste" onPress={irParaTeste} />
           <ButtonComponent text="Pontos Turísticos" onPress={irParaPontosTuristicos} />
           <ButtonComponent text="Clima Atual" onPress={irParaClima} />
           <ButtonComponent text="Onde Estou?" onPress={irParaLocalizacao} />
@@ -95,21 +99,17 @@ export default function Main({navigation}) {
             text="🚧 Número Recepção"
             onPress={irParaNumeroRecepcao}
           />
-          
           <ButtonComponent text="🚧 Previsão do Tempo" onPress={irParaPrevisao} />
           <ButtonComponent text="🚧 Alarme" onPress={irParaAlarme} />
           <ButtonComponent text="🚧 Buscar Rota" onPress={irParaBuscarRotas} />
           <ButtonComponent text="🚧 Traduzir" onPress={irParaTraduzir} />
-          <ButtonComponent text="🚧 Sobre o Hotel" onPress={irParaSobreHotel} />
-          
+          <ButtonComponent text="🚧 Sobre o Hotel" onPress={irParaSobreHotel} />      
           <ButtonComponent
             text="🚧 Atividades do Hotel"
             onPress={irParaAtividadesHotel}
           />
-
           <ButtonComponent text="🚧 Tour do Hotel" onPress={irParaTourHotel} />
           <ButtonComponent text="🚧 Tour do Quarto" onPress={irParaTourQuarto} />
-
         </ScrollView>
       </View>
     </View>

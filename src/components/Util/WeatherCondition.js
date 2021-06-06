@@ -19,7 +19,6 @@ export const weatherConditions = {
       title: 'Nuvens ☁️',
       subtitle: 'O clima está ótimo para um chá',
     },
-  
     Snow: {
       color: '#00d2ff',
       title: 'Nevando',

@@ -5,7 +5,6 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
-import Teste from '../pages/Teste';
 import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
 import Agenda from '../pages/TelasFuncoes/agenda';
@@ -32,7 +31,12 @@ import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
+<<<<<<< HEAD
+import Teste from '../pages/Teste';
+import Tradutor from '../pages/Tradutor';
+=======
 import ConversorMedidas from '../pages/ConversorMedidas';
+>>>>>>> d975bb9577d9b84bd4f56dfbcf9b6e741057fab9
 
 import SobreCidade from '../pages/SobreCidade';
 import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
@@ -61,15 +65,17 @@ export default function Routes() {
           component={PontosTuristicos}
           options={{headerShown: true}}
         />
-        <Stack.Screen name="Pergunta" component={Pergunta} />
         <Stack.Screen
           name="Teste"
           component={Teste}
-          options={{
-            headerShown: false,
-            cardStyle: {backgroundColor: '#E9967A'},
-          }}
+          options={{headerShown: true}}
         />
+        <Stack.Screen
+          name="Tradutor"
+          component={Tradutor}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen name="Pergunta" component={Pergunta} />
         <Stack.Screen
           name="ListaFuncoes"
           component={ListaFuncoes}

@@ -1,26 +1,18 @@
 import React from 'react';
-import {StyleSheet, Text, Image, SafeAreaView, ScrollView, View} from 'react-native';
+import {StyleSheet, Text, Image, SafeAreaView, ScrollView, View, Linking} from 'react-native';
 import ButtonComponent from '../../components/Button';
 
-export default function PontosTuristicos({navigation}){
+export default function Tradutor({navigation}){
 
-  const irParaSJC = () => {
-    navigation.navigate('MapaSJC');
-  };
-
-  const irParaJacarei = () => {
-    navigation.navigate('MapaJacarei');
-  };
   
   return (
     <SafeAreaView style={styles.container}>
       <SafeAreaView style={styles.slide}>
         <View style={styles.titulo}>
-        <Text style={styles.title}>Escolha uma cidade!</Text>
+        <Text style={styles.title}>Google Tradutor!</Text>
         </View>
         <View style={styles.botao}>
-        <ButtonComponent text="São José dos Campos" style={styles.botao1} onPress={irParaSJC}/>
-        <ButtonComponent text="Jacareí" style={styles.botao} onPress={irParaJacarei}/>
+        <ButtonComponent text="Abrir" style={styles.botao} onPress={() => {Linking.openURL('https://translate.google.com.br/?hl=pt-BR'); }}/>
         </View>
       </SafeAreaView>
     </SafeAreaView>
