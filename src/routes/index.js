@@ -7,7 +7,10 @@ import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
 import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
-import Agenda from '../pages/TelasFuncoes/agenda';
+
+import exePontosTuristicos from '../pages/TelasFuncoes/exePontosTuristicos';
+import exeRoteiro from '../pages/TelasFuncoes/exeRoteiro';
+
 import Alarme from '../pages/TelasFuncoes/alarme';
 import AtividadesHotel from '../pages/TelasFuncoes/atividadesHotel';
 import BuscarRotas from '../pages/TelasFuncoes/buscarRota';
@@ -21,6 +24,7 @@ import SobreHotel from '../pages/TelasFuncoes/sobreHotel';
 import TourHotel from '../pages/TelasFuncoes/tourHotel';
 import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
 import Traduzir from '../pages/TelasFuncoes/traduzir';
+
 import MapaSJC from '../pages/Mapa/sjc';
 import MapaJacarei from '../pages/Mapa/jacarei';
 import construcao from '../pages/TelasFuncoes/construcao';
@@ -85,8 +89,16 @@ export default function Routes() {
         />
 
         <Stack.Screen
-          name="Agenda"
-          component={Agenda}
+          name="exeRoteiro"
+          component={exeRoteiro}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exePontosTuristicos"
+          component={exePontosTuristicos}
           options={{
             headerShown: true,
           }}
