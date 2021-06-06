@@ -31,12 +31,13 @@ import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
-<<<<<<< HEAD
 import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
-=======
 import ConversorMedidas from '../pages/ConversorMedidas';
->>>>>>> d975bb9577d9b84bd4f56dfbcf9b6e741057fab9
+import Hotel from '../pages/Hotel';
+import JacareiPreco from '../pages/HotelPreco/jacareipreco';
+import SjcPreco from '../pages/HotelPreco/sjcpreco';
+import ibisSjc from '../pages/HotelPreco/ibissjc';
 
 const Stack = createStackNavigator();
 
@@ -58,6 +59,26 @@ export default function Routes() {
           options={{headerShown: false}}
         />
         <Stack.Screen
+          name="JacareiPreco"
+          component={JacareiPreco}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="SjcPreco"
+          component={SjcPreco}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="ibisSjc"
+          component={ibisSjc}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="Hotel"
+          component={Hotel}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
           name="Pontos Turisticos"
           component={PontosTuristicos}
           options={{headerShown: true}}
@@ -76,12 +97,12 @@ export default function Routes() {
         <Stack.Screen
           name="ListaFuncoes"
           component={ListaFuncoes}
-          option={{headerShown: false}}
+          option={{headerShown: true}}
         />
         <Stack.Screen
           name="Localizacao"
           component={Localizacao}
-          option={{headerShown: false}}
+          option={{headerShown: true}}
         />
 
         <Stack.Screen

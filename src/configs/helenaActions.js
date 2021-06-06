@@ -168,6 +168,52 @@ export const HelenaActions = [
     },
   },
 
+  {
+    name: 'show-hotel-price',
+    words: [
+      'Helena abrir preço dos hotéis',
+      'Helena abrir lista de hotel',
+    ],
+    handler: () => {
+      navigate('Hotel');
+    },
+  },
+
+  {
+    name: 'show-hotel-price-sjc',
+    words: [
+      'Helena abrir preço dos hotéis em são josé dos campos',
+      'Helena abrir lista de hotel em são josé dos campos',
+      'Helena abre preço dos hotéis em são josé dos campos',
+    ],
+    handler: () => {
+      navigate('SjcPreco');
+    },
+  },
+
+  {
+    name: 'show-hotel-price-jacarei',
+    words: [
+      'Helena abrir preço dos hotéis em jacareí',
+      'Helena abrir lista de hotel em jacareí',
+      'Helena abre preço dos hotéis em jacareí',
+    ],
+    handler: () => {
+      navigate('JacareiPreco');
+    },
+  },
+
+  {
+    name: 'show-hotel-info-ibisSjc',
+    words: [
+      'Helena abrir informações do hotel ibis',
+      'Helena hotel ibis',
+    ],
+    handler: () => {
+      navigate('ibisSjc');
+    },
+  },
+
  // Em Construção _______________________________________________________________
  
  
