@@ -5,7 +5,6 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
-import Teste from '../pages/Teste';
 import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
 
@@ -33,6 +32,8 @@ import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
+import Teste from '../pages/Teste';
+import Tradutor from '../pages/Tradutor';
 
 const Stack = createStackNavigator();
 
@@ -58,15 +59,17 @@ export default function Routes() {
           component={PontosTuristicos}
           options={{headerShown: true}}
         />
-        <Stack.Screen name="Pergunta" component={Pergunta} />
         <Stack.Screen
           name="Teste"
           component={Teste}
-          options={{
-            headerShown: false,
-            cardStyle: {backgroundColor: '#E9967A'},
-          }}
+          options={{headerShown: true}}
         />
+        <Stack.Screen
+          name="Tradutor"
+          component={Tradutor}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen name="Pergunta" component={Pergunta} />
         <Stack.Screen
           name="ListaFuncoes"
           component={ListaFuncoes}

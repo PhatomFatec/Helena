@@ -18,17 +18,13 @@ export default class App extends Component {
         longitudeDelta:0.0421       
       },
       markers:[
-        {key: 1,  coords:{latitude:-23.1878222,longitude:-45.8886825}, pinColor:'red', titulo: 'Banhado' },
-        {key: 2,  coords:{latitude:-23.206598,longitude:-45.9528229}, pinColor:'red', titulo: 'Parque Técnológico - Univap' },
-        {key: 3, coords:{latitude:-23.1715639,longitude:-45.8899985}, pinColor:'red', titulo: 'Parque Roberto Burle' },
-		    {key: 4, coords:{latitude:-23.1808672,longitude:-45.886671}, pinColor:'red', titulo: 'Mercado Municipal' },
-		    {key: 5, coords:{latitude:-23.1973739,longitude:-45.8974538}, pinColor:'red', titulo: 'Parque Vicentina Aranha' },
-		    {key: 6, coords:{latitude:-23.1999426,longitude:-45.8921348}, pinColor:'red', titulo: 'Parque Santos Dumont' },
-		    {key: 7, coords:{latitude:-23.217603,longitude:-45.906459}, pinColor:'red', titulo: 'Parque Ulisses Guimarães' },
-		    {key: 8, coords:{latitude:-23.1982065,longitude:-45.8883887}, pinColor:'red', titulo: 'Catedral São Dimas' },
-		    {key: 9, coords:{latitude:-23.1843083,longitude:-45.8876614}, pinColor:'red', titulo: 'Praça Afonso Pena' },
-		    {key: 10, coords:{latitude:-23.1635173,longitude:-45.9115702}, pinColor:'red', titulo: 'Parque Alberto Simões'},
-        {key: 11, coords:{latitude:-23.184143,longitude:-45.886032}, pinColor:'red', titulo: 'Shopping Centro' },
+        {key: 1,  coords:{latitude:-23.3022241,longitude:-45.9741617},pinColor:'red', titulo: 'Parque dos Eucaliptos' },
+        {key: 2,  coords:{latitude:-23.3005473,longitude:-45.9658306},pinColor:'red', titulo: 'Parque da Cidade' },
+        {key: 3, coords:{latitude:-23.3167467,longitude:-45.964027},  pinColor:'red', titulo: 'Parque Santo Antonio' },
+		    {key: 4, coords:{latitude:-23.3093813,longitude:-45.9715177}, pinColor:'red', titulo: 'Praça Jardim Liberdade' },
+		    {key: 5, coords:{latitude:-23.2963263,longitude:-45.9773673}, pinColor:'red', titulo: 'Jacareí Shopping Center' },
+		    {key: 6, coords:{latitude:-23.2858802,longitude:-45.9516793}, pinColor:'red', titulo: 'Havan Jacareí' },
+		    {key: 7, coords:{latitude:-23.3035747,longitude:-45.9671899}, pinColor:'red', titulo: 'Promo Vale' },
       ]
     };
 
@@ -45,6 +41,7 @@ export default class App extends Component {
           style={styles.mapa}
           region={region}
           loadingEnabled
+          showsUserLocation={true}
           >
 
            {
@@ -53,7 +50,6 @@ export default class App extends Component {
                 <Marker key={marker.key} coordinate={marker.coords} title={marker.titulo} icon={marker.img} >
                   
                 </Marker>
-
              );
            })
            }       

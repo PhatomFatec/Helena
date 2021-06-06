@@ -1,11 +1,11 @@
 import React, {usaState} from 'react';
 import {navigate} from '../RootNavigation';
 
-
 export const HelenaActions = [
   {
     name: 'show-weather',
     words: [
+      'Helena clima',
       'Helena abrir função previsão do tempo',
       'Helena abrir a função previsão do tempo',
       'Helena função previsão do tempo',
@@ -14,7 +14,6 @@ export const HelenaActions = [
       'Helena abrir clima atual',
       'Helena mostrar clima atual',
       'Helena clima atual',
-      'Helena clima',
       'Helena qual o clima',
       'Helena abrir clima',
       'Helena abrir o clima',
@@ -29,14 +28,14 @@ export const HelenaActions = [
   {
     name: 'show-Map-Turism',
     words: [
+      'Helena pontos turísticos',
+      'Helena pontos turisticos',
       'Helena abrir função pontos turísticos',
       'Helena função pontos turísticos',
-      'Helena pontos turísticos',
       'Helena abrir pontos turísticos',
       'Helena abrir os pontos turísticos',
       'Helena mostrar pontos turísticos',
       'Helena mostrar os pontos turísticos',
-      'Helena pontos turísticos',
     ],
     handler: () => {
       navigate('Pontos Turisticos');
@@ -74,12 +73,12 @@ export const HelenaActions = [
   {
     name: 'open-maps',
     words: [
+      'Helena onde estou',
       'Helena abrir função mapa',
       'Helena abrir a função mapa',
       'Helena função mapa',
       'Helena acessar função mapa',
       'Helena onde eu estou',
-      'Helena onde estou',
       'Helena mostrar localização',
       'Helena mostrar local',
       'Helena abrir localização',
@@ -95,46 +94,54 @@ export const HelenaActions = [
   {
     name: 'function-calculator',
     words: [
+      'Helena calculadora',
       'Helena função calculadora',
       'Helena abrir calculadora',
       'Helena abrir a calculadora',
       'Helena mostrar calculadora',
       'Helena mostrar a calculadora',
-      'Helena calculadora',
-      
     ],
     handler: () => {
       navigate('Calculadora');
     },
   },
-
+  {
+    name: 'show-schedule',
+    words: [
+      'Helena lista de tarefas',
+      'Helena abrir função lista de tarefas',
+      'Helena abrir a função lista de tarefas',
+      'Helena mostar função lista de tarefas',
+      'Helena mostar a função lista de tarefas',
+    ],
+    handler: () => {
+      navigate('ListaTarefas');
+    },
+  },
   {
     name: 'open-money-converter',
     words: [
+      'Helena conversor de moedas',
       'Helena abrir função conversão de moedas',
       'Helena abrir a função conversão de moeda',
       'Helena mostar função conversão de moedas',
       'Helena mostar a função conversão de moedas',
       'Helena função moedas',
       'Helena moedas',
-      'Helena conversor de moedas',
     ],
     handler: () => {
       navigate('Conversor');
     },
   },
-
   {
-    name: 'show-schedule',
+    name: 'open-google-translate',
     words: [
-      'Helena abrir função lista de tarefas',
-      'Helena abrir a função lista de tarefas',
-      'Helena mostar função lista de tarefas',
-      'Helena mostar a função lista de tarefas',
-      'Helena lista de tarefas',
+      'Helena abrir google tradutor',
+      'Helena abrir tradutor',
+      'Helena tradutor'
     ],
     handler: () => {
-      navigate('ListaTarefas');
+      navigate('Tradutor');
     },
   },
 

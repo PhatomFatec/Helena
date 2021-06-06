@@ -20,10 +20,10 @@ export default class App extends Component {
       async ({ coords:{latitude, longitude} })=>{
         this.setState({
           region:{
-            latitude:-23.143515,
-            longitude:-45.78241833333333,
-            latitudeDelta:0.0922,
-            longitudeDelta:0.0421
+            latitude:-23.1994,
+            longitude:-45.9077,
+            latitudeDelta:0.1522,
+            longitudeDelta:0.08
           }
         });
       },
