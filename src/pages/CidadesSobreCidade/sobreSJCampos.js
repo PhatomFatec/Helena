@@ -204,7 +204,7 @@ return (
           </SafeAreaView></Swiper></ScrollView>
             
           <ScrollView>
-          <Swiper style={styles.wrapper4}> 
+          <Swiper style={styles.wrapper5}> 
           <SafeAreaView style={styles.slide4}>
             <Text style={styles.text5}>Fase Sanatorial</Text>
             
@@ -380,6 +380,11 @@ const styles = StyleSheet.create({
     wrapper4: {
       height: 1320,
     },
+
+    wrapper5: {
+      height: 840,
+    },
+
 
     slide1: {
       flex: 1,
