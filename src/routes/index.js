@@ -31,12 +31,9 @@ import ListaTarefas from '../pages/ListaTarefas/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
-<<<<<<< HEAD
 import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
-=======
 import ConversorMedidas from '../pages/ConversorMedidas';
->>>>>>> d975bb9577d9b84bd4f56dfbcf9b6e741057fab9
 
 import SobreCidade from '../pages/SobreCidade';
 import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';

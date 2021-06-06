@@ -3,6 +3,24 @@ import React from 'react';
 import {StyleSheet, Text, SafeAreaView, ScrollView, Image, View} from 'react-native';
 import {useHeaderHeight} from '@react-navigation/stack';
 import Swiper from 'react-native-swiper';
+import igrejaMatrizSJC from '../../../assets/igrejaMatrizSJC.jpg';
+import tecelagemParahyba from '../../../assets/tecelagemParahyba.png';
+import vicentinoAranha from '../../../assets/vicentinoAranha.jpg';
+import sjcFoto1 from '../../../assets/sjcFoto1.jpg';
+import sjcFoto2 from '../../../assets/sjcFoto2.jpg';
+import sjcFoto3 from '../../../assets/sjcFoto3.jpg';
+import sjcFoto4 from '../../../assets/sjcFoto4.jpg';
+import sjcFoto5 from '../../../assets/sjcFoto5.jpg';
+import sjcFoto6 from '../../../assets/sjcFoto6.jpg';
+import sjcFoto7 from '../../../assets/sjcFoto7.jpg';
+import sjcFoto8 from '../../../assets/sjcFoto8.jpg';
+import sjcFoto9 from '../../../assets/sjcFoto9.jpg';
+import sjcFoto10 from '../../../assets/sjcFoto10.jpg';
+import sjcFoto11 from '../../../assets/sjcFoto11.jpg';
+import sjcFoto12 from '../../../assets/sjcFoto12.jpg';
+import sjcFoto13 from '../../../assets/sjcFoto13.jpg';
+import sjcFoto14 from '../../../assets/sjcFoto14.jpg';
+import sjcFoto15 from '../../../assets/sjcFoto15.jpg';
 
 export default function SobreCidade({navigation}){
 
@@ -15,7 +33,7 @@ return (
         <View style={styles.slideroxo}>
             <Text style={styles.title}>São José dos Campos</Text>
         </View>
-        <ScrollView>
+        
         <Swiper
           index={0}
           autoplay={false}
@@ -23,30 +41,183 @@ return (
           style={styles.wrapper}
           showsButtons={false}>
 
+          <ScrollView >
+          <Swiper style={styles.wrapper1}>
           <SafeAreaView style={styles.slide1}> 
             <Text style={styles.text5}>Imagens</Text>
-            <Text style={styles.text3}>a</Text>
-          </SafeAreaView>
+            <Text style={styles.text7}>Coletânea de imagens da cidade</Text>
+            <SafeAreaView style={styles.slideblack}> 
+            <Image
+              source={sjcFoto1}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto2}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto3}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto4}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto5}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto6}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto7}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto8}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto9}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto10}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto11}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto12}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto13}
+              style={styles.sjcFoto}
+            />
+            <Image
+              source={sjcFoto14}
+              style={styles.sjcFoto}
+            />
+            
+          </SafeAreaView></SafeAreaView></Swiper></ScrollView>
+          
+          <ScrollView >
+          <Swiper style={styles.wrapper4}>
+          <SafeAreaView style={styles.slide1_5}> 
+            <Text style={styles.text5}>Dados Curiosos</Text>
+            
+            <Image
+              source={sjcFoto15}
+              style={styles.sjcFoto15}
+            />
 
+            <Text style={styles.text3}>
+              <Text style={{fontWeight: "bold"}}>Natural: </Text>
+               Joseense </Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Clima: </Text>
+              Mesotérmico úmido com estação seca no inverno</Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Marco zero: </Text>
+              Igreja Matriz </Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Região estadual: </Text>
+              Vale do Paraíba</Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Estado: </Text>
+              São Paulo</Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Região do Brasil: </Text>
+              Sudeste</Text>
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Distritos: </Text>
+              Eugênio de Melo e São Francisco Xavier </Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Área: </Text>
+              1.099,60km² </Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Altitude (cidade): </Text>
+              Média de 600 metros</Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Vegetação: </Text>
+              Vegetação nativa remanescente de mata atlântica, matas ciliares em trechos que acompanham as margens do Rio Paraíba do Sul e dos principais afluentes. Ocorre também algumas manchas de cerrado na região sul do município. </Text>
+
+            <Text style={styles.text4}>
+              <Text style={{fontWeight: "bold"}}>Relevo: </Text>
+              A área do município situa-se no planalto atlântico e inclui subdivisões naturais em zonas, determinadas por feições morfológicas distintas: Serra da Mantiqueira, Médio Vale do Paraíba e Planalto de Paraitinga </Text>
+
+          </SafeAreaView></Swiper></ScrollView>
+
+          <ScrollView >
+          <Swiper style={styles.wrapper2}>
           <SafeAreaView style={styles.slide2}>
             <Text style={styles.text5}>A Cidade</Text>
-            <Text style={styles.text3}>"São José dos Campos é uma cidade que une cultura, tradição e tecnologia. No núcleo urbano estão localizados institutos federais de pesquisa científica, empresas de tecnologia de ponta, prédios de arquitetura arrojada, universidades, faculdades e centros de formação de mão de obra qualificada. Por outro lado, a zona rural concentra quase 70% do território do município, boa parte em áreas de proteção ambiental.
 
-É o principal município da Região Metropolitana do Vale do Paraíba e Litoral Norte e o mais importante polo aeronáutico e aeroespacial da América Latina. A população também preserva a cultura local, influenciada pela história dos bandeirantes, que traçaram pela região os caminhos rumo ao ouro das Minas Gerais, e dos tropeiros que vinham do sul do estado vizinho. Hospitaleira, a cidade recebe bem os migrantes de todas as partes, muitos dos quais participam do crescimento local."</Text>
-          </SafeAreaView>
-
-          <SafeAreaView style={styles.slide3}>
-            <Text style={styles.text5}>A Cidade</Text>
-            <Text style={styles.text3}>"Helena, qual a previsão do tempo?"</Text>
-          </SafeAreaView>
+            <Text style={styles.text3}> 
+              <Text style={{fontWeight: "bold"}}>São José dos Campos </Text>
+               é um município brasileiro no interior do estado de São Paulo, conhecida como a Capital Brasileira da Tecnologia Aeroespacial. </Text>
             
+            <Text style={styles.text2}>Une tradição, cultura e tecnologia</Text>
+            <Text style={styles.text3}> No núcleo urbano estão localizados institutos federais de pesquisa científica, empresas de tecnologia de ponta, universidades, faculdades, centros de formação e muito mais. Por outro lado, a zona rural concentra quase 70% do território do município, boa parte em áreas de proteção ambiental. </Text>
+            <Text style={styles.text2}>" Estamos localizados entra a serra e o mar "</Text>
+
+          </SafeAreaView></Swiper></ScrollView>
+
+          <ScrollView >
+          <Swiper style={styles.wrapper3}>
+          <SafeAreaView style={styles.slide3}>
+            <Text style={styles.text5}>História</Text>
+
+            <Text style={styles.text3}>No final do século 16, se formou a Aldeia do Rio Comprido, uma fazenda jesuítica que usava a atividade pecuarista para evitar incursões de bandeirantes. </Text>
+
+            <Text style={styles.text4}>Porém, em 1611 a lei que regulamentava os aldeamentos indígenas por parte dos religiosos fez com que os jesuítas fossem expulsos.</Text>
+
+            <Text style={styles.text4}>Os jesuítas voltaram anos mais tarde, estabelecendo-se em uma planície a 15 quilômetros de distância, onde hoje está a Igreja Matriz da cidade. </Text>
+
+            <Image
+              source={igrejaMatrizSJC}
+              style={styles.igrejaMatrizSJC}
+            />
+
+            <Text style={styles.text4}>Em 1759, os jesuítas foram expulsos do Brasil, e todas as posses da ordem confiscadas por Portugal. Na mesma época, com o objetivo de aumentar a arrecadação provincial, a aldeia foi transformada em vila em 27 de julho de 1767 com o nome de São José do Paraíba, pelo governador de São Paulo, Luis Antonio de Souza Botelho Mourão.</Text>
+
+            <Text style={styles.text4}>Em meados do século 19 o município passou a exibir sinais de crescimento econômico, graças à expressiva produção de algodão, exportado para a indústria têxtil inglesa.</Text>
+
+            <Image
+              source={tecelagemParahyba}
+              style={styles.tecelagemParahyba}
+            />
+
+          </SafeAreaView></Swiper></ScrollView>
+            
+          <ScrollView>
+          <Swiper style={styles.wrapper4}> 
           <SafeAreaView style={styles.slide4}>
-            <Text style={styles.text5}>A Cidade</Text>
-            <Text style={styles.text3}>"Helena, qual a previsão do tempo?"</Text>
-          </SafeAreaView>
-          
+            <Text style={styles.text5}>Fase Sanatorial</Text>
+            
+            <Text style={styles.text3}>Depois de ocupar posição periférica no período áureo do café no Vale do Paraíba, São José dos Campos ganhou destaque nacional na chamada fase sanatorial, quando inúmeros doentes procuravam o clima da cidade em busca de cura para a tuberculose.</Text>
+            
+            <Image
+              source={vicentinoAranha}
+              style={styles.vicentinoAranha}
+            />
+            
+            <Text style={styles.text4}>Em 1924 foi inaugurado o Sanatório Vicentina Aranha, o maior do país. Somente em 1935, com os investimentos do governo de Getúlio Vargas e a transformação do município em estância climatérica e hidromineral, o município pôde investir em infraestrutura.</Text>
+          </SafeAreaView></Swiper></ScrollView>          
         </Swiper>
-        </ScrollView>
       </View>
     </View>
  );
@@ -60,20 +231,59 @@ const styles = StyleSheet.create({
       margin: 16,
       flex: 1,
     },
-    imagemMulherContainer: {
-      alignItems: 'center',
-      marginTop: -52,
-      marginBottom: 22,
-    },
-    imageMulherSorrindoContainer: {
-      flex: 1,
-      alignItems: 'center',
-    },
+    
     helenaName: {
       textAlign: 'center',
       fontSize: 30,
       color: '#000000',
       marginTop: 55,
+    },
+    text: {
+      textAlign: 'center',
+      fontSize: 22,
+      color: '#000000',
+      marginTop: -80,
+      marginLeft: 16,
+      marginRight: 16,
+    },
+    sjcFoto:{
+      height: 240,
+      width: 380,
+      marginTop: 10,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    igrejaMatrizSJC:{
+      height: 240,
+      width: 380,
+      marginBottom: -5,
+      marginTop: 15,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    tecelagemParahyba:{
+      height: 240,
+      width: 380,
+      marginBottom: -10,
+      marginTop: 22,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    vicentinoAranha:{
+      height: 240,
+      width: 380,
+      marginBottom: 10,
+      marginTop: 22,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    sjcFoto15:{
+      height: 240,
+      width: 380,
+      marginBottom: -20,
+      marginTop: 50,
+      justifyContent: 'center',
+      alignItems: 'center',
     },
     text1: {
       flex: 0.7,
@@ -85,37 +295,60 @@ const styles = StyleSheet.create({
       marginTop: 48,
     },
     text2: {
-      flex: 0.5,
       textAlign: 'center',
-      fontSize: 30,
-      color: '#000000',
-      marginTop: 32,
+      fontSize: 21,
+      color: '#511789',
+      marginTop: 30,
+      marginBottom: -25,
+      marginLeft: 16,
+      marginRight: 16,
+      fontWeight: "bold",
     },
     text3: {
-      textAlign: 'justify',
-      fontSize: 22,
+      textAlign: 'center',
+      fontSize: 20.5,
       color: '#000000',
       marginTop: 55,
       marginLeft: 16,
       marginRight: 16,
     },
+    //#c19de3
     text4: {
-      textAlign: 'right',
-      fontSize: 25,
-      color: '#c19de3',
-      marginTop: -50,
+      textAlign: 'center',
+      fontSize: 20.5,
+      color: '#000000',
+      marginTop: 20,
       marginLeft: 16,
       marginRight: 16,
     },
     text5: {
-      textAlign: 'center',
-      fontSize: 30,
+      fontSize: 27,
       color: '#511789',
-      marginTop: 13,
-      marginBottom: -43,
+      marginTop: 15,
+      marginBottom: -32,
       marginLeft: 16,
       marginRight: 16,
       fontWeight: "bold",
+    },
+    text6: {
+      fontSize: 27,
+      color: '#511789',
+      marginTop: 15,
+      marginBottom: -80,
+      marginLeft: 16,
+      marginRight: 16,
+      fontWeight: "bold",
+    },
+    text7: {
+      textAlign: 'center',
+      fontSize: 25,
+      color: '#000000',
+      marginTop: 40,
+      marginBottom: -15,
+
+      marginLeft: 16,
+      marginRight: 16,
+
     },
     
     lunchexample: {
@@ -130,26 +363,23 @@ const styles = StyleSheet.create({
       color: '#511789',
       marginTop: 16,
     },
-    PorExemploText: {
-      textAlign: 'center',
-      fontSize: 30,
-      color: '#511789',
-      marginTop: 55,
-      marginRight: 155,
-      marginBottom: 16,
-      fontWeight: "bold",
+    wrapper: {
+      height: 630,
+      marginTop: -5,
     },
-    imagemMulher: {
-      height: 200,
+    wrapper1: {
+      height: 3663,
+      marginTop: -5,
     },
-    imagemMulherSorrindo: {
-      width: 250,
-      height: 250,
+    wrapper2: {
+      height: 680,
     },
-    imageMicrophone: {
-      height: 130,
+    wrapper3: {
+      height: 1470,
     },
-    wrapper: {},
+    wrapper4: {
+      height: 1320,
+    },
 
     slide1: {
       flex: 1,
@@ -161,6 +391,18 @@ const styles = StyleSheet.create({
       borderRadius: 20,
       marginTop: 20,
     },
+
+    slide1_5: {
+      flex: 1,
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      width: 380,
+      height: 50,
+      backgroundColor: '#FFFFFF',
+      borderRadius: 20,
+      marginTop: 20,
+    },
+
     slide2: {
       flex: 1,
       justifyContent: 'flex-start',
@@ -199,20 +441,7 @@ const styles = StyleSheet.create({
       fontSize: 30,
       fontWeight: 'bold',
     },
-    ImagemExemploTempo: {
-      height: 225,
-      width: 237,
-      marginLeft: 16,
-      marginTop: 0,
-      marginBottom: -30,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    botaoIniciar:{
-      marginBottom: 15,
-      width: 150,
-    },
-
+    
     titulo:{
     },
 
@@ -233,5 +462,14 @@ const styles = StyleSheet.create({
         width: 420,
         height: 77,
         backgroundColor: '#9867C5',
+      },
+      slideblack: {
+      flex: 1,
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      width: 400,
+      height: 50,
+      backgroundColor: 'black',
+      marginTop: 30,
       }
 });

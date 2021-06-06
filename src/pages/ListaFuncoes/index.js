@@ -83,18 +83,13 @@ export default function Main({navigation}) {
           <ButtonComponent text="Pontos Turísticos" onPress={irParaPontosTuristicos} />
           <ButtonComponent text="Clima Atual" onPress={irParaClima} />
           <ButtonComponent text="Onde Estou?" onPress={irParaLocalizacao} />
-          <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
           <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas} />
-          <ButtonComponent text="Lista de Tarefas" onPress={ListaTarefas} />
+          <ButtonComponent text="Roteiro Pessoal" onPress={ListaTarefas} />
+          <ButtonComponent text="Saiba Mais (Cidades)" onPress={irParaFotoMapa}/>
+          <ButtonComponent text="Preço de Hoteis" onPress={irParaGradeHorarios}/>
+          
+          <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
 
-          <ButtonComponent
-            text="🚧 Foto Mapa Turístico"
-            onPress={irParaFotoMapa}
-          />
-          <ButtonComponent
-            text="🚧 Grade de Horários"
-            onPress={irParaGradeHorarios}
-          />
           <ButtonComponent
             text="🚧 Número Recepção"
             onPress={irParaNumeroRecepcao}
