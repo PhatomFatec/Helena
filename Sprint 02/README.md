@@ -1,5 +1,5 @@
 # 🧩 Sprint 02
-*Situação: ✅ Entregue - 18/04/2021 <br>
+**Situação:** ✅ Entregue - 18/04/2021 <br>
 
 ---
 

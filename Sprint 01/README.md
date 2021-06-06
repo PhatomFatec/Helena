@@ -1,11 +1,20 @@
 # 🧩 Sprint 01
-*Situação: ✅ Entregue - 28/03/2021 <br>
+**Situação:** ✅ Entregue - 28/03/2021 <br>
 
 ---
 
 ## 📋 Backlog da Sprint
 
-![image](https://user-images.githubusercontent.com/48994698/112762974-db4e9400-8fd8-11eb-8162-434332177637.png) <br>
+![Backlog 1](https://user-images.githubusercontent.com/80851038/120908535-8e72e380-c641-11eb-87ff-845d68fd2325.png)
+
+---
+
+## 🗃️ Cards
+
+![Card Sprint 1 1](https://user-images.githubusercontent.com/80851038/120908549-b5311a00-c641-11eb-996d-e60c3bb2ae8d.png)
+![Card Sprint 1 2](https://user-images.githubusercontent.com/80851038/120908551-b6fadd80-c641-11eb-8fa6-7d4bfc59a408.png)
+![Card Sprint 1 3](https://user-images.githubusercontent.com/80851038/120908552-b82c0a80-c641-11eb-9ec7-e75607679855.png)
+
 
 ---
 
