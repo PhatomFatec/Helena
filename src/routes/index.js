@@ -7,7 +7,10 @@ import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
 import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
-import Agenda from '../pages/TelasFuncoes/agenda';
+
+import exePontosTuristicos from '../pages/TelasFuncoes/exePontosTuristicos';
+import exeRoteiro from '../pages/TelasFuncoes/exeRoteiro';
+
 import Alarme from '../pages/TelasFuncoes/alarme';
 import AtividadesHotel from '../pages/TelasFuncoes/atividadesHotel';
 import BuscarRotas from '../pages/TelasFuncoes/buscarRota';
@@ -21,6 +24,7 @@ import SobreHotel from '../pages/TelasFuncoes/sobreHotel';
 import TourHotel from '../pages/TelasFuncoes/tourHotel';
 import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
 import Traduzir from '../pages/TelasFuncoes/traduzir';
+
 import MapaSJC from '../pages/Mapa/sjc';
 import MapaJacarei from '../pages/Mapa/jacarei';
 import construcao from '../pages/TelasFuncoes/construcao';
@@ -34,10 +38,16 @@ import PontosTuristicos from '../pages/PontosTuristicos';
 import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
 import ConversorMedidas from '../pages/ConversorMedidas';
+<<<<<<< HEAD
 import Hotel from '../pages/Hotel';
 import JacareiPreco from '../pages/HotelPreco/jacareipreco';
 import SjcPreco from '../pages/HotelPreco/sjcpreco';
 import ibisSjc from '../pages/HotelPreco/ibissjc';
+=======
+
+import SobreCidade from '../pages/SobreCidade';
+import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
+>>>>>>> e6629e99659c52aa37a67a3db76c298bd19701df
 
 const Stack = createStackNavigator();
 
@@ -106,8 +116,16 @@ export default function Routes() {
         />
 
         <Stack.Screen
-          name="Agenda"
-          component={Agenda}
+          name="exeRoteiro"
+          component={exeRoteiro}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exePontosTuristicos"
+          component={exePontosTuristicos}
           options={{
             headerShown: true,
           }}
@@ -245,14 +263,25 @@ export default function Routes() {
           component={Calculadora}
           options={{headerShown: true}}
         />
-      <Stack.Screen
-       name="BoasVindas" 
-       component={BoasVindas} 
-       />
-      <Stack.Screen
-       name="ListaTarefas" 
-       component={ListaTarefas} 
-       />
+        <Stack.Screen
+          name="BoasVindas" 
+          component={BoasVindas} 
+        />
+        <Stack.Screen
+          name="ListaTarefas" 
+          component={ListaTarefas} 
+        />
+        <Stack.Screen
+          name="SobreCidade" 
+          component={SobreCidade}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="sobreSJCampos" 
+          component={SobreSJCampos} 
+          options={{headerShown: true}}
+        />
+
        <Stack.Screen
           name="ConversorMedidas"
           component={ConversorMedidas}

@@ -77,6 +77,9 @@ export default function ListaTarefas() {
 
   return (
     <>
+      <View>
+        <Text style={styles.text5}> Roteiro Pessoal </Text>
+      </View>
       <KeyboardAvoidingView
         keyboardVerticalOffset={0}
         behavior="padding"
@@ -136,6 +139,17 @@ const styles = StyleSheet.create({
   Body: {
     flex: 1
   },
+  text5: {
+    fontSize: 22.5,
+    textAlign: "center",
+    color: '#FFFFFF',
+    marginTop: 22,
+    marginBottom: -20,
+    marginLeft: 16,
+    marginRight: 16,
+    
+    
+  },
   Form: {
     padding: 0,
     height: 60,
@@ -171,7 +185,7 @@ const styles = StyleSheet.create({
     marginTop: 5
   },
   Texto: {
-    fontSize: 14,
+    fontSize: 15,
     color: "#333",
     fontWeight: "bold",
     marginTop: 4,

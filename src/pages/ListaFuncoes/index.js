@@ -16,7 +16,7 @@ export default function Main({navigation}) {
     navigation.navigate('Weather');
   };
   const irParaFotoMapa = () => {
-    navigation.navigate('FotoMapa');
+    navigation.navigate('SobreCidade');
   };
   const irParaNumeroRecepcao = () => {
     navigation.navigate('NumeroRecepcao');
@@ -46,7 +46,7 @@ export default function Main({navigation}) {
     navigation.navigate('construcao');
   };
   const irParaTourHotel = () => {
-    navigation.navigate('construcao');
+    navigation.navigate('ConversorMedidas');
   };
   const irParaTourQuarto = () => {
     navigation.navigate('construcao');
@@ -55,7 +55,7 @@ export default function Main({navigation}) {
     navigation.navigate('Calculadora');
   };
   const ListaTarefas = () => {
-    navigation.navigate('ListaTarefas');
+    navigation.navigate('exeRoteiro');
   };
   const irParaMapa = () => {
     navigation.navigate('Mapa');
@@ -67,7 +67,7 @@ export default function Main({navigation}) {
     navigation.navigate('Previsao');
   };  
   const irParaPontosTuristicos = () => {
-    navigation.navigate('Pontos Turisticos');
+    navigation.navigate('exePontosTuristicos');
   };  
   const irParaTeste = () => {
     navigation.navigate('Teste');
@@ -79,37 +79,18 @@ export default function Main({navigation}) {
 
       <View style={styles.content}>
         <ScrollView>
-        <ButtonComponent text="Teste" onPress={irParaTeste} />
           <ButtonComponent text="Pontos Turísticos" onPress={irParaPontosTuristicos} />
-          <ButtonComponent text="Clima Atual" onPress={irParaClima} />
           <ButtonComponent text="Onde Estou?" onPress={irParaLocalizacao} />
-          <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
+          <ButtonComponent text="Preço de Hoteis (Mapa)" onPress={irParaGradeHorarios}/>
+          <ButtonComponent text="Roteiro Pessoal" onPress={ListaTarefas} />
+          <ButtonComponent text="Clima Atual" onPress={irParaClima} />
+          <ButtonComponent text="Saiba Mais (Cidades)" onPress={irParaFotoMapa}/>
+          <ButtonComponent text="Conversão de Medidas" onPress={irParaConversaoMoedas} />
           <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas} />
-          <ButtonComponent text="Lista de Tarefas" onPress={ListaTarefas} />
 
-          <ButtonComponent
-            text="🚧 Foto Mapa Turístico"
-            onPress={irParaFotoMapa}
-          />
-          <ButtonComponent
-            text="🚧 Grade de Horários"
-            onPress={irParaGradeHorarios}
-          />
-          <ButtonComponent
-            text="🚧 Número Recepção"
-            onPress={irParaNumeroRecepcao}
-          />
-          <ButtonComponent text="🚧 Previsão do Tempo" onPress={irParaPrevisao} />
-          <ButtonComponent text="🚧 Alarme" onPress={irParaAlarme} />
-          <ButtonComponent text="🚧 Buscar Rota" onPress={irParaBuscarRotas} />
-          <ButtonComponent text="🚧 Traduzir" onPress={irParaTraduzir} />
-          <ButtonComponent text="🚧 Sobre o Hotel" onPress={irParaSobreHotel} />      
-          <ButtonComponent
-            text="🚧 Atividades do Hotel"
-            onPress={irParaAtividadesHotel}
-          />
-          <ButtonComponent text="🚧 Tour do Hotel" onPress={irParaTourHotel} />
-          <ButtonComponent text="🚧 Tour do Quarto" onPress={irParaTourQuarto} />
+          <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
+
+          
         </ScrollView>
       </View>
     </View>
