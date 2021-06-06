@@ -221,7 +221,6 @@ export default function Routes() {
           component={Calculadora}
           options={{headerShown: true}}
         />
-<<<<<<< HEAD
         <Stack.Screen
           name="BoasVindas" 
           component={BoasVindas} 
@@ -241,15 +240,6 @@ export default function Routes() {
           options={{headerShown: true}}
         />
 
-=======
-      <Stack.Screen
-       name="BoasVindas" 
-       component={BoasVindas} 
-       />
-      <Stack.Screen
-       name="ListaTarefas" 
-       component={ListaTarefas} 
-       />
        <Stack.Screen
           name="ConversorMedidas"
           component={ConversorMedidas}
@@ -257,7 +247,6 @@ export default function Routes() {
             headerShown: true,
           }}
         />
->>>>>>> 0505c7393fb0521579d023d39fb39626b41fce8f
       </Stack.Navigator>
     </NavigationContainer>
   );
