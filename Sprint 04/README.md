@@ -21,4 +21,4 @@
 
 ## 📉 Gráfico BurnDown
 
-Em construção 🚧
+![BurnDown 04](https://user-images.githubusercontent.com/80851038/120944835-f3dfd680-c70c-11eb-9819-cb3f047e4b8d.png)
