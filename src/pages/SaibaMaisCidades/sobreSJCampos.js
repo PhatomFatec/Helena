@@ -394,7 +394,7 @@ const styles = StyleSheet.create({
       height: 50,
       backgroundColor: '#FFFFFF',
       borderRadius: 20,
-      marginTop: 20,
+      marginTop: 25,
     },
 
     slide1_5: {

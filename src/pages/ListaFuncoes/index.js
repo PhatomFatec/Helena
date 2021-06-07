@@ -58,9 +58,9 @@ export default function Main({navigation}) {
           <ButtonComponent text="Roteiro Pessoal" onPress={irParaRoteiroPessoal} />
           <ButtonComponent text="Clima Atual" onPress={irParaClima} />
           <ButtonComponent text="Saiba Mais (Cidades)" onPress={irParaSaibaMais}/>
-          <ButtonComponent text="Tradutor" onPress={irParaTradutor} />
           <ButtonComponent text="Conversor de Moedas" onPress={irParaConversaoMoedas} />
           <ButtonComponent text="Conversor de Medidas" onPress={irParaConversaoMedidas} />
+          <ButtonComponent text="Tradutor" onPress={irParaTradutor} />
 
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
         </ScrollView>
