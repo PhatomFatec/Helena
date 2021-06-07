@@ -40,7 +40,7 @@ import JacareiPreco from '../pages/HotelPreco/jacareipreco';
 import SjcPreco from '../pages/HotelPreco/sjcpreco';
 import ibisSjc from '../pages/HotelPreco/ibissjc';
 
-import SobreCidade from '../pages/SaibaMais';
+import SaibaMais from '../pages/SaibaMais';
 import SobreSJCampos from '../pages/SaibaMaisCidades/sobreSJCampos';
 
 
@@ -257,8 +257,8 @@ export default function Routes() {
           component={RoteiroPessoal} 
         />
         <Stack.Screen
-          name="SobreCidade" 
-          component={SobreCidade}
+          name="SaibaMais" 
+          component={SaibaMais}
           options={{headerShown: true}}
         />
         <Stack.Screen
