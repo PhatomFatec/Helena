@@ -12,18 +12,26 @@ const exeRoteiro = () => {
                 source={ImagemMulherSorrindo}              
                 style={styles.ImagemMulherSorrindo}
             />
-
           
             <Text style={styles.title}>Roteiro Pessoal</Text>
+
             <Text style={styles.text}>Diga a Afirmação:</Text>
             <Text style={styles.text1}>"Helena, abrir roteiro pessoal"</Text>
-            <Text style={styles.text3}>ou algo similar</Text>
-            <Text style={styles.text2}>e a Helena responderá com a seguinte ação:</Text>
 
+            <Text style={styles.text}>ou algo similar</Text>
+            <Text style={styles.text2}>e a Helena responderá </Text>
+            <Text style={styles.text2}>com a seguinte ação:</Text>
             <Image
-                source={ftExeRoteiro}              
-                style={styles.ftExeRoteiro}
+              source={ftExeRoteiro}              
+              style={styles.ftExeRoteiro}
              />
+
+            <Text style={styles.text}>A partir daí, você pode </Text>
+            <Text style={styles.text2}>criar o seu Roteiro perfeito. </Text>
+            <Text style={styles.text3}>Que tal fazer uma lista de</Text>
+            <Text style={styles.text2}> tarefas? Ou um bando de</Text>
+            <Text style={styles.text5}> anotações quaisquer!</Text>
+
             </SafeAreaView>
             </ScrollView>
           </SafeAreaView>
@@ -41,7 +49,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
     width: 360,
-    height: 940,
+    height: 1100,
     backgroundColor: '#FFFFFF',
     borderRadius: 20,
     marginTop: 75,
@@ -53,30 +61,44 @@ const styles = StyleSheet.create({
     fontSize: 23,
     color: '#4c1482',
     marginTop: 30,
-    marginBottom:5,
+    marginBottom:10,
     fontWeight:'bold',
   },
   text1: {
     textAlign: 'center',
     fontSize: 23,
     color: '#000000',
-    marginTop: 15,
+    marginTop: 22,
     marginBottom:5,
+  },
+  text4: {
+    textAlign: 'center',
+    fontSize: 23,
+    color: '#000000',
+    marginTop: -10,
   },
   text2: {
     textAlign: 'center',
-    fontSize: 23,
+    fontSize: 20,
     color: '#4c1482',
     marginTop: -10,
     marginBottom:5,
     fontWeight:'bold',
   },
+  text5: {
+    textAlign: 'center',
+    fontSize: 20,
+    color: '#4c1482',
+    marginTop: -10,
+    marginBottom:-15,
+    fontWeight:'bold',
+  },
   text3: {
     textAlign: 'center',
-    fontSize: 23,
+    fontSize: 20,
     color: '#4c1482',
     marginTop: 15,
-    marginBottom:5,
+    marginBottom:7,
     fontWeight:'bold',
   },
 
@@ -87,6 +109,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
     marginLeft: 16,
     marginRight: 16,
+
   },
   ImagemMulherSorrindo: {
     height: 160,
@@ -98,12 +121,16 @@ const styles = StyleSheet.create({
     marginBottom: -45,
   },
   ftExeRoteiro: {
-    height: 550,
+    height: 505,
     width: 320,
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 25,
     marginLeft: 20,
+    marginBottom: 10,
+    borderWidth: 2.5,
+    borderColor:'#4c1482',
+    borderRadius: 13,
   },
 });
 

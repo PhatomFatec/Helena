@@ -13,23 +13,20 @@ const exeOndeEstou = () => {
                 style={styles.ImagemMulherSorrindo}
             />
 
-            <Text style={styles.title}>Pontos Turísticos</Text>
+            <Text style={styles.title}>Onde Estou?</Text>
 
             <Text style={styles.text}>Diga a Afirmação:</Text>
-            <Text style={styles.text1}>"Helena, mostrar</Text>
-            <Text style={styles.text4}> pontos turísticos"</Text>
+            <Text style={styles.text1}>"Helena, onde estou?"</Text>
 
-            <Text style={styles.text3}>ou algo similar</Text>
-            <Text style={styles.text2}>e a Helena responderá com a seguinte ação:</Text>
+            <Text style={styles.text}>ou algo similar </Text>
+            <Text style={styles.text2}>e a Helena responderá </Text>
+            <Text style={styles.text2}>com a seguinte ação:</Text>
             <Text style={styles.text1}>imagem</Text>
 
 
-            <Text style={styles.text3}>A partir daí, você escolhe</Text>
-            <Text style={styles.text2}>uma cidade e a Helena </Text>
-            <Text style={styles.text2}>mostra os principais pontos turísticos de lá, veja:</Text>
-            <Text style={styles.text1}>imagem</Text>
-
-
+            <Text style={styles.text3}>Com isso, você verá a </Text>
+            <Text style={styles.text2}>sua localização atual.</Text>
+            
             </SafeAreaView>
             </ScrollView>
           </SafeAreaView>
@@ -59,14 +56,14 @@ const styles = StyleSheet.create({
     fontSize: 23,
     color: '#4c1482',
     marginTop: 30,
-    marginBottom:5,
+    marginBottom:10,
     fontWeight:'bold',
   },
   text1: {
     textAlign: 'center',
     fontSize: 23,
     color: '#000000',
-    marginTop: 15,
+    marginTop: 22,
     marginBottom:5,
   },
   text4: {
@@ -74,11 +71,10 @@ const styles = StyleSheet.create({
     fontSize: 23,
     color: '#000000',
     marginTop: -10,
-    marginBottom:5,
   },
   text2: {
     textAlign: 'center',
-    fontSize: 23,
+    fontSize: 20,
     color: '#4c1482',
     marginTop: -10,
     marginBottom:5,
@@ -86,10 +82,10 @@ const styles = StyleSheet.create({
   },
   text3: {
     textAlign: 'center',
-    fontSize: 23,
+    fontSize: 20,
     color: '#4c1482',
     marginTop: 15,
-    marginBottom:5,
+    marginBottom:7,
     fontWeight:'bold',
   },
 

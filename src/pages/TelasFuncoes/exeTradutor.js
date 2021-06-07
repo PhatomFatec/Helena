@@ -1,9 +1,9 @@
 import React from 'react';
 import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ftExeConversorMoedas from '../../../assets/ftExeConversorMoedas.png';
+import ftExeTradutorGoogle from '../../../assets/ftExeTradutorGoogle.png';
 
-const exeConversorMoedas = () => {
+const exeTradutor = () => {
 
   return (
     <SafeAreaView style={styles.container}>
@@ -14,23 +14,21 @@ const exeConversorMoedas = () => {
                 style={styles.ImagemMulherSorrindo}
             />
 
-            <Text style={styles.title}>Conversor de Moedas</Text>
+            <Text style={styles.title}>Tradutor</Text>
 
-            <Text style={styles.text}>Diga a Afirmação:</Text>
-            <Text style={styles.text1}>"Helena, abrir</Text>
-            <Text style={styles.text4}> conversor de moedas"</Text>
+            <Text style={styles.text}> Diga a Afirmação:</Text>
+            <Text style={styles.text1}>"Helena, abrir tradutor"</Text>
 
             <Text style={styles.text}>ou algo similar </Text>
             <Text style={styles.text2}>e a Helena responderá </Text>
             <Text style={styles.text2}>com a seguinte ação:</Text>
             <Image
-                source={ftExeConversorMoedas}              
-                style={styles.ftExeConversorMoedas}
+                source={ftExeTradutorGoogle}              
+                style={styles.ftExeTradutorGoogle}
             />
 
-            <Text style={styles.text}>Com isso, você pode </Text>
-            <Text style={styles.text2}>realizar a conversão da</Text>
-            <Text style={styles.text5}>moeda Dolar para o Real.</Text>
+            <Text style={styles.text}>Depois disso, você está </Text>
+            <Text style={styles.text5}>livre para o uso do tradutor</Text>
 
             </SafeAreaView>
             </ScrollView>
@@ -89,7 +87,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     color: '#4c1482',
-    marginTop: -10,
+    marginTop: -15,
     marginBottom:-25,
     fontWeight:'bold',
   },
@@ -121,13 +119,13 @@ const styles = StyleSheet.create({
     marginTop: -140,
     marginBottom: -45,
   },
-  ftExeConversorMoedas: {
-    height: 505,
-    width: 320,
+  ftExeTradutorGoogle: {
+    height: 400,
+    width: 330,
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 25,
-    marginLeft: 20,
+    marginLeft: 15,
     marginBottom: 0,
     borderWidth: 2.5,
     borderColor:'#4c1482',
@@ -135,4 +133,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default exeConversorMoedas;
+export default exeTradutor;

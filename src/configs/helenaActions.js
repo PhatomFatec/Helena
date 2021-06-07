@@ -13,6 +13,7 @@ export const HelenaActions = [
       'Helena qual o clima atual',
       'Helena abrir clima atual',
       'Helena mostrar clima atual',
+      'Helena mostrar o clima atual',
       'Helena clima atual',
       'Helena qual o clima',
       'Helena abrir clima',
@@ -38,7 +39,7 @@ export const HelenaActions = [
       'Helena mostrar os pontos turísticos',
     ],
     handler: () => {
-      navigate('PontosTuristicos');
+      navigate('Pontos Turisticos');
     },
   },
 
@@ -173,6 +174,8 @@ export const HelenaActions = [
     words: [
       'Helena abrir preço dos hotéis',
       'Helena abrir lista de hotel',
+      'Helena abrir lista de hotéis',
+
     ],
     handler: () => {
       navigate('Hotel');
@@ -207,58 +210,11 @@ export const HelenaActions = [
     name: 'show-hotel-info-ibisSjc',
     words: [
       'Helena abrir informações do hotel ibis',
+      'Helena informações do hotel ibis',
       'Helena hotel ibis',
     ],
     handler: () => {
       navigate('ibisSjc');
     },
-  },
-
- // Em Construção _______________________________________________________________
- 
- 
-  {
-    name: 'show-schedule',
-    words: [
-      'Helena abrir função que horas são',
-      'Helena abrir função grade de horários',
-      'Helena função que horas são'
-    ],
-    handler: () => {
-      navigate('GradeHorarios');
-    },
-  },
-
-  {
-    name: 'show-number-hotel',
-    words: [
-      'Helena mostrar função número da recepção',
-      'Helena função número da recepção',
-      'Helena abrir função número recepção',
-      'Helena abrir função número da recepção',
-    ],
-    handler: () => {
-      navigate('NumeroRecepcao');
-    },
-  },
-
-    {
-    name: 'show-alarm',
-    words: ['Helena abrir função alarme', 'Helena função alarme'],
-    handler: () => {
-      navigate('construcao');
-    },
-  },
-
-  {
-    name: 'show-hotel-address',
-    words: [
-      'Helena qual o endereço do hotel',
-      'Helena endereço do hotel',
-      'Helena endereço hotel',
-    ],
-    handler: () => {
-      navigate('construcao');
-    },
-  },
+  }, 
 ];

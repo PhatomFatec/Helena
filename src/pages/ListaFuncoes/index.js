@@ -31,13 +31,16 @@ export default function Main({navigation}) {
     navigation.navigate('exePrecoHoteis');
   };  
   const irParaSaibaMais = () => {
-    navigation.navigate('SobreCidade');
+    navigation.navigate('exeSaibaMais');
   };
   const irParaConversaoMoedas = () => {
     navigation.navigate('exeConversorMoedas');
   };
   const irParaConversaoMedidas = () => {
-    navigation.navigate('exeConversorMedidas');
+    navigation.navigate('construcao');
+  };
+  const irParaTradutor = () => {
+    navigation.navigate('exeTradutor');
   };
   const irParaTeste = () => {
     navigation.navigate('Teste');
@@ -55,8 +58,9 @@ export default function Main({navigation}) {
           <ButtonComponent text="Roteiro Pessoal" onPress={irParaRoteiroPessoal} />
           <ButtonComponent text="Clima Atual" onPress={irParaClima} />
           <ButtonComponent text="Saiba Mais (Cidades)" onPress={irParaSaibaMais}/>
-          <ButtonComponent text="Conversor de Medidas" onPress={irParaConversaoMedidas} />
+          <ButtonComponent text="Tradutor" onPress={irParaTradutor} />
           <ButtonComponent text="Conversor de Moedas" onPress={irParaConversaoMoedas} />
+          <ButtonComponent text="Conversor de Medidas" onPress={irParaConversaoMedidas} />
 
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
         </ScrollView>

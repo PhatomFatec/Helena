@@ -15,6 +15,7 @@ import exePrecoHoteis from '../pages/TelasFuncoes/exePrecoHoteis';
 import exeRoteiro from '../pages/TelasFuncoes/exeRoteiro';
 import exeClimaAtual from '../pages/TelasFuncoes/exeClimaAtual';
 import exeSaibaMais from '../pages/TelasFuncoes/exeSaibaMais';
+import exeTradutor from '../pages/TelasFuncoes/exeTradutor';
 import exeConversorMedidas from '../pages/TelasFuncoes/exeConversorMedidas';
 import exeConversorMoedas from '../pages/TelasFuncoes/exeConversorMoedas';
 import construcao from '../pages/TelasFuncoes/construcao';
@@ -142,6 +143,13 @@ export default function Routes() {
             headerShown: true,
           }}
         />
+        <Stack.Screen
+          name="exeTradutor"
+          component={exeTradutor}
+          options={{
+            headerShown: true,
+          }}
+        />
 
         <Stack.Screen
           name="exeClimaAtual"
@@ -191,13 +199,6 @@ export default function Routes() {
           }}
         />
         
-        <Stack.Screen
-          name="ConversaoMoedas"
-          component={ConversaoMoedas}
-          options={{
-            headerShown: true,
-          }}
-        />
         <Stack.Screen
           name="FotoMapa"
           component={FotoMapa}

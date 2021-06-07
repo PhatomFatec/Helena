@@ -14,11 +14,9 @@ import ButtonComponent from '../../components/Button';
 import Swiper from 'react-native-swiper';
 import {useHeaderHeight} from '@react-navigation/stack';
 
-import ImagemMulher from '../../../assets/mulher.png';
 import ImagemIbisHotel from '../../../assets/ibishotel.png';
 import ImagemIbisHotel2 from '../../../assets/ibishotel2.png';
-import ImagemMicrophone from '../../../assets/microfone2.png';
-import ImagemExemploTempo from '../../../assets/ExemploTempo.png';
+
 
 export default function BoasVindas({navigation}) {
   const headerHeight = useHeaderHeight();
@@ -56,16 +54,13 @@ export default function BoasVindas({navigation}) {
         </View>
         
       </Swiper>
-      <Text style={styles.descricao}></Text>
-      <Text style={styles.descricao}>🅿️ Estacionamento grátis</Text>
+      <Text style={styles.descricao1}></Text>
+      <Text style={styles.descricao}>🅿️ Estacionamento Grátis</Text>
       <Text style={styles.descricao}>📶 Wi-Fi</Text>
        <Text style={styles.descricao}>❄️ Ar-condicionado</Text>
-       <Text style={styles.descricao}>☕ Café da manhã</Text>
-      <Text style={styles.descricao}></Text>
-      <Text style={styles.descricao}></Text>
-      <Text style={styles.descricao}></Text>
-      <Text style={styles.descricao}></Text>
-      <Text style={styles.descricao}></Text>
+       <Text style={styles.descricao}>☕ Café da Manhã</Text>
+      <Text style={styles.descricao1}></Text>
+      <Text style={styles.descricao1}></Text>
        <ButtonComponent text="Verificar preço" style={styles.botao}/>
       </View>
     </View>
@@ -89,6 +84,12 @@ const styles = StyleSheet.create({
     borderRadius: 20
   },
   descricao: {
+    textAlign: 'left',
+    marginLeft: 20,
+    fontSize: 18,
+    color: 'white',
+  },
+  descricao1: {
     textAlign: 'left',
     fontSize: 15,
     color: 'white',
