@@ -35,8 +35,14 @@ import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
 import ConversorMedidas from '../pages/ConversorMedidas';
 
+import Hotel from '../pages/Hotel';
+import JacareiPreco from '../pages/HotelPreco/jacareipreco';
+import SjcPreco from '../pages/HotelPreco/sjcpreco';
+import ibisSjc from '../pages/HotelPreco/ibissjc';
+
 import SobreCidade from '../pages/SaibaMais';
 import SobreSJCampos from '../pages/SaibaMaisCidades/sobreSJCampos';
+
 
 const Stack = createStackNavigator();
 
@@ -58,6 +64,26 @@ export default function Routes() {
           options={{headerShown: true}}
         />
         <Stack.Screen
+          name="JacareiPreco"
+          component={JacareiPreco}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="SjcPreco"
+          component={SjcPreco}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="ibisSjc"
+          component={ibisSjc}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="Hotel"
+          component={Hotel}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
           name="Pontos Turisticos"
           component={PontosTuristicos}
           options={{headerShown: true}}
@@ -76,6 +102,12 @@ export default function Routes() {
         <Stack.Screen
           name="ListaFuncoes"
           component={ListaFuncoes}
+          option={{headerShown: true}}
+
+        />
+        <Stack.Screen
+          name="Localizacao"
+          component={Localizacao}
           option={{headerShown: true}}
         />
 
@@ -144,12 +176,6 @@ export default function Routes() {
         />
 
         <Stack.Screen
-          name="Localizacao"
-          component={Localizacao}
-          option={{headerShown: false}}
-        />
-
-        <Stack.Screen
           name="Weather"
           component={Weahter}
           options={{
@@ -158,33 +184,13 @@ export default function Routes() {
         />
 
         <Stack.Screen
-          name="ExemploAlarme"
-          component={Alarme}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="AtividadesHotel"
-          component={AtividadesHotel}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
           name="construcao"
           component={construcao}
           options={{
             headerShown: true,
           }}
         />
-        <Stack.Screen
-          name="BuscarRotas"
-          component={BuscarRotas}
-          options={{
-            headerShown: true,
-          }}
-        />
+        
         <Stack.Screen
           name="ConversaoMoedas"
           component={ConversaoMoedas}
@@ -199,20 +205,7 @@ export default function Routes() {
             headerShown: true,
           }}
         />
-        <Stack.Screen
-          name="GradeHorarios"
-          component={GradeHorarios}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="MapaCidade"
-          component={MapaCidade}
-          options={{
-            headerShown: true,
-          }}
-        />
+        
         <Stack.Screen
           name="NumeroRecepcao"
           component={NumeroRecepcao}
@@ -229,19 +222,13 @@ export default function Routes() {
         />
         
         <Stack.Screen
-          name="Traduzir"
-          component={Traduzir}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
           name="MapaSJC"
           component={MapaSJC}
           options={{
             headerShown: true,
           }}
         />
+
         <Stack.Screen
           name="MapaJacarei"
           component={MapaJacarei}
