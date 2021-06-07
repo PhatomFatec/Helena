@@ -5,33 +5,29 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
-import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
+import ListaFuncoes from '../pages/ListaFuncoes';
+import {navigationRef} from '../RootNavigation';
 
 import exePontosTuristicos from '../pages/TelasFuncoes/exePontosTuristicos';
+import exeOndeEstou from '../pages/TelasFuncoes/exeOndeEstou';
+import exePrecoHoteis from '../pages/TelasFuncoes/exePrecoHoteis';
 import exeRoteiro from '../pages/TelasFuncoes/exeRoteiro';
+import exeClimaAtual from '../pages/TelasFuncoes/exeClimaAtual';
+import exeSaibaMais from '../pages/TelasFuncoes/exeSaibaMais';
+import exeConversorMedidas from '../pages/TelasFuncoes/exeConversorMedidas';
+import exeConversorMoedas from '../pages/TelasFuncoes/exeConversorMoedas';
+import construcao from '../pages/TelasFuncoes/construcao';
 
-import Alarme from '../pages/TelasFuncoes/alarme';
-import AtividadesHotel from '../pages/TelasFuncoes/atividadesHotel';
-import BuscarRotas from '../pages/TelasFuncoes/buscarRota';
-import ConversaoMoedas from '../pages/TelasFuncoes/conversaoMoedas';
 import FotoMapa from '../pages/TelasFuncoes/fotoMapa';
-import GradeHorarios from '../pages/TelasFuncoes/gradeHorarios';
-import MapaCidade from '../pages/TelasFuncoes/mapaCidade';
 import NumeroRecepcao from '../pages/TelasFuncoes/numeroRecepcao';
 import Previsao from '../pages/TelasFuncoes/previsao';
-import SobreHotel from '../pages/TelasFuncoes/sobreHotel';
-import TourHotel from '../pages/TelasFuncoes/tourHotel';
-import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
-import Traduzir from '../pages/TelasFuncoes/traduzir';
 
 import MapaSJC from '../pages/Mapa/sjc';
 import MapaJacarei from '../pages/Mapa/jacarei';
-import construcao from '../pages/TelasFuncoes/construcao';
-import {navigationRef} from '../RootNavigation';
-import Conversor from '../pages/Conversor';
+import ConversorMoedas from '../pages/ConversorMoedas';
 import Calculadora from '../pages/Calculadora';
-import ListaTarefas from '../pages/ListaTarefas/index';
+import RoteiroPessoal from '../pages/RoteiroPessoal/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
@@ -39,8 +35,8 @@ import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
 import ConversorMedidas from '../pages/ConversorMedidas';
 
-import SobreCidade from '../pages/SobreCidade';
-import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
+import SobreCidade from '../pages/SaibaMais';
+import SobreSJCampos from '../pages/SaibaMaisCidades/sobreSJCampos';
 
 const Stack = createStackNavigator();
 
@@ -59,7 +55,7 @@ export default function Routes() {
         <Stack.Screen
           name="Home"
           component={Main}
-          options={{headerShown: false}}
+          options={{headerShown: true}}
         />
         <Stack.Screen
           name="Pontos Turisticos"
@@ -80,12 +76,7 @@ export default function Routes() {
         <Stack.Screen
           name="ListaFuncoes"
           component={ListaFuncoes}
-          option={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="Localizacao"
-          component={Localizacao}
-          option={{headerShown: false}}
+          option={{headerShown: true}}
         />
 
         <Stack.Screen
@@ -102,6 +93,60 @@ export default function Routes() {
           options={{
             headerShown: true,
           }}
+        />
+
+        <Stack.Screen
+          name="exeOndeEstou"
+          component={exeOndeEstou}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exePrecoHoteis"
+          component={exePrecoHoteis}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeClimaAtual"
+          component={exeClimaAtual}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeSaibaMais"
+          component={exeSaibaMais}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeConversorMedidas"
+          component={exeConversorMedidas}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeConversorMoedas"
+          component={exeConversorMoedas}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="Localizacao"
+          component={Localizacao}
+          option={{headerShown: false}}
         />
 
         <Stack.Screen
@@ -182,27 +227,7 @@ export default function Routes() {
             headerShown: true,
           }}
         />
-        <Stack.Screen
-          name="SobreHotel"
-          component={SobreHotel}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="TourHotel"
-          component={TourHotel}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="TourQuarto"
-          component={TourQuarto}
-          options={{
-            headerShown: true,
-          }}
-        />
+        
         <Stack.Screen
           name="Traduzir"
           component={Traduzir}
@@ -225,8 +250,8 @@ export default function Routes() {
           }}
         />
         <Stack.Screen
-          name="Conversor"
-          component={Conversor}
+          name="ConversorMoedas"
+          component={ConversorMoedas}
           options={{
             headerShown: true,
           }}
@@ -241,8 +266,8 @@ export default function Routes() {
           component={BoasVindas} 
         />
         <Stack.Screen
-          name="ListaTarefas" 
-          component={ListaTarefas} 
+          name="RoteiroPessoal" 
+          component={RoteiroPessoal} 
         />
         <Stack.Screen
           name="SobreCidade" 

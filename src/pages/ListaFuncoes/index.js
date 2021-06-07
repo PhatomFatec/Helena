@@ -8,67 +8,37 @@ import {
   ScrollView,
 } from 'react-native';
 import ButtonComponent from '../../components/Button';
-import ListaTarefas from '../ListaTarefas';
+import RoteiroPessoal from '../RoteiroPessoal';
 
 export default function Main({navigation}) {
   
   const irParaClima = () => {
-    navigation.navigate('Weather');
-  };
-  const irParaFotoMapa = () => {
-    navigation.navigate('SobreCidade');
-  };
-  const irParaNumeroRecepcao = () => {
-    navigation.navigate('NumeroRecepcao');
-  };
-  const irParaGradeHorarios = () => {
-    navigation.navigate('GradeHorarios');
-  };
-  const irParaConversaoMoedas = () => {
-    navigation.navigate('Conversor');
-  };
-  const irParaAgenda = () => {
-    navigation.navigate('construcao');
-  };
-  const irParaAlarme = () => {
-    navigation.navigate('construcao');
-  };
-  const irParaBuscarRotas = () => {
-    navigation.navigate('construcao');
-  };
-  const irParaTraduzir = () => {
-    navigation.navigate('construcao');
-  };
-  const irParaSobreHotel = () => {
-    navigation.navigate('construcao');
-  };
-  const irParaAtividadesHotel = () => {
-    navigation.navigate('construcao');
-  };
-  const irParaTourHotel = () => {
-    navigation.navigate('ConversorMedidas');
-  };
-  const irParaTourQuarto = () => {
-    navigation.navigate('construcao');
+    navigation.navigate('exeClimaAtual');
   };
   const irParaCalculadora = () => {
     navigation.navigate('Calculadora');
   };
-  const ListaTarefas = () => {
+  const irParaRoteiroPessoal = () => {
     navigation.navigate('exeRoteiro');
   };
-  const irParaMapa = () => {
-    navigation.navigate('Mapa');
+  const irParaOndeEstou = () => {
+    navigation.navigate('exeOndeEstou');
   };
-  const irParaLocalizacao = () => {
-    navigation.navigate('Localizacao');
-  };
-  const irParaPrevisao = () => {
-    navigation.navigate('Previsao');
-  };  
   const irParaPontosTuristicos = () => {
     navigation.navigate('exePontosTuristicos');
   };  
+  const irParaMapaHoteis = () => {
+    navigation.navigate('exePrecoHoteis');
+  };  
+  const irParaSaibaMais = () => {
+    navigation.navigate('SobreCidade');
+  };
+  const irParaConversaoMoedas = () => {
+    navigation.navigate('exeConversorMoedas');
+  };
+  const irParaConversaoMedidas = () => {
+    navigation.navigate('exeConversorMedidas');
+  };
   const irParaTeste = () => {
     navigation.navigate('Teste');
   };           
@@ -80,17 +50,15 @@ export default function Main({navigation}) {
       <View style={styles.content}>
         <ScrollView>
           <ButtonComponent text="Pontos Turísticos" onPress={irParaPontosTuristicos} />
-          <ButtonComponent text="Onde Estou?" onPress={irParaLocalizacao} />
-          <ButtonComponent text="Preço de Hoteis (Mapa)" onPress={irParaGradeHorarios}/>
-          <ButtonComponent text="Roteiro Pessoal" onPress={ListaTarefas} />
+          <ButtonComponent text="Onde Estou?" onPress={irParaOndeEstou} />
+          <ButtonComponent text="Preço de Hoteis (Mapa)" onPress={irParaMapaHoteis}/>
+          <ButtonComponent text="Roteiro Pessoal" onPress={irParaRoteiroPessoal} />
           <ButtonComponent text="Clima Atual" onPress={irParaClima} />
-          <ButtonComponent text="Saiba Mais (Cidades)" onPress={irParaFotoMapa}/>
-          <ButtonComponent text="Conversão de Medidas" onPress={irParaConversaoMoedas} />
-          <ButtonComponent text="Conversão de Moedas" onPress={irParaConversaoMoedas} />
+          <ButtonComponent text="Saiba Mais (Cidades)" onPress={irParaSaibaMais}/>
+          <ButtonComponent text="Conversor de Medidas" onPress={irParaConversaoMedidas} />
+          <ButtonComponent text="Conversor de Moedas" onPress={irParaConversaoMoedas} />
 
           <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
-
-          
         </ScrollView>
       </View>
     </View>

@@ -18,7 +18,7 @@ import {
   FlatList
 } from "react-native";
 
-export default function ListaTarefas() {
+export default function RoteiroPessoal() {
   const [task, setTask] = useState([]);
   const [newTask, setNewTask] = useState("");
 

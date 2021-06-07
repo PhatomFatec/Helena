@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
     marginLeft: 16,
     marginRight: 16,
-    textDecorationLine: 'underline',
+
   },
   ImagemMulherSorrindo: {
     height: 160,

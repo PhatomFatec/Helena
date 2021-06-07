@@ -1,11 +1,11 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
+import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ftExeRoteiro from '../../../assets/ftExeRoteiro.png';
 
-const exeRoteiro = () => {
+const exeOndeEstou = () => {
+
   return (
-          <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container}>
           < ScrollView>
             <SafeAreaView style={styles.slide}>
             <Image
@@ -13,17 +13,23 @@ const exeRoteiro = () => {
                 style={styles.ImagemMulherSorrindo}
             />
 
-          
-            <Text style={styles.title}>Roteiro Pessoal</Text>
+            <Text style={styles.title}>Pontos Turísticos</Text>
+
             <Text style={styles.text}>Diga a Afirmação:</Text>
-            <Text style={styles.text1}>"Helena, abrir roteiro pessoal"</Text>
+            <Text style={styles.text1}>"Helena, mostrar</Text>
+            <Text style={styles.text4}> pontos turísticos"</Text>
+
             <Text style={styles.text3}>ou algo similar</Text>
             <Text style={styles.text2}>e a Helena responderá com a seguinte ação:</Text>
+            <Text style={styles.text1}>imagem</Text>
 
-            <Image
-                source={ftExeRoteiro}              
-                style={styles.ftExeRoteiro}
-             />
+
+            <Text style={styles.text3}>A partir daí, você escolhe</Text>
+            <Text style={styles.text2}>uma cidade e a Helena </Text>
+            <Text style={styles.text2}>mostra os principais pontos turísticos de lá, veja:</Text>
+            <Text style={styles.text1}>imagem</Text>
+
+
             </SafeAreaView>
             </ScrollView>
           </SafeAreaView>
@@ -63,6 +69,13 @@ const styles = StyleSheet.create({
     marginTop: 15,
     marginBottom:5,
   },
+  text4: {
+    textAlign: 'center',
+    fontSize: 23,
+    color: '#000000',
+    marginTop: -10,
+    marginBottom:5,
+  },
   text2: {
     textAlign: 'center',
     fontSize: 23,
@@ -87,6 +100,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
     marginLeft: 16,
     marginRight: 16,
+
   },
   ImagemMulherSorrindo: {
     height: 160,
@@ -107,6 +121,4 @@ const styles = StyleSheet.create({
   },
 });
 
-
-
-export default exeRoteiro;
+export default exeOndeEstou;

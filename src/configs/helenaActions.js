@@ -38,7 +38,7 @@ export const HelenaActions = [
       'Helena mostrar os pontos turísticos',
     ],
     handler: () => {
-      navigate('Pontos Turisticos');
+      navigate('PontosTuristicos');
     },
   },
 
@@ -115,7 +115,7 @@ export const HelenaActions = [
       'Helena mostar a função lista de tarefas',
     ],
     handler: () => {
-      navigate('ListaTarefas');
+      navigate('RoteiroPessoal');
     },
   },
   {
@@ -130,7 +130,7 @@ export const HelenaActions = [
       'Helena moedas',
     ],
     handler: () => {
-      navigate('Conversor');
+      navigate('ConversorMoedas');
     },
   },
   {
