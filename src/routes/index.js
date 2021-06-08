@@ -38,16 +38,14 @@ import PontosTuristicos from '../pages/PontosTuristicos';
 import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
 import ConversorMedidas from '../pages/ConversorMedidas';
-<<<<<<< HEAD
 import Hotel from '../pages/Hotel';
 import JacareiPreco from '../pages/HotelPreco/jacareipreco';
 import SjcPreco from '../pages/HotelPreco/sjcpreco';
-import ibisSjc from '../pages/HotelPreco/ibissjc';
-=======
-
+import ibisSjc from '../pages/HotelPreco/Sjc/ibissjc';
 import SobreCidade from '../pages/SobreCidade';
 import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
->>>>>>> e6629e99659c52aa37a67a3db76c298bd19701df
+import PlazaHotel from '../pages/HotelPreco/Sjc/plaza';
+import NovoHotel from '../pages/HotelPreco/Sjc/novohotel';
 
 const Stack = createStackNavigator();
 
@@ -74,8 +72,18 @@ export default function Routes() {
           options={{headerShown: true}}
         />
         <Stack.Screen
+          name="NovoHotel"
+          component={NovoHotel}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
           name="SjcPreco"
           component={SjcPreco}
+          options={{headerShown: true}}
+        />
+        <Stack.Screen
+          name="PlazaHotel"
+          component={PlazaHotel}
           options={{headerShown: true}}
         />
         <Stack.Screen

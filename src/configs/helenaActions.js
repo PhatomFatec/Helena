@@ -36,6 +36,7 @@ export const HelenaActions = [
       'Helena abrir os pontos turísticos',
       'Helena mostrar pontos turísticos',
       'Helena mostrar os pontos turísticos',
+      'Helena abrir mapa turísticos',
     ],
     handler: () => {
       navigate('Pontos Turisticos');
@@ -167,12 +168,13 @@ export const HelenaActions = [
       navigate('ListaFuncoes');
     },
   },
-
+//=========================================Adicionar mais açoes=====================================================
   {
     name: 'show-hotel-price',
     words: [
       'Helena abrir preço dos hotéis',
       'Helena abrir lista de hotel',
+      'Helena abrir lista de hotéis',
     ],
     handler: () => {
       navigate('Hotel');
@@ -211,6 +213,39 @@ export const HelenaActions = [
     ],
     handler: () => {
       navigate('ibisSjc');
+    },
+  },
+
+  {
+    name: 'show-hotel-info-PlazaHotel',
+    words: [
+      'Helena abrir informações do hotel Plaza',
+      'Helena hotel plaza',
+    ],
+    handler: () => {
+      navigate('PlazaHotel');
+    },
+  },
+
+  {
+    name: 'show-hotel-info-NovoHotel',
+    words: [
+      'Helena abrir informações do novo hotel',
+      'Helena novo hotel',
+    ],
+    handler: () => {
+      navigate('NovoHotel');
+    },
+  },
+
+  {
+    name: 'show-size-measure',
+    words: [
+      'Helena abrir conversor de medidas',
+      'Helena conversor de medidas',
+    ],
+    handler: () => {
+      navigate('ConversorMedidas');
     },
   },
 
