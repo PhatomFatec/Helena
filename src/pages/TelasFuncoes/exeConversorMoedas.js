@@ -1,10 +1,10 @@
 import React from 'react';
 import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ftExePontosTurísticos from '../../../assets/ftExePontosTurísticos.png';
-import ftExePontosTurísticosSJC from '../../../assets/ftExePontosTurísticosSJC.png';
+import ftExeConversorMoedas from '../../../assets/ftExeConversorMoedas.png';
 
-const exePontosTuristicos = () => {
+const exeConversorMoedas = () => {
+
   return (
     <SafeAreaView style={styles.container}>
           < ScrollView>
@@ -14,46 +14,24 @@ const exePontosTuristicos = () => {
                 style={styles.ImagemMulherSorrindo}
             />
 
-            <Text style={styles.title}>Pontos Turísticos</Text>
+            <Text style={styles.title}>Conversor de Moedas</Text>
 
             <Text style={styles.text}>Diga a Afirmação:</Text>
-            <Text style={styles.text1}>"Helena, mostrar</Text>
-            <Text style={styles.text4}> pontos turísticos"</Text>
+            <Text style={styles.text1}>"Helena, abrir</Text>
+            <Text style={styles.text4}> conversor de moedas"</Text>
 
-            <Text style={styles.text}>ou algo similar</Text>
+            <Text style={styles.text}>ou algo similar </Text>
             <Text style={styles.text2}>e a Helena responderá </Text>
             <Text style={styles.text2}>com a seguinte ação:</Text>
             <Image
-                source={ftExePontosTurísticos}              
-                style={styles.ftExePontosTurísticos}
+                source={ftExeConversorMoedas}              
+                style={styles.ftExeConversorMoedas}
             />
 
+            <Text style={styles.text}>Com isso, você pode </Text>
+            <Text style={styles.text2}>realizar a conversão da</Text>
+            <Text style={styles.text5}>moeda Dolar para o Real.</Text>
 
-            <Text style={styles.text3}>A partir daí, você escolhe </Text>
-            <Text style={styles.text2}>uma cidade e a Helena </Text>
-            <Text style={styles.text2}>mostra os principais pontos </Text>
-            <Text style={styles.text2}>turísticos de lá, veja:</Text>
-
-            <Image
-                source={ftExePontosTurísticosSJC}              
-                style={styles.ftExePontosTurísticosSJC}
-            />
-
-            <Text style={styles.text3}>Outra opção seria dizer </Text>
-            <Text style={styles.text2}>o nome da cidade junto a </Text>
-            <Text style={styles.text2}>afirmação do exemplo:</Text>
-            <Text style={styles.text1}>"Helena, mostrar</Text>
-            <Text style={styles.text4}> pontos turísticos de"</Text>
-            <Text style={styles.text4}> São José dos Campos"</Text>
-
-
-
-
-
-
-
-
-            
             </SafeAreaView>
             </ScrollView>
           </SafeAreaView>
@@ -71,38 +49,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
     width: 360,
-    height: 1780,
+    height: 1030,
     backgroundColor: '#FFFFFF',
     borderRadius: 20,
     marginTop: 75,
     marginBottom: 20,
     
   },
-  ftExePontosTurísticos: {
-    height: 505,
-    width: 320,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 25,
-    marginLeft: 20,
-    marginBottom: 10,
-    borderWidth: 2.5,
-    borderColor:'#4c1482',
-    borderRadius: 13,
-  },
-  ftExePontosTurísticosSJC: {
-    height: 480,
-    width: 280,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 25,
-    marginLeft: 40,
-    marginBottom: 10,
-    borderWidth: 2.5,
-    borderColor:'#4c1482',
-    borderRadius: 13,
-  },
-
   text: {
     textAlign: 'center',
     fontSize: 23,
@@ -132,6 +85,14 @@ const styles = StyleSheet.create({
     marginBottom:5,
     fontWeight:'bold',
   },
+  text5: {
+    textAlign: 'center',
+    fontSize: 20,
+    color: '#4c1482',
+    marginTop: -10,
+    marginBottom:-25,
+    fontWeight:'bold',
+  },
   text3: {
     textAlign: 'center',
     fontSize: 20,
@@ -150,6 +111,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
 
   },
+
   ImagemMulherSorrindo: {
     height: 160,
     width: 160,
@@ -159,7 +121,18 @@ const styles = StyleSheet.create({
     marginTop: -140,
     marginBottom: -45,
   },
-  
+  ftExeConversorMoedas: {
+    height: 505,
+    width: 320,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 25,
+    marginLeft: 20,
+    marginBottom: 0,
+    borderWidth: 2.5,
+    borderColor:'#4c1482',
+    borderRadius: 13,
+  },
 });
 
-export default exePontosTuristicos;
+export default exeConversorMoedas;

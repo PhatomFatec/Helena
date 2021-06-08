@@ -172,7 +172,7 @@ return (
             
             <Text style={styles.text2}>Une tradição, cultura e tecnologia</Text>
             <Text style={styles.text3}> No núcleo urbano estão localizados institutos federais de pesquisa científica, empresas de tecnologia de ponta, universidades, faculdades, centros de formação e muito mais. Por outro lado, a zona rural concentra quase 70% do território do município, boa parte em áreas de proteção ambiental. </Text>
-            <Text style={styles.text2}>" Estamos localizados entra a serra e o mar "</Text>
+            <Text style={styles.text2}>" Estamos localizados entre a serra e o mar "</Text>
 
           </SafeAreaView></Swiper></ScrollView>
 
@@ -394,7 +394,7 @@ const styles = StyleSheet.create({
       height: 50,
       backgroundColor: '#FFFFFF',
       borderRadius: 20,
-      marginTop: 20,
+      marginTop: 25,
     },
 
     slide1_5: {

@@ -1,36 +1,34 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, TouchableOpacity, ScrollView, View, Image, Button, SafeAreaView} from 'react-native';
+import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ftExeRoteiro from '../../../assets/ftExeRoteiro.png';
+import ftExeTradutorGoogle from '../../../assets/ftExeTradutorGoogle.png';
 
-const exeRoteiro = () => {
+const exeTradutor = () => {
+
   return (
-          <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container}>
           < ScrollView>
             <SafeAreaView style={styles.slide}>
             <Image
                 source={ImagemMulherSorrindo}              
                 style={styles.ImagemMulherSorrindo}
             />
-          
-            <Text style={styles.title}>Roteiro Pessoal</Text>
 
-            <Text style={styles.text}>Diga a Afirmação:</Text>
-            <Text style={styles.text1}>"Helena, abrir roteiro pessoal"</Text>
+            <Text style={styles.title}>Tradutor</Text>
 
-            <Text style={styles.text}>ou algo similar</Text>
+            <Text style={styles.text}> Diga a Afirmação:</Text>
+            <Text style={styles.text1}>"Helena, abrir tradutor"</Text>
+
+            <Text style={styles.text}>ou algo similar </Text>
             <Text style={styles.text2}>e a Helena responderá </Text>
             <Text style={styles.text2}>com a seguinte ação:</Text>
             <Image
-              source={ftExeRoteiro}              
-              style={styles.ftExeRoteiro}
-             />
+                source={ftExeTradutorGoogle}              
+                style={styles.ftExeTradutorGoogle}
+            />
 
-            <Text style={styles.text}>A partir daí, você pode </Text>
-            <Text style={styles.text2}>criar o seu Roteiro perfeito. </Text>
-            <Text style={styles.text3}>Que tal fazer uma lista de</Text>
-            <Text style={styles.text2}> tarefas? Ou um bando de</Text>
-            <Text style={styles.text5}> anotações quaisquer!</Text>
+            <Text style={styles.text}>Depois disso, você está </Text>
+            <Text style={styles.text5}>livre para o uso do tradutor</Text>
 
             </SafeAreaView>
             </ScrollView>
@@ -49,7 +47,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
     width: 360,
-    height: 1100,
+    height: 1030,
     backgroundColor: '#FFFFFF',
     borderRadius: 20,
     marginTop: 75,
@@ -89,8 +87,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     color: '#4c1482',
-    marginTop: -10,
-    marginBottom:-15,
+    marginTop: -15,
+    marginBottom:-25,
     fontWeight:'bold',
   },
   text3: {
@@ -111,6 +109,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
 
   },
+
   ImagemMulherSorrindo: {
     height: 160,
     width: 160,
@@ -120,20 +119,18 @@ const styles = StyleSheet.create({
     marginTop: -140,
     marginBottom: -45,
   },
-  ftExeRoteiro: {
-    height: 505,
-    width: 320,
+  ftExeTradutorGoogle: {
+    height: 400,
+    width: 330,
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 25,
-    marginLeft: 20,
-    marginBottom: 10,
+    marginLeft: 15,
+    marginBottom: 0,
     borderWidth: 2.5,
     borderColor:'#4c1482',
     borderRadius: 13,
   },
 });
 
-
-
-export default exeRoteiro;
+export default exeTradutor;

@@ -1,10 +1,10 @@
 import React from 'react';
 import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
-import ftExePontosTurísticos from '../../../assets/ftExePontosTurísticos.png';
-import ftExePontosTurísticosSJC from '../../../assets/ftExePontosTurísticosSJC.png';
+import ftExeOndeEstou from '../../../assets/ftExeOndeEstou.png';
 
-const exePontosTuristicos = () => {
+const exeOndeEstou = () => {
+
   return (
     <SafeAreaView style={styles.container}>
           < ScrollView>
@@ -14,45 +14,21 @@ const exePontosTuristicos = () => {
                 style={styles.ImagemMulherSorrindo}
             />
 
-            <Text style={styles.title}>Pontos Turísticos</Text>
+            <Text style={styles.title}>Onde Estou?</Text>
 
             <Text style={styles.text}>Diga a Afirmação:</Text>
-            <Text style={styles.text1}>"Helena, mostrar</Text>
-            <Text style={styles.text4}> pontos turísticos"</Text>
+            <Text style={styles.text1}>"Helena, onde estou?"</Text>
 
-            <Text style={styles.text}>ou algo similar</Text>
+            <Text style={styles.text}>ou algo similar </Text>
             <Text style={styles.text2}>e a Helena responderá </Text>
             <Text style={styles.text2}>com a seguinte ação:</Text>
             <Image
-                source={ftExePontosTurísticos}              
-                style={styles.ftExePontosTurísticos}
+                source={ftExeOndeEstou}              
+                style={styles.ftExeOndeEstou}
             />
 
-
-            <Text style={styles.text3}>A partir daí, você escolhe </Text>
-            <Text style={styles.text2}>uma cidade e a Helena </Text>
-            <Text style={styles.text2}>mostra os principais pontos </Text>
-            <Text style={styles.text2}>turísticos de lá, veja:</Text>
-
-            <Image
-                source={ftExePontosTurísticosSJC}              
-                style={styles.ftExePontosTurísticosSJC}
-            />
-
-            <Text style={styles.text3}>Outra opção seria dizer </Text>
-            <Text style={styles.text2}>o nome da cidade junto a </Text>
-            <Text style={styles.text2}>afirmação do exemplo:</Text>
-            <Text style={styles.text1}>"Helena, mostrar</Text>
-            <Text style={styles.text4}> pontos turísticos de"</Text>
-            <Text style={styles.text4}> São José dos Campos"</Text>
-
-
-
-
-
-
-
-
+            <Text style={styles.text3}>Com isso, você verá a </Text>
+            <Text style={styles.text2}>sua localização atual.</Text>
             
             </SafeAreaView>
             </ScrollView>
@@ -71,26 +47,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     /* alignItems: 'flex-end', */
     width: 360,
-    height: 1780,
+    height: 940,
     backgroundColor: '#FFFFFF',
     borderRadius: 20,
     marginTop: 75,
     marginBottom: 20,
     
   },
-  ftExePontosTurísticos: {
-    height: 505,
-    width: 320,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 25,
-    marginLeft: 20,
-    marginBottom: 10,
-    borderWidth: 2.5,
-    borderColor:'#4c1482',
-    borderRadius: 13,
-  },
-  ftExePontosTurísticosSJC: {
+  ftExeOndeEstou: {
     height: 480,
     width: 280,
     justifyContent: 'center',
@@ -102,7 +66,6 @@ const styles = StyleSheet.create({
     borderColor:'#4c1482',
     borderRadius: 13,
   },
-
   text: {
     textAlign: 'center',
     fontSize: 23,
@@ -159,7 +122,14 @@ const styles = StyleSheet.create({
     marginTop: -140,
     marginBottom: -45,
   },
-  
+  ftExeRoteiro: {
+    height: 550,
+    width: 320,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 25,
+    marginLeft: 20,
+  },
 });
 
-export default exePontosTuristicos;
+export default exeOndeEstou;

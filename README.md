@@ -29,6 +29,8 @@ Desenvolvida para ser uma assistente virtual de viagens. **Helena** responde a c
 ---
 
 ### 📱 Funcionalidades
+#### Em Desenvolvimento 🚧 <br>
+
 - **Calendário:** <br>
 Agendamento consulta de atividades. <br>
 - **Previsão do tempo:** <br>
@@ -102,5 +104,5 @@ Em construção
 - **Sprint 1** - Início: 08/03/2021 Entrega: 28/03/2021
 - **Sprint 2** - Início: 29/03/2021 Entrega: 18/04/2021
 - **Sprint 3** - Início: 26/04/2021 Entrega: 16/05/2021
-- **Sprint 4** - Início: 17/05/2021 Entrega:05/06/2021  
+- **Sprint 4** - Início: 17/05/2021 Entrega:06/06/2021  
 - **Apresentação final** - Início: 07/06/2021 Entrega: 11/06/2021

@@ -5,39 +5,37 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Main from '../pages/Main';
 import BoasVindas from '../pages/BoasVindas';
-import ListaFuncoes from '../pages/ListaFuncoes';
 import Pergunta from '../pages/Pergunta';
+import ListaFuncoes from '../pages/ListaFuncoes';
+import {navigationRef} from '../RootNavigation';
 
 import exePontosTuristicos from '../pages/TelasFuncoes/exePontosTuristicos';
+import exeOndeEstou from '../pages/TelasFuncoes/exeOndeEstou';
+import exePrecoHoteis from '../pages/TelasFuncoes/exePrecoHoteis';
 import exeRoteiro from '../pages/TelasFuncoes/exeRoteiro';
+import exeClimaAtual from '../pages/TelasFuncoes/exeClimaAtual';
+import exeSaibaMais from '../pages/TelasFuncoes/exeSaibaMais';
+import exeTradutor from '../pages/TelasFuncoes/exeTradutor';
+import exeConversorMedidas from '../pages/TelasFuncoes/exeConversorMedidas';
+import exeConversorMoedas from '../pages/TelasFuncoes/exeConversorMoedas';
+import construcao from '../pages/TelasFuncoes/construcao';
 
-import Alarme from '../pages/TelasFuncoes/alarme';
-import AtividadesHotel from '../pages/TelasFuncoes/atividadesHotel';
-import BuscarRotas from '../pages/TelasFuncoes/buscarRota';
-import ConversaoMoedas from '../pages/TelasFuncoes/conversaoMoedas';
 import FotoMapa from '../pages/TelasFuncoes/fotoMapa';
-import GradeHorarios from '../pages/TelasFuncoes/gradeHorarios';
-import MapaCidade from '../pages/TelasFuncoes/mapaCidade';
 import NumeroRecepcao from '../pages/TelasFuncoes/numeroRecepcao';
 import Previsao from '../pages/TelasFuncoes/previsao';
-import SobreHotel from '../pages/TelasFuncoes/sobreHotel';
-import TourHotel from '../pages/TelasFuncoes/tourHotel';
-import TourQuarto from '../pages/TelasFuncoes/tourQuarto';
-import Traduzir from '../pages/TelasFuncoes/traduzir';
 
 import MapaSJC from '../pages/Mapa/sjc';
 import MapaJacarei from '../pages/Mapa/jacarei';
-import construcao from '../pages/TelasFuncoes/construcao';
-import {navigationRef} from '../RootNavigation';
-import Conversor from '../pages/Conversor';
+import ConversorMoedas from '../pages/ConversorMoedas';
 import Calculadora from '../pages/Calculadora';
-import ListaTarefas from '../pages/ListaTarefas/index';
+import RoteiroPessoal from '../pages/RoteiroPessoal/index';
 import Weahter from '../components/index';
 import Localizacao from '../pages/Localizacao/index';
 import PontosTuristicos from '../pages/PontosTuristicos';
 import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
 import ConversorMedidas from '../pages/ConversorMedidas';
+<<<<<<< HEAD
 import Hotel from '../pages/Hotel';
 import JacareiPreco from '../pages/HotelPreco/jacareipreco';
 import SjcPreco from '../pages/HotelPreco/sjcpreco';
@@ -46,6 +44,17 @@ import SobreCidade from '../pages/SobreCidade';
 import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
 import PlazaHotel from '../pages/HotelPreco/Sjc/plaza';
 import NovoHotel from '../pages/HotelPreco/Sjc/novohotel';
+=======
+
+import Hotel from '../pages/Hotel';
+import JacareiPreco from '../pages/HotelPreco/jacareipreco';
+import SjcPreco from '../pages/HotelPreco/sjcpreco';
+import ibisSjc from '../pages/HotelPreco/ibissjc';
+
+import SaibaMais from '../pages/SaibaMais';
+import SobreSJCampos from '../pages/SaibaMaisCidades/sobreSJCampos';
+
+>>>>>>> cea57d2f7532e6c183b18eca70a5477e8ebca223
 
 const Stack = createStackNavigator();
 
@@ -64,7 +73,7 @@ export default function Routes() {
         <Stack.Screen
           name="Home"
           component={Main}
-          options={{headerShown: false}}
+          options={{headerShown: true}}
         />
         <Stack.Screen
           name="JacareiPreco"
@@ -116,6 +125,7 @@ export default function Routes() {
           name="ListaFuncoes"
           component={ListaFuncoes}
           option={{headerShown: true}}
+
         />
         <Stack.Screen
           name="Localizacao"
@@ -140,6 +150,61 @@ export default function Routes() {
         />
 
         <Stack.Screen
+          name="exeOndeEstou"
+          component={exeOndeEstou}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exePrecoHoteis"
+          component={exePrecoHoteis}
+          options={{
+            headerShown: true,
+          }}
+        />
+        <Stack.Screen
+          name="exeTradutor"
+          component={exeTradutor}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeClimaAtual"
+          component={exeClimaAtual}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeSaibaMais"
+          component={exeSaibaMais}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeConversorMedidas"
+          component={exeConversorMedidas}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
+          name="exeConversorMoedas"
+          component={exeConversorMoedas}
+          options={{
+            headerShown: true,
+          }}
+        />
+
+        <Stack.Screen
           name="Weather"
           component={Weahter}
           options={{
@@ -148,40 +213,13 @@ export default function Routes() {
         />
 
         <Stack.Screen
-          name="ExemploAlarme"
-          component={Alarme}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="AtividadesHotel"
-          component={AtividadesHotel}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
           name="construcao"
           component={construcao}
           options={{
             headerShown: true,
           }}
         />
-        <Stack.Screen
-          name="BuscarRotas"
-          component={BuscarRotas}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="ConversaoMoedas"
-          component={ConversaoMoedas}
-          options={{
-            headerShown: true,
-          }}
-        />
+        
         <Stack.Screen
           name="FotoMapa"
           component={FotoMapa}
@@ -189,20 +227,7 @@ export default function Routes() {
             headerShown: true,
           }}
         />
-        <Stack.Screen
-          name="GradeHorarios"
-          component={GradeHorarios}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="MapaCidade"
-          component={MapaCidade}
-          options={{
-            headerShown: true,
-          }}
-        />
+        
         <Stack.Screen
           name="NumeroRecepcao"
           component={NumeroRecepcao}
@@ -217,34 +242,7 @@ export default function Routes() {
             headerShown: true,
           }}
         />
-        <Stack.Screen
-          name="SobreHotel"
-          component={SobreHotel}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="TourHotel"
-          component={TourHotel}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="TourQuarto"
-          component={TourQuarto}
-          options={{
-            headerShown: true,
-          }}
-        />
-        <Stack.Screen
-          name="Traduzir"
-          component={Traduzir}
-          options={{
-            headerShown: true,
-          }}
-        />
+        
         <Stack.Screen
           name="MapaSJC"
           component={MapaSJC}
@@ -252,6 +250,7 @@ export default function Routes() {
             headerShown: true,
           }}
         />
+
         <Stack.Screen
           name="MapaJacarei"
           component={MapaJacarei}
@@ -260,8 +259,8 @@ export default function Routes() {
           }}
         />
         <Stack.Screen
-          name="Conversor"
-          component={Conversor}
+          name="ConversorMoedas"
+          component={ConversorMoedas}
           options={{
             headerShown: true,
           }}
@@ -276,12 +275,12 @@ export default function Routes() {
           component={BoasVindas} 
         />
         <Stack.Screen
-          name="ListaTarefas" 
-          component={ListaTarefas} 
+          name="RoteiroPessoal" 
+          component={RoteiroPessoal} 
         />
         <Stack.Screen
-          name="SobreCidade" 
-          component={SobreCidade}
+          name="SaibaMais" 
+          component={SaibaMais}
           options={{headerShown: true}}
         />
         <Stack.Screen

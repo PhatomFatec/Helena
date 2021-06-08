@@ -1,9 +1,9 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View, Image} from 'react-native';
 import ButtonComponent from '../../components/Button';
-import Imagemiconhotel from '../../../assets/iconhotelwhite.png';
 import ImagemIconLogo from '../../../assets/PhantomLogo2.png';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
+
 
 export default function Main({navigation}) {
   const handleClickGuest = () => {

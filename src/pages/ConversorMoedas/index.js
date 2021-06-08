@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import Converter from "../Conversor/conversor";
+import Converter from "../ConversorMoedas/conversor";
 
 export default class App extends React.Component {
   render() {
