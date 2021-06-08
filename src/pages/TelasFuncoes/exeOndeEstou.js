@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, Image, SafeAreaView, ScrollView} from 'react-native';
 import ImagemMulherSorrindo from '../../../assets/MulherSorrindo2.png';
+import ftExeOndeEstou from '../../../assets/ftExeOndeEstou.png';
 
 const exeOndeEstou = () => {
 
@@ -21,8 +22,10 @@ const exeOndeEstou = () => {
             <Text style={styles.text}>ou algo similar </Text>
             <Text style={styles.text2}>e a Helena responderá </Text>
             <Text style={styles.text2}>com a seguinte ação:</Text>
-            <Text style={styles.text1}>imagem</Text>
-
+            <Image
+                source={ftExeOndeEstou}              
+                style={styles.ftExeOndeEstou}
+            />
 
             <Text style={styles.text3}>Com isso, você verá a </Text>
             <Text style={styles.text2}>sua localização atual.</Text>
@@ -50,6 +53,18 @@ const styles = StyleSheet.create({
     marginTop: 75,
     marginBottom: 20,
     
+  },
+  ftExeOndeEstou: {
+    height: 480,
+    width: 280,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 25,
+    marginLeft: 40,
+    marginBottom: 10,
+    borderWidth: 2.5,
+    borderColor:'#4c1482',
+    borderRadius: 13,
   },
   text: {
     textAlign: 'center',

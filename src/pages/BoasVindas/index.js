@@ -17,6 +17,8 @@ import {useHeaderHeight} from '@react-navigation/stack';
 import ImagemMulher from '../../../assets/mulher.png';
 import ImagemMicrophone from '../../../assets/microfone2.png';
 import ImagemExemploTempo from '../../../assets/ExemploTempo.png';
+import imagemExemploClimaAtual from '../../../assets/imagemExemploClimaAtual.png';
+import Icon from "react-native-vector-icons/Feather"
 
 export default function BoasVindas({navigation}) {
   const headerHeight = useHeaderHeight();
@@ -24,6 +26,7 @@ export default function BoasVindas({navigation}) {
   const botao = () => {
     navigation.navigate('Pergunta');
   };
+  
 
   return (
     <View style={{...styles.container, marginTop: headerHeight}}>
@@ -52,14 +55,16 @@ export default function BoasVindas({navigation}) {
               Estou aqui para te ajudar em diversas atividades!
             </Text>
             <Text style={styles.PorExemploText}>Por exemplo:</Text>
-            <Text style={styles.lunchexample}>"Helena, qual a previsão do tempo?"</Text>
+            <Text style={styles.lunchexample}>"Helena, qual o clima atual?"</Text>
           </View>
           <View style={styles.slide3}>
-            <Text style={styles.text2}>"Helena, qual a é previsão do tempo?"</Text>
+            <Text style={styles.textresp}>"Helena, qual o clima atual?"</Text>
+          
             <Image
-            source={ImagemExemploTempo}
-            style={styles.ImagemExemploTempo}>
+            source={imagemExemploClimaAtual}
+            style={styles.imagemExemploClimaAtual}>
             </Image>
+            
           </View>
           <View style={styles.slide4}>
             <Text style={styles.text1}>Basta apertar o botão e dizer meu nome! </Text>
@@ -97,6 +102,15 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
   },
+  imagemExemploClimaAtual: {
+    height: 232,
+    width: 180,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: -40,
+    marginBottom: -15,
+    borderRadius: 13,
+  },
   helenaName: {
     textAlign: 'center',
     fontSize: 30,
@@ -118,6 +132,14 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: '#000000',
     marginTop: 32,
+  },
+  textresp: {
+    flex: 0.5,
+    textAlign: 'center',
+    fontSize: 30,
+    color: '#000000',
+    marginTop: 32,
+    marginBottom:50,
   },
   text3: {
     textAlign: 'center',
