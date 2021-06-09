@@ -36,7 +36,7 @@ export default class Converter extends React.Component {
 
     return (
       <View style={styles.container}>
-
+        <Text style={styles.rodape}>Conversor de Moedas! </Text>
         <Text style={styles.title}>
           {coinA} para {coinB}
         </Text>
@@ -52,9 +52,12 @@ export default class Converter extends React.Component {
         <TouchableOpacity style={styles.btn} onPress={this.converter}>
           <Text style={styles.btnText}>Converter</Text>
         </TouchableOpacity>
-
-        <Text style={styles.convertedValue}>
-          {this.state.convertedValue === 0 ? "" : this.state.convertedValue}
+        <Text style={styles.title2}> Valor convertido </Text> 
+        <Text style={styles.moeda}> R${" "}
+        <Text style={styles.convertedValue}> 
+          {this.state.convertedValue === 0 ? "0,00" : this.state.convertedValue}
+          
+          </Text>
         </Text>
       </View>
     );
@@ -77,6 +80,29 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#f9a23c",
     color: "white"
+  },
+  title2: {
+    fontSize: 30,
+    fontWeight: "bold",
+    marginTop: 30,
+    color: "#f9a23c",
+    color: "white"
+  },
+  moeda: {
+    fontSize: 30,
+    fontWeight: "bold",
+    color: "#f9a23c",
+    color: "white"
+  },
+  rodape: {
+    textAlign: 'center',
+    fontWeight: "bold",
+    fontSize: 30,
+    color: 'white',
+    marginTop: -130,
+    marginBottom: 190,
+    marginLeft: 16,
+    marginRight: 16,
   },
   input: {
     width: 280,
@@ -108,6 +134,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     color: "white",
-    marginTop: 30,
+    marginTop: 15,
   },
 });

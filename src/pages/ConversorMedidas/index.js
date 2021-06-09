@@ -314,6 +314,7 @@ const ConversorMedidas = () => {
 
   return (
     <View style={{...styles.container, marginTop: headerHeight}}>
+      <Text style={styles.rodape}>Conversor de Tênis! </Text>
       <View style={styles.content}>
         <Text style={styles.text}>Tamanho</Text>
         <RadioForm style={styles.radioForm} formHorizontal={true} animation={true}>
@@ -380,7 +381,7 @@ const ConversorMedidas = () => {
             </RadioButton>
           ))}
         </RadioForm>
-        <Button text="Realizar filtro" onPress={handleClickButton} />
+        <Button text="Converter" onPress={handleClickButton} />
         {result ? (
           <View style={styles.resultContent}>
             {result.split(" | ").map((item, index) => (
@@ -404,7 +405,9 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 26,
     color: "#FFFFFF",
-    textAlign: 'center'
+    textAlign: 'center',
+    fontWeight: 'bold',
+    marginTop: -15
   },
   radioForm: {
     justifyContent: 'center',
@@ -421,9 +424,19 @@ const styles = StyleSheet.create({
     color: "#000000",
     textAlign: "center"
   },
+  rodape: {
+    textAlign: 'center',
+    fontWeight: "bold",
+    fontSize: 30,
+    color: 'white',
+    marginTop: -5,
+    marginBottom: 50,
+    marginLeft: 16,
+    marginRight: 16,
+  },
   input: {
     height: 60,
-    marginBottom: 12,
+    marginBottom: 38,
     borderWidth: 1,
     borderRadius: 20,
     backgroundColor: "#FFFFFF",

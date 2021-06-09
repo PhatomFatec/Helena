@@ -68,7 +68,105 @@ export const HelenaActions = [
       navigate('Localizacao');
     },
   },
+  {
+    name: 'show-schedule',
+    words: [
+      'Helena lista de tarefas',
+      'Helena abrir função lista de tarefas',
+      'Helena abrir a função lista de tarefas',
+      'Helena mostar função lista de tarefas',
+      'Helena mostar a função lista de tarefas',
+      'Helena roteiro',
+      'Helena roteiro pessoal',
+      'Helena abrir função roteiro',
+      'Helena abrir função roteiro pessoal',
+      'Helena mostrar função roteiro',
+      'Helena mostrar função roteiro pessoal',
+      'Helena mostar roteiro pessoal',
+      'Helena mostar roteiro',
+      'Helena o mostar roteiro',
 
+    ],
+    handler: () => {
+      navigate('RoteiroPessoal');
+    },
+  },
+//=========================================Adicionar mais açoes=====================================================
+  {
+    name: 'show-weather',
+    words: [
+      'Helena clima',
+      'Helena abrir função previsão do tempo',
+      'Helena abrir a função previsão do tempo',
+      'Helena função previsão do tempo',
+      'Helena qual é previsão do tempo',
+      'Helena qual o clima atual',
+      'Helena abrir clima atual',
+      'Helena mostrar clima atual',
+      'Helena mostrar o clima atual',
+      'Helena clima atual',
+      'Helena qual o clima',
+      'Helena abrir clima',
+      'Helena abrir o clima',
+      'Helena mostrar clima',
+      'Helena mostrar o clima',
+    ],
+    handler: () => {
+      navigate('Weather');
+    },
+  },
+////////////////////////Apresentação////////////
+  {
+    name: 'open-money-converter',
+    words: [
+      'Helena conversor de moedas',
+      'Helena abrir função conversão de moedas',
+      'Helena abrir a função conversão de moeda',
+      'Helena mostar função conversão de moedas',
+      'Helena mostar a função conversão de moedas',
+      'Helena função moedas',
+      'Helena moedas',
+    ],
+    handler: () => {
+      navigate('ConversorMoedas');
+    },
+  },
+
+  {
+    name: 'open-know-more',
+    words: [
+      'Helena saiba mais',
+      'Helena abrir função saiba mais',
+      'Helena abrir a função saiba mais',
+      'Helena mostar função saiba mais',
+      'Helena mostar a função saiba mais',
+      'Helena função saiba mais',
+    ],
+    handler: () => {
+      navigate('SaibaMais');
+    },
+  },
+
+  {
+      name: 'open-know-more-SJC',
+      words: [
+        'Helena saiba mais de são josé dos campos',
+        'Helena abrir função saiba mais de são josé dos campos',
+        'Helena abrir a função saiba mais de são josé dos campos',
+        'Helena mostar função saiba mais de são josé dos campos',
+        'Helena mostar a função saiba mais de são josé dos campos',
+        'Helena função saiba mais de são josé dos campos',
+        'Helena saiba mais são josé dos campos',
+        'Helena abrir função saiba mais são josé dos campos',
+        'Helena abrir a função saiba mais são josé dos campos',
+        'Helena mostar função saiba mais são josé dos campos',
+        'Helena mostar a função saiba mais são josé dos campos',
+        'Helena função saiba mais são josé dos campos',
+      ],
+      handler: () => {
+        navigate('sobreSJCampos');
+      },
+  },
   {
     name: 'show-hotel-price',
     words: [
@@ -128,106 +226,6 @@ export const HelenaActions = [
   }, 
 
   {
-    name: 'show-schedule',
-    words: [
-      'Helena lista de tarefas',
-      'Helena abrir função lista de tarefas',
-      'Helena abrir a função lista de tarefas',
-      'Helena mostar função lista de tarefas',
-      'Helena mostar a função lista de tarefas',
-      'Helena roteiro',
-      'Helena roteiro pessoal',
-      'Helena abrir função roteiro',
-      'Helena abrir função roteiro pessoal',
-      'Helena mostrar função roteiro',
-      'Helena mostrar função roteiro pessoal',
-      'Helena mostar roteiro pessoal',
-      'Helena mostar roteiro',
-      'Helena o mostar roteiro',
-
-    ],
-    handler: () => {
-      navigate('RoteiroPessoal');
-    },
-  },
-//=========================================Adicionar mais açoes=====================================================
-  {
-    name: 'show-weather',
-    words: [
-      'Helena clima',
-      'Helena abrir função previsão do tempo',
-      'Helena abrir a função previsão do tempo',
-      'Helena função previsão do tempo',
-      'Helena qual é previsão do tempo',
-      'Helena qual o clima atual',
-      'Helena abrir clima atual',
-      'Helena mostrar clima atual',
-      'Helena mostrar o clima atual',
-      'Helena clima atual',
-      'Helena qual o clima',
-      'Helena abrir clima',
-      'Helena abrir o clima',
-      'Helena mostrar clima',
-      'Helena mostrar o clima',
-    ],
-    handler: () => {
-      navigate('Weather');
-    },
-  },
-
-  {
-    name: 'open-know-more',
-    words: [
-      'Helena saiba mais',
-      'Helena abrir função saiba mais',
-      'Helena abrir a função saiba mais',
-      'Helena mostar função saiba mais',
-      'Helena mostar a função saiba mais',
-      'Helena função saiba mais',
-    ],
-    handler: () => {
-      navigate('SaibaMais');
-    },
-  },
-
-  {
-    name: 'open-know-more-SJC',
-    words: [
-      'Helena saiba mais de são josé dos campos',
-      'Helena abrir função saiba mais de são josé dos campos',
-      'Helena abrir a função saiba mais de são josé dos campos',
-      'Helena mostar função saiba mais de são josé dos campos',
-      'Helena mostar a função saiba mais de são josé dos campos',
-      'Helena função saiba mais de são josé dos campos',
-      'Helena saiba mais são josé dos campos',
-      'Helena abrir função saiba mais são josé dos campos',
-      'Helena abrir a função saiba mais são josé dos campos',
-      'Helena mostar função saiba mais são josé dos campos',
-      'Helena mostar a função saiba mais são josé dos campos',
-      'Helena função saiba mais são josé dos campos',
-    ],
-    handler: () => {
-      navigate('sobreSJCampos');
-    },
-  },
-
-  {
-    name: 'open-money-converter',
-    words: [
-      'Helena conversor de moedas',
-      'Helena abrir função conversão de moedas',
-      'Helena abrir a função conversão de moeda',
-      'Helena mostar função conversão de moedas',
-      'Helena mostar a função conversão de moedas',
-      'Helena função moedas',
-      'Helena moedas',
-    ],
-    handler: () => {
-      navigate('ConversorMoedas');
-    },
-  },
-
-  {
     name: 'show-hotel-info-PlazaHotel',
     words: [
       'Helena abrir informações do hotel Plaza',
@@ -260,25 +258,6 @@ export const HelenaActions = [
     },
   },
 
- // Em Construção _______________________________________________________________
- 
- 
-  {
-    name: 'open-measurement-converter',
-    words: [
-      'Helena conversor de medidas',
-      'Helena abrir função conversão de medidas',
-      'Helena abrir a função conversão de moeda',
-      'Helena mostar função conversão de medidas',
-      'Helena mostar a função conversão de medidas',
-      'Helena função medidas',
-      'Helena medidas',
-    ],
-    handler: () => {
-      navigate('construcao');
-    },
-  },
-  
   {
     name: 'open-google-translate',
     words: [
@@ -291,6 +270,8 @@ export const HelenaActions = [
     },
   },
 
+ // Em Construção _______________________________________________________________
+ 
   {
     name: 'show-functions',
     words: [
@@ -314,7 +295,6 @@ export const HelenaActions = [
     },
   },
 
-  
 
   {
     name: 'function-calculator',

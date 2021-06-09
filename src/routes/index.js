@@ -35,26 +35,16 @@ import PontosTuristicos from '../pages/PontosTuristicos';
 import Teste from '../pages/Teste';
 import Tradutor from '../pages/Tradutor';
 import ConversorMedidas from '../pages/ConversorMedidas';
-<<<<<<< HEAD
 import Hotel from '../pages/Hotel';
 import JacareiPreco from '../pages/HotelPreco/jacareipreco';
 import SjcPreco from '../pages/HotelPreco/sjcpreco';
-import ibisSjc from '../pages/HotelPreco/Sjc/ibissjc';
-import SobreCidade from '../pages/SobreCidade';
-import SobreSJCampos from '../pages/CidadesSobreCidade/sobreSJCampos';
 import PlazaHotel from '../pages/HotelPreco/Sjc/plaza';
 import NovoHotel from '../pages/HotelPreco/Sjc/novohotel';
-=======
-
-import Hotel from '../pages/Hotel';
-import JacareiPreco from '../pages/HotelPreco/jacareipreco';
-import SjcPreco from '../pages/HotelPreco/sjcpreco';
-import ibisSjc from '../pages/HotelPreco/ibissjc';
+import ibisSjc from '../pages/HotelPreco/Sjc/ibissjc';
 
 import SaibaMais from '../pages/SaibaMais';
 import SobreSJCampos from '../pages/SaibaMaisCidades/sobreSJCampos';
 
->>>>>>> cea57d2f7532e6c183b18eca70a5477e8ebca223
 
 const Stack = createStackNavigator();
 

@@ -11,17 +11,12 @@ import ButtonComponent from '../../../components/Button';
 import Swiper from 'react-native-swiper';
 import {useHeaderHeight} from '@react-navigation/stack';
 
-<<<<<<< HEAD:src/pages/HotelPreco/Sjc/plaza.js
 
 import plazahotel1 from '../../../../assets/plazahotel1.png';
 import plazahotel2 from '../../../../assets/plazahotel2.png';
 import plazahotel3 from '../../../../assets/plazahotel3.png';
 import plazahotel4 from '../../../../assets/plazahotel4.png';
 
-=======
-import ImagemIbisHotel from '../../../assets/ibishotel.png';
-import ImagemIbisHotel2 from '../../../assets/ibishotel2.png';
->>>>>>> cea57d2f7532e6c183b18eca70a5477e8ebca223:src/pages/HotelPreco/ibissjc.js
 
 
 export default function BoasVindas({navigation}) {
@@ -67,7 +62,6 @@ export default function BoasVindas({navigation}) {
         </View>
         
       </Swiper>
-<<<<<<< HEAD:src/pages/HotelPreco/Sjc/plaza.js
       <Text style={styles.comodidades}>Comodidades</Text>
       <Text style={styles.descricao}></Text>
       <Text style={styles.descricao}>📶 Wi-Fi</Text>
@@ -78,16 +72,6 @@ export default function BoasVindas({navigation}) {
       <Text style={styles.descricao}></Text>
       <Text style={styles.descricao}></Text>
       <ButtonComponent text="Reservar um quarto!" style={styles.botao} onPress={() => {Linking.openURL('https://www.hoteis.com/ho549370/plaza-hotel-sao-jose-dos-campos-brasil/?q-rooms=1&q-room-0-adults=2&q-room-0-children=0'); }}/>
-=======
-      <Text style={styles.descricao1}></Text>
-      <Text style={styles.descricao}>🅿️ Estacionamento Grátis</Text>
-      <Text style={styles.descricao}>📶 Wi-Fi</Text>
-       <Text style={styles.descricao}>❄️ Ar-condicionado</Text>
-       <Text style={styles.descricao}>☕ Café da Manhã</Text>
-      <Text style={styles.descricao1}></Text>
-      <Text style={styles.descricao1}></Text>
-       <ButtonComponent text="Verificar preço" style={styles.botao}/>
->>>>>>> cea57d2f7532e6c183b18eca70a5477e8ebca223:src/pages/HotelPreco/ibissjc.js
       </View>
     </View>
   );

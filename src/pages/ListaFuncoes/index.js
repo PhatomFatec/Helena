@@ -61,13 +61,13 @@ export default function Main({navigation}) {
           <ButtonComponent text="Conversor de Moedas" onPress={irParaConversaoMoedas} />
           <ButtonComponent text="Conversor de Medidas" onPress={irParaConversaoMedidas} />
           <ButtonComponent text="Tradutor" onPress={irParaTradutor} />
-
-          <ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
         </ScrollView>
       </View>
     </View>
   );
 }
+//<ButtonComponent text="Calculadora" onPress={irParaCalculadora} />
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
