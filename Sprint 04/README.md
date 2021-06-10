@@ -1,5 +1,5 @@
 # 🧩 Sprint 04
-**Situação:** Em construção 🚧 - 06/06/2021 <br>
+**Situação:** ✅ Entregue - 06/06/2021 <br>
 
 ---
 
