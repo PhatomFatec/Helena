@@ -87,8 +87,8 @@ Entregue <br><br>
 Entregue <br><br>
 * ✅ [Sprint 03](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2003) <br>
 Entregue <br><br>
-* 🚧 [Sprint 04](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2004) <br>
-Em construção
+* ✅ [Sprint 04](https://github.com/PhatomFatec/Helena/tree/main/Sprint%2004) <br>
+Entregue
 
 ---
 
