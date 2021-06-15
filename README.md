@@ -31,22 +31,29 @@ Desenvolvida para ser uma assistente virtual de viagens. **Helena** responde a c
 ### 📱 Funcionalidades
 #### Em Desenvolvimento 🚧 <br>
 
-- **Calendário:** <br>
-Agendamento consulta de atividades. <br>
-- **Previsão do tempo:** <br>
-Consultar a previsão do tempo em uma determinada localização. <br>
-- **Buscar rota:** <br>
-Visualizar um trajeto de uma determinada localização (Google Maps). <br>
-- **Mapa da cidade:** <br>
-Mostrar o mapa da localização em que o usuário está. <br>
 - **Pontos turísticos:** <br>
-Mostrar principais pontos visitados da cidade. <br>
-- **Conversor de moedas:** <br>
+Mostra os principais pontos turísticos de uma cidade. <br>
+- **Onde Estou turísticos:** <br>
+Responsável por abrir o mapa na localização do usuário. <br>
+- **Mapa de Hotéis:** <br>
+Mostra um mapa de hotéis disponíveis em uma cidade, bem como o preço. <br>
+- **Roteiro Pessoal:** <br>
+Dá ao usuário a possibilidade de criar um roteiro de tarefas. <br>
+- **Clima:** <br>
+Visualiza o clima e a temperatura atual da sua localização. <br>
+- **Saiba Mais:** <br>
+Mostra imagens, dados curiosos, a história e uma visão atual de alguma cidade. <br>
+- **Conversor de Moedas:** <br>
 Ferramenta de conversão de valores monetários. <br>
-- **Alarme:** <br>
-Definir um despertador. <br>
+- **Conversor de Medidas:** <br>
+Ferramenta que converte os valores de medidas de roupas entre os países. <br>
 - **Tradutor:** <br>
-Traduzir para língua desejada. <br>
+Traduziz para língua desejada. <br>
+
+---
+### 📷 Apresentação Final
+[![API Helena - Apresentação Final](https://img.youtube.com/vi/QHbglpud2eU/0.jpg)](https://youtu.be/QHbglpud2eU "API Helena - Apresentação Final")
+
 
 ---
 
