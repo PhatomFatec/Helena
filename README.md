@@ -13,9 +13,9 @@ Desenvolvida para ser uma assistente virtual de viagens. **Helena** responde a c
  ## 👨🏽‍🎓 Equipe Phantom
 * Alberto Junior Scholz Castro. [GitHub](https://github.com/AlbertoScholz)
 * Felipe Faria Verderamis. [GitHub](https://github.com/FelipeFariaVerde)
-* Gabriel Jose Souza dos Santos. [GitHub](https://github.com/FelipeFariaVerde)
+* Gabriel Jose Souza dos Santos. [GitHub](https://github.com/gabrieljssantos)
 * Lucas Guiraldelli da Silva. [GitHub](https://github.com/LucasGuiraldelli)
-* Rafael de Castro Costa Silva. [GitHub](https://github.com/gabrieljssantos)
+* Rafael de Castro Costa Silva. [GitHub](https://github.com/rafaelcastrow)
 
 
 ---
